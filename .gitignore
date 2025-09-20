@@ -63,6 +63,41 @@ xcuserdata
 *.xccheckout
 *.xcscmblueprint
 
+# Build products
+build/
+build_osx/
+lib/
+DerivedData/
+*.o
+*.lo
+*.la
+*.al
+*.libs
+*.so
+*.dylib
+*.dll
+*.exe
+*.out
+
+# Xcode
+*.xcworkspace
+*.xcodeproj/project.xcworkspace/xcuserdata
+*.xcuserstate
+*.xccheckout
+*.xcscmblueprint
+
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+CTestTestfile.cmake
+Makefile
+
 # General.
 *.bak
 *.o
