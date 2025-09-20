@@ -1,0 +1,64 @@
+///////////////////////////////////////////////////////////////////////////////////////////////////
+//
+// Idlib: A C++ utility library
+// Copyright (C) 2017-2018 Michael Heilmann
+//
+// This software is provided 'as-is', without any express or implied warranty.
+// In no event will the authors be held liable for any damages arising from the use of this software.
+//
+// Permission is granted to anyone to use this software for any purpose,
+// including commercial applications, and to alter it and redistribute it freely,
+// subject to the following restrictions:
+//
+// 1. The origin of this software must not be misrepresented;
+//    you must not claim that you wrote the original software.
+//    If you use this software in a product, an acknowledgment
+//    in the product documentation would be appreciated but is not required.
+//
+// 2. Altered source versions must be plainly marked as such,
+//    and must not be misrepresented as being the original software.
+//
+// 3. This notice may not be removed or altered from any source distribution.
+//
+///////////////////////////////////////////////////////////////////////////////////////////////////
+
+/// @file idlib/CurrentFunction.inline
+/// @author Michael Heilmann
+/// @brief Definitions of compile-time constants giving the current C/C++ file,
+/// the C/C++ line and the current C/C++ function names. Either the resulting
+/// macros are defined or not.
+
+#pragma once
+
+/// This should be used instead of <tt>__FILE__</tt>.
+/// Evaluates to a static const C string of the current C/C++ source file.
+#define __ID_CURRENT_FILE__ __FILE__
+/// This should be used instead of <tt>__LINE__</tt>.
+/// Evaluates to a static const integer of the current C/C++ source line.
+#define __ID_CURRENT_LINE__ __LINE__
+
+/// Get a proper define for __ID_CURRENT_FUNCTION__ iff possible.
+/// This should work for C and C++.
+/// Awkward name to minimize the change of any conflict.
+inline void ________________current_function_helper________________()
+{
+    #if defined(__GNUC__) || (defined(__MWERKS__) && (__MWERKS__ >= 0x3000)) || (defined(__ICC) && (__ICC >= 600)) || defined(__ghs__)
+        #define __ID_CURRENT_FUNCTION__ __PRETTY_FUNCTION__
+    #elif defined(__DMC__) && (__DMC__ >= 0x810)
+        #define __ID_CURRENT_FUNCTION__ __PRETTY_FUNCTION__
+    #elif defined(__FUNCSIG__)
+        #define __ID_CURRENT_FUNCTION__ __FUNCSIG__
+    #elif (defined(__INTEL_COMPILER) && (__INTEL_COMPILER >= 600)) || (defined(__IBMCPP__) && (__IBMCPP__ >= 500))
+        #define __ID_CURRENT_FUNCTION__ __FUNCTION__
+    #elif defined(__BORLANDC__) && (__BORLANDC__ >= 0x550)
+        #define __ID_CURRENT_FUNCTION__ __FUNC__
+    #elif defined(__STDC_VERSION__) && (__STDC_VERSION__ >= 199901)
+        #define __ID_CURRENT_FUNCTION__ __func__
+    #elif defined(__cplusplus) && (__cplusplus >= 201103)
+        #define __ID_CURRENT_FUNCTION__ __func__
+    #elif defined(__STDC_VERSION__) && (__STDC_VERSION__ >= 199901L)
+		#define __ID_CURRENT_FUNCTION__ __func__
+    #else 
+        /*#define __ID_CURRENT_FUNCTION__ "(unknown)"*/ /* Do not define __ID_CURRENT_FUNCTION__ macro here. */
+    #endif
+}
