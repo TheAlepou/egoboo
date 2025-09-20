@@ -32,7 +32,12 @@ set_source_files_properties(${H_FILES} PROPERTIES LANGUAGE CXX)
 list(APPEND SOURCE_FILES ${H_FILES})
 
 # Define product.
-add_executable(egoboo ${SOURCE_FILES})
+add_executable(egoboo MACOSX_BUNDLE ${SOURCE_FILES})
+
+set(GAME_TARGET egoboo)
+set_target_properties(${GAME_TARGET} PROPERTIES
+  XCODE_ATTRIBUTE_PRODUCT_BUNDLE_IDENTIFIER "com.Alepou.egoboo"
+)
 
 # Link libraries.
 target_link_libraries(egoboo egolib-library)
