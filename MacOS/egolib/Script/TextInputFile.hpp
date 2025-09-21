@@ -22,9 +22,9 @@
 
 #pragma once
 
-#include "egolib/Script/TextFile.hpp"
-#include "egolib/vfs.h"
-
+#include "TextFile.hpp"
+#include "vfs.h"
+#ifdef __cplusplus
 namespace Ego
 {
 namespace Script
@@ -178,3 +178,4 @@ public:
 
 } // namespace Script
 } // namespace Ego
+#endif // __cplusplus

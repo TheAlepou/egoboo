@@ -1,8 +1,14 @@
 #pragma once
+#ifdef __cplusplus
+extern "C" {
+#endif
 
 #include "Variable.hpp"
-#include "hll.hpp"
+#ifdef __cplusplus
+// #include "hll.hpp"
+#endif // __cplusplus
 
+#ifdef __cplusplus
 namespace Ego {
 namespace Configuration {
 
@@ -74,3 +80,8 @@ public:
 
 } // namespace Configuration
 } // namespace Ego
+#endif // __cplusplus
+
+#ifdef __cplusplus
+}
+#endif // __cplusplus

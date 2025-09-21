@@ -21,19 +21,19 @@
 /// @details Menu while PlayingState is running in background
 /// @author Johan Jansen
 
-#include "egolib/game/GameStates/InGameMenuState.hpp"
-#include "egolib/game/GameStates/MainMenuState.hpp"
-#include "egolib/game/GameStates/PlayingState.hpp"
-#include "egolib/game/GameStates/LoadingState.hpp"
-#include "egolib/game/GameStates/OptionsScreen.hpp"
-#include "egolib/game/Core/GameEngine.hpp"
-#include "egolib/game/game.h"
-#include "egolib/game/GUI/Button.hpp"
-#include "egolib/game/Module/Module.hpp"
-#include "egolib/Graphics/GraphicsSystem.hpp"
+#include "GameStates/InGameMenuState.hpp"
+#include "GameStates/MainMenuState.hpp"
+#include "GameStates/PlayingState.hpp"
+#include "GameStates/LoadingState.hpp"
+#include "GameStates/OptionsScreen.hpp"
+#include "GameEngine.hpp"
+#include "game.h"
+#include "Button.hpp"
+#include "Module.hpp"
+#include "GraphicsSystem.hpp"
 
 #ifdef _DEBUG
-#include "egolib/game/GameStates/DebugParticlesScreen.hpp"
+#include "GameStates/DebugParticlesScreen.hpp"
 #endif
 
 InGameMenuState::InGameMenuState(GameState &gameState) :

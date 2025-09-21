@@ -21,15 +21,15 @@
 /// @details Select which character a given player is playing
 /// @author Johan Jansen
 
-#include "egolib/game/GameStates/SelectCharacterState.hpp"
-#include "egolib/game/GameStates/SelectModuleState.hpp"
-#include "egolib/game/GameStates/LoadPlayerElement.hpp"
-#include "egolib/game/Core/GameEngine.hpp"
-#include "egolib/game/GUI/Button.hpp"
-#include "egolib/game/GUI/IconButton.hpp"
-#include "egolib/game/GUI/Image.hpp"
-#include "egolib/game/GUI/Label.hpp"
-#include "egolib/game/GUI/ScrollableList.hpp"
+#include "GameStates/SelectCharacterState.hpp"
+#include "GameStates/SelectModuleState.hpp"
+#include "GameStates/LoadPlayerElement.hpp"
+#include "GameEngine.hpp"
+#include "Button.hpp"
+#include "IconButton.hpp"
+#include "Image.hpp"
+#include "Label.hpp"
+#include "ScrollableList.hpp"
 
 SelectCharacterState::SelectCharacterState(std::shared_ptr<LoadPlayerElement> &selectedCharacter)
 {

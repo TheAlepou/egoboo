@@ -18,8 +18,8 @@
 //*
 //********************************************************************************************
 
-#include "egolib/Image/Image.hpp"
-#include "egolib/Image/SDL_Image_Extensions.h"
+#include "Image.hpp"
+#include "SDL_Image_Extensions.h"
 
 #if !SDL_VERSION_ATLEAST(2, 0, 0)
 int SDL_GetColorKey(SDL_Surface *surface, uint32_t *key)

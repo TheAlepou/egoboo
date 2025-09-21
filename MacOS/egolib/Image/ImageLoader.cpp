@@ -21,7 +21,7 @@
 /// @brief An image loader.
 /// @author Michael Heilmann
 
-#include "egolib/Image/ImageLoader.hpp"
+#include "ImageLoader.hpp"
 
 namespace Ego {
 

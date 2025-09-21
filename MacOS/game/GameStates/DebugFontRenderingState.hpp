@@ -23,8 +23,8 @@
 
 #pragma once
 
-#include "egolib/game/GameStates/GameState.hpp"
-#include "egolib/game/GUI/UIManager.hpp"
+#include "GameStates/GameState.hpp"
+#include "UIManager.hpp"
 
 namespace Ego {
 namespace GUI {

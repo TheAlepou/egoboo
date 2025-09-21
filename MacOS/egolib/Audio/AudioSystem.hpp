@@ -23,10 +23,12 @@
 
 #include <SDL_mixer.h>
 #include "egoboo_setup.h"
-#include "egolib/Math/_Include.hpp"
+#include "_Include.hpp"
 
 typedef int MusicID;
 typedef int SoundID;
+
+#ifdef __cplusplus
 
 static constexpr int INVALID_SOUND_CHANNEL = -1;
 static constexpr SoundID INVALID_SOUND_ID = -1;
@@ -301,3 +303,4 @@ private:
     std::string _currentSongPlaying;
     float _maxSoundDistance;                                            ///< How far away can we hear sound effects?
 };
+#endif

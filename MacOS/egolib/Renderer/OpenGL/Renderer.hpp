@@ -23,17 +23,19 @@
 
 #pragma once
 
-#include "egolib/Renderer/Renderer.hpp"
-//#include "egolib/typedef.h"
-#include "egolib/Renderer/OpenGL/AccumulationBuffer.hpp"
-#include "egolib/Renderer/OpenGL/ColourBuffer.hpp"
-#include "egolib/Renderer/OpenGL/DepthBuffer.hpp"
-#include "egolib/Renderer/OpenGL/StencilBuffer.hpp"
-#include "egolib/Renderer/OpenGL/TextureUnit.hpp"
-#include "egolib/platform.h"
-#include "egolib/Math/_Include.hpp"
+#include "Renderer.hpp"
+//#include "typedef.h"
+#include "AccumulationBuffer.hpp"
+#include "ColourBuffer.hpp"
+#include "DepthBuffer.hpp"
+#include "StencilBuffer.hpp"
+#include "TextureUnit.hpp"
+#include "platform.h"
+#include "_Include.hpp"
 #define GLEW_STATIC
-#include <GL/glew.h>
+#include "glew.h"
+
+#ifdef __cplusplus
 
 namespace Ego {
 namespace OpenGL {
@@ -215,3 +217,5 @@ private:
 
 } // namespace OpenGL
 } // namespace Ego
+
+#endif

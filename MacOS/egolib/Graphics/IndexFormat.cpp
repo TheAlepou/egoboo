@@ -21,8 +21,8 @@
 /// @brief Canonical identifiers for index format descriptors.
 /// @author Michael Heilmann
 
-#include "egolib/Graphics/IndexFormat.hpp"
-#include "egolib/Graphics/descriptor_factory.hpp"
+#include "IndexFormat.hpp"
+#include "descriptor_factory.hpp"
 
 namespace Ego {
 

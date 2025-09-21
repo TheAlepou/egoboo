@@ -1,7 +1,7 @@
-#include "egolib/game/Graphics/RenderPasses/BackgroundRenderPass.hpp"
-#include "egolib/game/Module/Module.hpp"
-#include "egolib/game/graphic.h"
-#include "egolib/Graphics/VertexFormat.hpp"
+#include "Graphics/RenderPasses/BackgroundRenderPass.hpp"
+#include "Module.hpp"
+#include "graphic.h"
+#include "VertexFormat.hpp"
 
 namespace Ego {
 namespace Graphics {

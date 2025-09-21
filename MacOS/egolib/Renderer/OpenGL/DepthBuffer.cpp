@@ -21,8 +21,8 @@
 /// @brief Implementation of a depth buffer facade for OpenGL 2.1.
 /// @author Michael Heilmann
 
-#include "egolib/Renderer/OpenGL/DepthBuffer.hpp"
-#include "egolib/Renderer/OpenGL/Utilities.hpp"
+#include "DepthBuffer.hpp"
+#include "Utilities.hpp"
 
 namespace Ego {
 namespace OpenGL {

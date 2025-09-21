@@ -21,9 +21,9 @@
 
 #pragma once
 
-#include "egolib/game/egoboo.h"
-#include "egolib/game/physics.h"			//for orientation_t
-#include "egolib/Graphics/Camera.hpp"
+#include "egoboo.h"
+#include "physics.h"			//for orientation_t
+#include "Camera.hpp"
 
 //Forward declarations
 class ego_mesh_t;

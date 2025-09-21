@@ -21,10 +21,10 @@
 /// @brief Code for handling object physics
 /// @author Johan Jansen aka Zefz
 #include "ObjectPhysics.hpp"
-#include "egolib/Entities/_Include.hpp"
-#include "egolib/game/Core/GameEngine.hpp"
-#include "egolib/game/Shop.hpp"
-#include "egolib/game/CharacterMatrix.h"
+#include "_Include.hpp"
+#include "GameEngine.hpp"
+#include "Shop.hpp"
+#include "CharacterMatrix.h"
 
 namespace Ego
 {

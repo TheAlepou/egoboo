@@ -1,6 +1,6 @@
 #pragma once
 
-#include "egolib/platform.h"
+#include "platform.h"
 #include <memory>
 #include <vector>
 

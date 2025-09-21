@@ -17,7 +17,7 @@
 //*
 //********************************************************************************************
 
-/// @file idlib/math/euler_angle.hpp
+/// @file math/euler_angle.hpp
 /// @brief Euler angles.
 /// @author Michael Heilmann
 

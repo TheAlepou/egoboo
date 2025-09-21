@@ -24,7 +24,7 @@
 #pragma once
 
 #include "math.hpp"
-
+#ifdef __cplusplus
 namespace Ego::Math {
 
 /**
@@ -128,3 +128,4 @@ inline T radToDeg(const T &x) {
 }
 
 } // namespace Ego::Math
+#endif // __cplusplus

@@ -1,7 +1,7 @@
 #pragma once
 
-#include "idlib/math_geometry.hpp"
-
+// #include "math_geometry.hpp"
+#ifdef __cplusplus
 namespace Ego {
 
 /// @brief Project a vector (x,y,z) to a vector (x,y).
@@ -94,3 +94,4 @@ using Matrix3f3f = idlib::matrix<float, 3, 3>;
 using Matrix4f4f = idlib::matrix<float, 4, 4>;
 
 } // namespace Ego
+#endif

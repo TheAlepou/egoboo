@@ -1,6 +1,6 @@
 #pragma once
 
-#include "idlib/idlib.hpp"
+#include "idlib.hpp"
 
 struct OpcodeInfo
 {

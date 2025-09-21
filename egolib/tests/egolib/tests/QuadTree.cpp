@@ -18,7 +18,7 @@
 //********************************************************************************************
 
 #include "gtest/gtest.h"
-#include "egolib/egolib.h"
+#include "egolib.h"
 
 namespace Ego { namespace Test { namespace QuadTree {
 

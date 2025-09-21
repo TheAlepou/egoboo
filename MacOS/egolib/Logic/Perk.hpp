@@ -25,9 +25,11 @@
  */
 #pragma once
 
-#include "egolib/Renderer/DeferredTexture.hpp"
-#include "egolib/Logic/Attribute.hpp"
-#include "egolib/Math/_Include.hpp"
+#include "DeferredTexture.hpp"
+#include "Attribute.hpp"
+#include "_Include.hpp"
+
+#ifdef __cplusplus
 
 namespace Ego
 {
@@ -178,3 +180,5 @@ private:
 
 } //Perks
 } //Ego
+
+#endif

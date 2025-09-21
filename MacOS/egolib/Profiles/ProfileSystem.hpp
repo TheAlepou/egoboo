@@ -24,8 +24,8 @@
 #error(do not include directly, include `egolib/Profiles/_Include.hpp` instead)
 #endif
 
-#include "egolib/typedef.h"
-#include "egolib/Profiles/LocalParticleProfileRef.hpp"
+#include "typedef.h"
+#include "LocalParticleProfileRef.hpp"
 
 //Forward declarations
 class ObjectProfile;
@@ -53,9 +53,9 @@ struct pro_import_t
     int   max_slot;
 };
 
-#include "egolib/Profiles/_AbstractProfileSystem.hpp"
-#include "egolib/Profiles/EnchantProfile.hpp"
-#include "egolib/Profiles/ParticleProfile.hpp"
+#include "_AbstractProfileSystem.hpp"
+#include "EnchantProfile.hpp"
+#include "ParticleProfile.hpp"
 
 class ProfileSystem : public idlib::singleton<ProfileSystem> {
 protected:

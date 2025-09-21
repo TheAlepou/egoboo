@@ -22,8 +22,8 @@
 
 #pragma once
 
-#include "idlib/document.hpp"
-#include "egolib/Math/Standard.hpp"
+#include "document.hpp"
+#include "Standard.hpp"
 
 namespace Ego {
 // Forward declaration.

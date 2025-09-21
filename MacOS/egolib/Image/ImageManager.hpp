@@ -23,7 +23,7 @@
 
 #pragma once
 
-#include "egolib/Graphics/PixelFormat.hpp"
+#include "PixelFormat.hpp"
 #include <SDL.h>
 #undef main
 

@@ -21,10 +21,10 @@
 /// @brief  A tagged value.
 /// @author Michael Heilmann
 
-#include "egolib/Script/Interpreter/TaggedValue.hpp"
+#include "TaggedValue.hpp"
 
-#include "egolib/Script/Interpreter/Tag.hpp"
-#include "egolib/Script/Interpreter/InvalidCastException.hpp"
+#include "Tag.hpp"
+#include "InvalidCastException.hpp"
 
 namespace Ego {
 namespace Script {

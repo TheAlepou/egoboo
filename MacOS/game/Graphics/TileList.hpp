@@ -23,9 +23,9 @@
 
 #pragma once
 
-#include "egolib/game/egoboo.h"
-#include "egolib/game/mesh.h"
-#include "egolib/game/Graphics/CameraSystem.hpp"
+#include "egoboo.h"
+#include "mesh.h"
+#include "Graphics/CameraSystem.hpp"
 
 namespace Ego {
 namespace Graphics {

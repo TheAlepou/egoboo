@@ -21,11 +21,11 @@
 /// @details Video settings
 /// @author Johan Jansen
 
-#include "egolib/game/GameStates/AudioOptionsScreen.hpp"
-#include "egolib/game/GUI/Button.hpp"
-#include "egolib/game/GUI/Image.hpp"
-#include "egolib/game/GUI/Label.hpp"
-#include "egolib/game/GUI/Slider.hpp"
+#include "GameStates/AudioOptionsScreen.hpp"
+#include "Button.hpp"
+#include "Image.hpp"
+#include "Label.hpp"
+#include "Slider.hpp"
 
 AudioOptionsScreen::AudioOptionsScreen()
 {

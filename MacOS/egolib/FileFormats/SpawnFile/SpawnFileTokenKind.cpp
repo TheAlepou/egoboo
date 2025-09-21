@@ -1,1 +1,1 @@
-#include "egolib/FileFormats/SpawnFile/SpawnFileTokenKind.hpp"
+#include "SpawnFile/SpawnFileTokenKind.hpp"

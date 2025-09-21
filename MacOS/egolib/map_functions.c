@@ -20,9 +20,9 @@
 /// @file egolib/map_functions.c
 /// @brief mpd functionality ported from cartman and EgoMap
 
-#include "egolib/map_functions.h"
-#include "egolib/FileFormats/map_file.h"
-#include "egolib/Mesh/Info.hpp"
+#include "map_functions.h"
+#include "map_file.h"
+#include "Info.hpp"
 
 bool twist_to_normal( uint8_t twist, Ego::Vector3f& v, float slide )
 {

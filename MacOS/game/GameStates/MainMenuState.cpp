@@ -21,17 +21,17 @@
 /// @details The Main Menu of the game, the first screen presented to the players
 /// @author Johan Jansen
 
-#include "egolib/game/GameStates/MainMenuState.hpp"
-#include "egolib/game/GameStates/DebugMainMenuState.hpp"
-#include "egolib/game/GameStates/SelectModuleState.hpp"
-#include "egolib/game/GameStates/SelectPlayersState.hpp"
-#include "egolib/game/GameStates/OptionsScreen.hpp"
-#include "egolib/game/GameStates/MapEditorSelectModuleState.hpp"
-#include "egolib/game/Core/GameEngine.hpp"
-#include "egolib/game/game.h"
-#include "egolib/game/GUI/Button.hpp"
-#include "egolib/game/GUI/Image.hpp"
-#include "egolib/game/GUI/Label.hpp"
+#include "GameStates/MainMenuState.hpp"
+#include "GameStates/DebugMainMenuState.hpp"
+#include "GameStates/SelectModuleState.hpp"
+#include "GameStates/SelectPlayersState.hpp"
+#include "GameStates/OptionsScreen.hpp"
+#include "GameStates/MapEditorSelectModuleState.hpp"
+#include "GameEngine.hpp"
+#include "game.h"
+#include "Button.hpp"
+#include "Image.hpp"
+#include "Label.hpp"
 
 MainMenuState::MainMenuState() :
 	_slidyButtons()

@@ -1,4 +1,4 @@
-#include "egolib/Script/Constant.hpp"
+#include "Constant.hpp"
 
 namespace Ego
 {

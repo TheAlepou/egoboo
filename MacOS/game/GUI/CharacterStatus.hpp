@@ -22,7 +22,7 @@
 
 #pragma once
 
-#include "egolib/game/GUI/Component.hpp"
+#include "Component.hpp"
 
 class Object;
 namespace Ego { namespace GUI { class ProgressBar; } }

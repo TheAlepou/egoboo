@@ -22,10 +22,45 @@
 
 #pragma once
 
+#pragma once
+
+#define GAME_ENTITIES_PRIVATE 1
+#include "Enchant.hpp"
+#include "Particle.hpp"
+#include "ParticleHandler.hpp"
+#include "Object.hpp"
+#include "ObjectHandler.hpp"
+#undef GAME_ENTITIES_PRIVATE
+
+
+#define EGOLIB_PROFILES_PRIVATE 1
+#include "EnchantProfile.hpp"
+#include "EnchantProfileWriter.hpp"
+#include "GenderProfile.hpp"
+#include "ParticleProfile.hpp"
+#include "ParticleProfileWriter.hpp"
+#include "RandomName.hpp"
+#include "ModuleProfile.hpp"
+#include "ObjectProfile.hpp"
+#include "ProfileSystem.hpp"
+#undef EGOLIB_PROFILES_PRIVATE
+
+#define EGOLIB_MATH_PRIVATE 1
+
+//
+#include "Math.hpp"
+#include "Random.hpp"
+#include "Standard.hpp"
+#include "VectorProjection.hpp"
+#include "VectorRejection.hpp"
+
+#undef EGOLIB_MATH_PRIVATE
+
+
 #define EGOLIB_LOG_PRIVATE 1
-#include "egolib/Log/Entry.hpp"
-#include "egolib/Log/Target.hpp"
-#include "egolib/Log/Level.hpp"
+#include "Entry.hpp"
+#include "Target.hpp"
+#include "Level.hpp"
 
 namespace Log {
 

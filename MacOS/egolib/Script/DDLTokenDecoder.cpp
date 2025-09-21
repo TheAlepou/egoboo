@@ -1,1 +1,1 @@
-#include "egolib/Script/DDLTokenDecoder.hpp"
+#include "DDLTokenDecoder.hpp"

@@ -1,5 +1,5 @@
-#include "egolib/game/GUI/TabPanel.hpp"
-#include "egolib/game/GUI/JoinBounds.hpp"
+#include "TabPanel.hpp"
+#include "JoinBounds.hpp"
 
 namespace Ego {
 namespace GUI {

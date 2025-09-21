@@ -21,14 +21,14 @@
 /// @details Options Screen menu
 /// @author Johan Jansen
 
-#include "egolib/game/GameStates/OptionsScreen.hpp"
-#include "egolib/game/GameStates/VideoOptionsScreen.hpp"
-#include "egolib/game/GameStates/AudioOptionsScreen.hpp"
-#include "egolib/game/GameStates/InputOptionsScreen.hpp"
-#include "egolib/game/Core/GameEngine.hpp"
-#include "egolib/game/GUI/Button.hpp"
-#include "egolib/game/GUI/Image.hpp"
-#include "egolib/game/GUI/Label.hpp"
+#include "GameStates/OptionsScreen.hpp"
+#include "GameStates/VideoOptionsScreen.hpp"
+#include "GameStates/AudioOptionsScreen.hpp"
+#include "GameStates/InputOptionsScreen.hpp"
+#include "GameEngine.hpp"
+#include "Button.hpp"
+#include "Image.hpp"
+#include "Label.hpp"
 
 OptionsScreen::OptionsScreen() :
 	_slidyButtons()

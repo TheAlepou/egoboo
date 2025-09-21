@@ -22,10 +22,10 @@
 
 #pragma once
 
-#include "idlib/idlib.hpp"
-#include "egolib/IDSZ.hpp"
-#include "egolib/InputControl/InputDevice.hpp"
-#include "egolib/game/Logic/QuestLog.hpp"
+#include "idlib.hpp"
+#include "IDSZ.hpp"
+#include "InputDevice.hpp"
+#include "Logic/QuestLog.hpp"
 
 //Forward declarations
 class Object;

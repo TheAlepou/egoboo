@@ -1,7 +1,7 @@
-#include "egolib/game/Module/Weather.hpp"
-#include "egolib/game/Logic/Player.hpp"
-#include "egolib/game/Module/Module.hpp"
-#include "egolib/Entities/_Include.hpp"
+#include "Weather.hpp"
+#include "Logic/Player.hpp"
+#include "Module.hpp"
+#include "_Include.hpp"
 
 void WeatherState::update()
 {

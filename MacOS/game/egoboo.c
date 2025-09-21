@@ -21,12 +21,12 @@
 /// @brief Code for the main program process
 /// @details
 
-#include "egolib/game/egoboo.h"
-#include "egolib/game/game.h"
-#include "egolib/Entities/_Include.hpp"
-#include "egolib/game/Module/Module.hpp"
-#include "egolib/game/Graphics/CameraSystem.hpp"
-#include "egolib/game/graphic.h"
+#include "egoboo.h"
+#include "game.h"
+#include "_Include.hpp"
+#include "Module.hpp"
+#include "Graphics/CameraSystem.hpp"
+#include "graphic.h"
 
 //--------------------------------------------------------------------------------------------
 

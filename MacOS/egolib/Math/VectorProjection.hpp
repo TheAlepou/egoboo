@@ -23,7 +23,9 @@
 
 #pragma once
 
-#include "egolib/platform.h"
+#include "platform.h"
+
+#ifdef __cplusplus
 
 namespace Ego {
 namespace Math {
@@ -53,3 +55,4 @@ inline _VectorType Projection(const _VectorType& v, const _VectorType& w) {
 } // namespace Ego
 
 
+#endif

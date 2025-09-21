@@ -20,12 +20,12 @@
 /// @file egolib/game/Logic/Player.cpp
 /// @author Zefz aka Johan Jansen
 
-#include "egolib/game/Logic/Player.hpp"
-#include "egolib/game/Graphics/CameraSystem.hpp"
-#include "egolib/Entities/_Include.hpp"
-#include "egolib/game/game.h"
-#include "egolib/game/Core/GameEngine.hpp"
-#include "egolib/game/GameStates/PlayingState.hpp"
+#include "Logic/Player.hpp"
+#include "Graphics/CameraSystem.hpp"
+#include "_Include.hpp"
+#include "game.h"
+#include "GameEngine.hpp"
+#include "GameStates/PlayingState.hpp"
 
 namespace Ego
 {

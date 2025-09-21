@@ -23,8 +23,8 @@
 
 #pragma once
 
-#include "egolib/game/Core/GameEngine.hpp"
-#include "egolib/game/GUI/Button.hpp"
+#include "GameEngine.hpp"
+#include "Button.hpp"
 
 // Forward declarations.
 namespace Ego { class DeferredTexture; }

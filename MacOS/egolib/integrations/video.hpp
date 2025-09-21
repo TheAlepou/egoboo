@@ -1,3 +1,3 @@
 #pragma once
 
-#include "idlib/game_engine.hpp" ///< @todo More granular include.
+#include "game_engine.hpp" ///< @todo More granular include.

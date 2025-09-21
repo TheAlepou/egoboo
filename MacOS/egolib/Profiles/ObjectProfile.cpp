@@ -23,13 +23,13 @@
 /// @author Johan Jansen
 
 #define EGOLIB_PROFILES_PRIVATE 1
-#include "egolib/Profiles/ObjectProfile.hpp"
-#include "egolib/game/Core/GameEngine.hpp"
-#include "egolib/Entities/_Include.hpp"
-#include "egolib/Graphics/ModelDescriptor.hpp"
-#include "egolib/Audio/AudioSystem.hpp"
-#include "egolib/FileFormats/template.h"
-#include "egolib/Math/Random.hpp"
+#include "ObjectProfile.hpp"
+#include "GameEngine.hpp"
+#include "_Include.hpp"
+#include "ModelDescriptor.hpp"
+#include "AudioSystem.hpp"
+#include "template.h"
+#include "Random.hpp"
 
 static const SkinInfo INVALID_SKIN = SkinInfo();
 

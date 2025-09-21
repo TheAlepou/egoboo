@@ -1,5 +1,5 @@
-#include "egolib/game/GUI/DrawingContext.hpp"
-#include "egolib/game/GUI/UIManager.hpp"
+#include "DrawingContext.hpp"
+#include "UIManager.hpp"
 
 namespace Ego {
 namespace GUI {

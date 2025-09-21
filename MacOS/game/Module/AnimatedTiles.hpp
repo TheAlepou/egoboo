@@ -1,6 +1,6 @@
 #pragma once
 
-#include "egolib/egolib.h"
+#include "egolib.h"
 
 /// The state of the animated tiles.
 struct AnimatedTilesState {

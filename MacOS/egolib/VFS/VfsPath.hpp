@@ -1,8 +1,8 @@
 #pragma once
 
-#include "egolib/platform.h"
-#include "egolib/VFS/internal.hpp"
-
+#include "platform.h"
+#include "internal.hpp"
+#ifdef __cplusplus
 namespace Ego {
 
 /// @brief Represents a path in the virtual file system.
@@ -131,3 +131,5 @@ private:
 };
 
 } // namespace Ego
+#endif // __cplusplus
+

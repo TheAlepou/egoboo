@@ -26,20 +26,20 @@
 #error(do not include directly, include `game/Entities/_Include.hpp` instead)
 #endif
 
-#include "egolib/Script/script.h"
-#include "egolib/Logic/Team.hpp"
-#include "egolib/InputControl/InputDevice.hpp"
+#include "script.h"
+#include "Team.hpp"
+#include "InputDevice.hpp"
 
-#include "egolib/game/egoboo.h"
-#include "egolib/game/Module/Module.hpp"
-#include "egolib/game/physics.h"
-#include "egolib/game/graphic_mad.h"
-#include "egolib/Entities/Common.hpp"
-#include "egolib/game/Graphics/BillboardSystem.hpp"
-#include "egolib/game/Inventory.hpp"
-#include "egolib/game/Physics/Collidable.hpp"
-#include "egolib/game/Physics/ObjectPhysics.hpp"
-#include "egolib/game/Graphics/ObjectGraphics.hpp"
+#include "egoboo.h"
+#include "Module.hpp"
+#include "physics.h"
+#include "graphic_mad.h"
+#include "Common.hpp"
+#include "Graphics/BillboardSystem.hpp"
+#include "Inventory.hpp"
+#include "Physics/Collidable.hpp"
+#include "Physics/ObjectPhysics.hpp"
+#include "Graphics/ObjectGraphics.hpp"
 
 //Forward declarations
 namespace Ego { class Enchantment; }

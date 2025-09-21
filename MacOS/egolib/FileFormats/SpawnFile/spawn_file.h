@@ -22,9 +22,9 @@
 
 #pragma once
 
-#include "egolib/typedef.h"
-#include "egolib/_math.h"
-#include "egolib/Math/Standard.hpp"
+#include "typedef.h"
+#include "_math.h"
+#include "Standard.hpp"
 
 // Forward declaration.
 class SpawnFileReaderImpl;

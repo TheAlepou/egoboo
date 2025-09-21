@@ -24,8 +24,8 @@
 
 #pragma once
 
-#include "egolib/Log/_Include.hpp"
-#include "egolib/integrations/video.hpp"
+#include "_Include.hpp"
+#include "video.hpp"
 
 namespace Ego {
 

@@ -19,7 +19,7 @@
 
 #pragma once
 
-#include "egolib/platform.h"
+#include "platform.h"
 
 namespace Log {
 	/**

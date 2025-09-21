@@ -23,13 +23,13 @@
 
 #define GAME_ENTITIES_PRIVATE 1
 
-#include "egolib/Entities/Particle.hpp"
-#include "egolib/game/Core/GameEngine.hpp"
-#include "egolib/game/Module/Module.hpp"
-#include "egolib/Entities/_Include.hpp"
-#include "egolib/game/game.h"
-#include "egolib/game/Physics/PhysicalConstants.hpp"
-#include "egolib/game/CharacterMatrix.h"
+#include "Particle.hpp"
+#include "GameEngine.hpp"
+#include "Module.hpp"
+#include "_Include.hpp"
+#include "game.h"
+#include "Physics/PhysicalConstants.hpp"
+#include "CharacterMatrix.h"
 
 namespace Ego
 {

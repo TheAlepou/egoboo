@@ -1,5 +1,5 @@
-#include "egolib/Graphics/SDL/Utilities.hpp"
-#include "egolib/egoboo_setup.h"
+#include "SDL/Utilities.hpp"
+#include "egoboo_setup.h"
 
 Requirement::Requirement()
 {}

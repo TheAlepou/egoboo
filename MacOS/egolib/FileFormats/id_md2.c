@@ -22,9 +22,9 @@
 /// @brief A raw reader and writer for ID software's .md2 model type
 /// @details
 
-#include "egolib/FileFormats/id_md2.h"
+#include "id_md2.h"
 
-#include "egolib/vfs.h"
+#include "vfs.h"
 
 //--------------------------------------------------------------------------------------------
 //--------------------------------------------------------------------------------------------

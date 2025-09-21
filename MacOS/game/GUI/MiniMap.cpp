@@ -21,13 +21,13 @@
 /// @details GUI widget to render that tiny minimap in the corner
 /// @author Johan Jansen
 
-#include "egolib/game/GUI/MiniMap.hpp"
-#include "egolib/game/Core/GameEngine.hpp"
-#include "egolib/Logic/Team.hpp"
-#include "egolib/game/Module/Module.hpp"
-#include "egolib/game/GUI/Material.hpp"
-#include "egolib/Entities/_Include.hpp"
-#include "egolib/game/Logic/Player.hpp"
+#include "MiniMap.hpp"
+#include "GameEngine.hpp"
+#include "Team.hpp"
+#include "Module.hpp"
+#include "Material.hpp"
+#include "_Include.hpp"
+#include "Logic/Player.hpp"
 
 static const uint32_t MINIMAP_BLINK_RATE = 500; //milliseconds between each minimap blink
 

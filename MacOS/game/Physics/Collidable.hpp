@@ -18,7 +18,7 @@
 //********************************************************************************************
 #pragma once
 
-#include "egolib/game/Module/Module.hpp"
+#include "Module.hpp"
 
 namespace Ego
 {

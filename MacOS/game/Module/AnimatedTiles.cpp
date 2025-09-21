@@ -1,5 +1,5 @@
-#include "egolib/game/Module/AnimatedTiles.hpp"
-#include "egolib/game/game.h"
+#include "AnimatedTiles.hpp"
+#include "game.h"
 
 AnimatedTilesState::Layer::Layer() :
     update_and(0),

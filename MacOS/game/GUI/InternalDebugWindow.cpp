@@ -21,9 +21,9 @@
 /// @details InternalDebugWindow
 /// @author Johan Jansen
 
-#include "egolib/game/GUI/InternalDebugWindow.hpp"
-#include "egolib/game/GUI/Label.hpp"
-#include "egolib/game/GUI/JoinBounds.hpp"
+#include "InternalDebugWindow.hpp"
+#include "Label.hpp"
+#include "JoinBounds.hpp"
 
 namespace Ego {
 namespace GUI {

@@ -21,7 +21,7 @@
 /// @brief  Utility helper to generate random numbers
 /// @author Johan Jansen
 
-#include "egolib/Math/Random.hpp"
+#include "Random.hpp"
 
 // Static data initializer
 std::random_device rd;

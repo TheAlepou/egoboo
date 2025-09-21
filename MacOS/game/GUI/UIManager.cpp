@@ -22,11 +22,11 @@
 ///             and properties for GUI components.
 /// @author Johan Jansen
 
-#include "egolib/game/GUI/UIManager.hpp"
-#include "egolib/game/graphic.h"
-#include "egolib/game/GUI/Material.hpp"
-#include "egolib/Graphics/VertexFormat.hpp"
-#include "egolib/game/game.h" //TODO: Remove only for DisplayMessagePrintf
+#include "UIManager.hpp"
+#include "graphic.h"
+#include "Material.hpp"
+#include "VertexFormat.hpp"
+#include "game.h" //TODO: Remove only for DisplayMessagePrintf
 
 namespace Ego {
 namespace GUI {

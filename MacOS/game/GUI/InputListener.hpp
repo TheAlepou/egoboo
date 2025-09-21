@@ -1,7 +1,7 @@
 #pragma once
 
-#include "egolib/integrations/events.hpp"
-
+#include "events.hpp"
+#ifdef __cplusplus
 namespace Ego {
 namespace GUI {
 
@@ -77,3 +77,4 @@ public:
 
 } // namespace GUI
 } // namespace Ego
+#endif

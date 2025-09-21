@@ -23,7 +23,9 @@
 /// @author Johan Jansen
 #pragma once
 
-#include "egolib/game/egoboo.h"
+#include "egoboo.h"
+
+#ifdef __cplusplus
 
 // Forward declarations.
 namespace Ego {
@@ -174,3 +176,5 @@ private:
 
 } // namespace GUI
 } // namespace Ego
+
+#endif

@@ -21,14 +21,14 @@
 
 #pragma once
 
-#include "egolib/game/egoboo.h"
-#include "egolib/game/lighting.h"
-#include "egolib/Mesh/Info.hpp"
+#include "egoboo.h"
+#include "lighting.h"
+#include "Info.hpp"
 
 //--------------------------------------------------------------------------------------------
 // external types
 //--------------------------------------------------------------------------------------------
-
+#ifdef __cplusplus
 namespace Ego {
 namespace OpenGL {
 struct Texture;
@@ -526,3 +526,4 @@ struct MeshLoader {
 private:
     std::shared_ptr<ego_mesh_t> convert(const map_t& source) const;
 };
+#endif

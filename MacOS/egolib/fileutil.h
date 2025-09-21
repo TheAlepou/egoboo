@@ -22,25 +22,25 @@
 
 #pragma once
 
-#include "egolib/typedef.h"
-#include "egolib/Script/EnumDescriptor.hpp"
-#include "egolib/vfs.h"
-#include "egolib/Script/DDLToken.hpp"
-#include "egolib/Script/Traits.hpp"
-#include "egolib/Log/_Include.hpp"
-#include "egolib/file_common.h"
-#include "egolib/Logic/Damage.hpp"
-#include "egolib/IDSZ.hpp"
-#include "egolib/Profiles/LocalParticleProfileRef.hpp"
-#include "egolib/Profiles/_Include.hpp"
-#include "egolib/Renderer/Renderer.hpp"
+#include "typedef.h"
+#include "EnumDescriptor.hpp"
+#include "vfs.h"
+#include "DDLToken.hpp"
+#include "Traits.hpp"
+#include "_Include.hpp"
+#include "file_common.h"
+#include "Damage.hpp"
+#include "IDSZ.hpp"
+#include "LocalParticleProfileRef.hpp"
+#include "_Include.hpp"
+#include "Renderer.hpp"
 
 //--------------------------------------------------------------------------------------------
 //--------------------------------------------------------------------------------------------
 
-#include "egolib/Script/EnumDescriptor.hpp"
-#include "egolib/Script/Scanner.hpp"
-#include "egolib/Script/Errors.hpp"
+#include "EnumDescriptor.hpp"
+#include "Scanner.hpp"
+#include "Errors.hpp"
 
 /**
  * @brief
@@ -53,6 +53,9 @@
  * @author
  *  Michael Heilmann
  */
+
+#ifdef __cplusplus
+
 struct ReadContext : public Ego::Script::Scanner<Ego::Script::Traits<char>>
 {
 
@@ -398,3 +401,5 @@ void vfs_put_expansion_float(vfs_FILE* filewrite, const char* text, const IDSZ2&
 void vfs_put_expansion_string(vfs_FILE* filewrite, const char* text, const IDSZ2& idsz, const char * value);
 void vfs_put_range_raw(vfs_FILE* filewrite, idlib::interval<float> val);
 void vfs_put_local_particle_profile_ref(vfs_FILE *filewrite, const char *text, const LocalParticleProfileRef& lppref);
+
+#endif

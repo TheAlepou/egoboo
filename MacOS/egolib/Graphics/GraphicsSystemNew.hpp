@@ -1,7 +1,7 @@
 #pragma once
 
-#include "egolib/Log/_Include.hpp"
-#include "idlib/singleton.hpp"
+#include "_Include.hpp"
+#include "singleton.hpp"
 #include <vector>
 #include <memory>
 

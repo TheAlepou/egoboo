@@ -1,8 +1,8 @@
-#include "egolib/game/GameStates/InputOptionsScreen.hpp"
-#include "egolib/game/GUI/Button.hpp"
-#include "egolib/game/GUI/Label.hpp"
-#include "egolib/InputControl/InputDevice.hpp"
-#include "egolib/InputControl/ControlSettingsFile.hpp"
+#include "GameStates/InputOptionsScreen.hpp"
+#include "Button.hpp"
+#include "Label.hpp"
+#include "InputDevice.hpp"
+#include "ControlSettingsFile.hpp"
 
 namespace Ego
 {

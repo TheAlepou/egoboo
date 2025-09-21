@@ -7,7 +7,7 @@
 #import <Foundation/NSBundle.h>
 #import "egolib/Platform/NSFileManager+DirectoryLocations.h"
 
-#include "egolib/file_common.h"
+#include "file_common.h"
 
 static NSString *dataPath = nil;
 static NSString *userPath = nil;

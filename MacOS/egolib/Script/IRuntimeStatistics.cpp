@@ -21,4 +21,4 @@
 /// @brief Definition of statistics for a runtime
 /// @author Michael Heilmann
 
-#include "egolib/Script/IRuntimeStatistics.hpp"
+#include "IRuntimeStatistics.hpp"

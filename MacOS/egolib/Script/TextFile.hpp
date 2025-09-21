@@ -21,8 +21,8 @@
 /// @brief textual input/output
 
 #pragma once
-
-#include "egolib/Script/Traits.hpp"
+#ifdef __cplusplus
+#include "Traits.hpp"
 #include <string>
 
 namespace Ego
@@ -127,3 +127,4 @@ public:
 
 } // namespace Script
 } // namespace Ego
+#endif // __cplusplus

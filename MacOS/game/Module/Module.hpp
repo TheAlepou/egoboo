@@ -22,19 +22,19 @@
 
 #pragma once
 
-#include "egolib/game/egoboo.h"
-#include "egolib/game/mesh.h"
-#include "egolib/game/Module/Water.hpp"
-#include "egolib/game/Module/module_spawn.h"
-#include "egolib/game/Module/damagetile_instance.h"
+#include "egoboo.h"
+#include "mesh.h"
+#include "Water.hpp"
+#include "module_spawn.h"
+#include "damagetile_instance.h"
 
 //@todo This is an ugly hack to work around cyclic dependency and private header guards
 #ifndef GAME_ENTITIES_PRIVATE
     #define GAME_ENTITIES_PRIVATE 1
-    #include "egolib/Entities/ObjectHandler.hpp"
+    #include "ObjectHandler.hpp"
     #undef GAME_ENTITIES_PRIVATE
 #else
-    #include "egolib/Entities/ObjectHandler.hpp"
+    #include "ObjectHandler.hpp"
 #endif
 
 // Forward declarations.

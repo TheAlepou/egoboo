@@ -24,7 +24,10 @@
 
 #pragma once
 
-#include "egolib/integrations/math.hpp"
+#include "math.hpp"
+
+#ifdef __cplusplus
+
 
 //--------------------------------------------------------------------------------------------
 //--------------------------------------------------------------------------------------------
@@ -140,3 +143,5 @@ bool two_plane_intersection(Ego::Vector3f& dst_pos, Ego::Vector3f& dst_dir, cons
  *  Find the point where 3 planes intersect.
  */
 bool three_plane_intersection(Ego::Point3f& dst_pos, const Ego::Plane3f& p0, const Ego::Plane3f& p1, const Ego::Plane3f& p2);
+
+#endif

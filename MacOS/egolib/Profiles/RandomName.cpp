@@ -21,10 +21,10 @@
 /// @author Johan Jansen
 
 #define EGOLIB_PROFILES_PRIVATE 1
-#include "egolib/Profiles/RandomName.hpp"
-#include "egolib/strutil.h"
-#include "egolib/fileutil.h"
-#include "egolib/Math/Random.hpp"
+#include "RandomName.hpp"
+#include "strutil.h"
+#include "fileutil.h"
+#include "Random.hpp"
 
 RandomName::RandomName() :
 	_randomNameBlocks()

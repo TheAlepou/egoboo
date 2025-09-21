@@ -1,7 +1,7 @@
-#include "egolib/game/Graphics/ObjectGraphics.hpp"
-#include "egolib/Entities/_Include.hpp"
-#include "egolib/game/graphic.h"
-#include "egolib/game/game.h" //only for character_swipe()
+#include "Graphics/ObjectGraphics.hpp"
+#include "_Include.hpp"
+#include "graphic.h"
+#include "game.h" //only for character_swipe()
 
 namespace Ego
 {

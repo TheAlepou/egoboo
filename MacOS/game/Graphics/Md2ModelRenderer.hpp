@@ -1,6 +1,6 @@
 #pragma once
 
-#include "egolib/game/egoboo.h"
+#include "egoboo.h"
 
 // Forward declaration.
 class MD2Model;

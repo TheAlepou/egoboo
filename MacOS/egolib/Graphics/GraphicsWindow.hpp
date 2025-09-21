@@ -1,6 +1,6 @@
 #pragma once
 
-#include "egolib/integrations/video.hpp"
+#include "video.hpp"
 #include <SDL.h>
 
 namespace Ego {

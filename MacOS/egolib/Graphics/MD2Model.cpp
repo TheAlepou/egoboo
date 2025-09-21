@@ -20,14 +20,14 @@
 /// @author Johan Jansen
 /// @brief Logic for loading and parsing MD2 object model files
 
-#include "egolib/Graphics/MD2Model.hpp"
-#include "egolib/_math.h"
-#include "egolib/bbox.h"
-#include "egolib/vfs.h"
+#include "MD2Model.hpp"
+#include "_math.h"
+#include "bbox.h"
+#include "vfs.h"
 
 static const float MD2_NORMALS[MD2Model::normalCount][3] =
 {
-#include "egolib/FileFormats/id_normals.inl"
+#include "id_normals.inl"
     , {0, 0, 0}                     ///< the "equal light" normal
 };
 

@@ -22,9 +22,9 @@
 /// @details TrueType font drawing functionality.  Uses the SDL_ttf module
 ///          to do its business. This depends on SDL_ttf and OpenGL.
 
-#include "egolib/Graphics/FontManager.hpp"
+#include "FontManager.hpp"
 
-#include "egolib/Log/_Include.hpp"
+#include "_Include.hpp"
 
 namespace Ego {
 

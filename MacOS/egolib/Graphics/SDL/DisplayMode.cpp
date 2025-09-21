@@ -1,6 +1,6 @@
-#include "egolib/Graphics/SDL/DisplayMode.hpp"
+#include "SDL/DisplayMode.hpp"
 
-#include "idlib/exception.hpp"
+#include "exception.hpp"
 
 namespace Ego {
 namespace SDL {

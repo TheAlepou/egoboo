@@ -21,13 +21,13 @@
 /// @details State that contains buttons to all non-module related debugging states.
 /// @author Johan Jansen, penguinflyer5234
 
-#include "egolib/game/GameStates/DebugMainMenuState.hpp"
-#include "egolib/game/Core/GameEngine.hpp"
-#include "egolib/game/GUI/Button.hpp"
+#include "GameStates/DebugMainMenuState.hpp"
+#include "GameEngine.hpp"
+#include "Button.hpp"
 
-#include "egolib/game/GameStates/DebugFontRenderingState.hpp"
-#include "egolib/game/GameStates/DebugModuleLoadingState.hpp"
-#include "egolib/game/GameStates/DebugObjectLoadingState.hpp"
+#include "GameStates/DebugFontRenderingState.hpp"
+#include "GameStates/DebugModuleLoadingState.hpp"
+#include "GameStates/DebugObjectLoadingState.hpp"
 
 DebugMainMenuState::DebugMainMenuState() {
     const int SCREEN_HEIGHT = _gameEngine->getUIManager()->getScreenHeight();

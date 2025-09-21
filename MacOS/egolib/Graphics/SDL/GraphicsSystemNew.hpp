@@ -1,6 +1,6 @@
 #pragma once
 
-#include "egolib/Graphics/GraphicsSystemNew.hpp"
+#include "GraphicsSystemNew.hpp"
 
 namespace Ego {
 namespace SDL {

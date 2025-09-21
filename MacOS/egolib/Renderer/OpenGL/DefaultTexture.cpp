@@ -1,7 +1,7 @@
-#include "egolib/Renderer/OpenGL/DefaultTexture.hpp"
+#include "DefaultTexture.hpp"
 
-#include "egolib/Renderer/OpenGL/Utilities.hpp"
-#include "egolib/Image/ImageManager.hpp"
+#include "Utilities.hpp"
+#include "ImageManager.hpp"
 
 namespace Ego {
 namespace OpenGL {

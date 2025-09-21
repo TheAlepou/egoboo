@@ -23,12 +23,12 @@
 
 #pragma once
 
-#include "egolib/Math/_Include.hpp"
-#include "egolib/egoboo_setup.h"
-#include "egolib/integrations/video.hpp"
-#include "egolib/Renderer/RendererInfo.hpp"
-#include "egolib/Renderer/Texture.hpp"
-#include "egolib/integrations/color.hpp"
+#include "_Include.hpp"
+#include "egoboo_setup.h"
+#include "video.hpp"
+#include "RendererInfo.hpp"
+#include "Texture.hpp"
+#include "color.hpp"
 
 namespace Ego {
 

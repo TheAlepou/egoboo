@@ -23,10 +23,10 @@
 
 #pragma once
 
-#include "egolib/typedef.h"
-#include "egolib/integrations/color.hpp"
-#include "egolib/integrations/video.hpp"
-#include "egolib/Math/_Include.hpp"
+#include "typedef.h"
+#include "color.hpp"
+#include "video.hpp"
+#include "_Include.hpp"
 #include <memory>
 
 namespace Ego {

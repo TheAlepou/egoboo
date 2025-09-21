@@ -21,14 +21,14 @@
 
 #pragma once
 
-#include "egolib/game/egoboo.h"
-#include "egolib/game/mesh.h"
-#include "egolib/game/Inventory.hpp"
-#include "egolib/game/Shop.hpp"
-#include "egolib/game/Module/AnimatedTiles.hpp"
-#include "egolib/game/Module/Water.hpp"
-#include "egolib/game/Module/Weather.hpp"
-#include "egolib/game/Module/Fog.hpp"
+#include "egoboo.h"
+#include "mesh.h"
+#include "Inventory.hpp"
+#include "Shop.hpp"
+#include "AnimatedTiles.hpp"
+#include "Water.hpp"
+#include "Weather.hpp"
+#include "Fog.hpp"
 
 //--------------------------------------------------------------------------------------------
 // forward declaration of external structs

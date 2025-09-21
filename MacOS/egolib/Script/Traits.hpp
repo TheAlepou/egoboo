@@ -19,8 +19,8 @@
 
 #pragma once
 
-#include "egolib/platform.h"
-
+#include "platform.h"
+#ifdef __cplusplus
 namespace Ego
 {
 namespace Script
@@ -113,3 +113,4 @@ public:
 
 } // namespace Script
 } // namespace Ego
+#endif

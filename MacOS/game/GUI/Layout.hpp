@@ -1,7 +1,7 @@
 #pragma once
 
 // Include directives and forward declarations.
-#include "egolib/egolib.h"
+#include "egolib.h"
 namespace Ego {
 namespace GUI {
 class Component;

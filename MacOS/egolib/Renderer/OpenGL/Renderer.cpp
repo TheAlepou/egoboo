@@ -21,12 +21,12 @@
 /// @brief  Implementation of a renderer for OpenGL 2.1.
 /// @author Michael Heilmann
 
-#include "egolib/Renderer/OpenGL/Renderer.hpp"
-#include "idlib/idlib.hpp"
-#include "egolib/Renderer/OpenGL/Utilities.hpp"
-#include "egolib/Renderer/OpenGL/Texture.hpp"
-#include "egolib/Renderer/OpenGL/RendererInfo.hpp"
-#include "egolib/Renderer/OpenGL/DefaultTexture.hpp"
+#include "Renderer.hpp"
+#include "idlib.hpp"
+#include "Utilities.hpp"
+#include "Texture.hpp"
+#include "RendererInfo.hpp"
+#include "DefaultTexture.hpp"
 
 namespace Ego {
 namespace OpenGL {

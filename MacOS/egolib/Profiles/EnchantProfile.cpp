@@ -18,10 +18,10 @@
 //********************************************************************************************
 
 #define EGOLIB_PROFILES_PRIVATE 1
-#include "egolib/Profiles/EnchantProfile.hpp"
-#include "egolib/Audio/AudioSystem.hpp"
-#include "egolib/Core/StringUtilities.hpp"
-#include "egolib/fileutil.h"
+#include "EnchantProfile.hpp"
+#include "AudioSystem.hpp"
+#include "StringUtilities.hpp"
+#include "fileutil.h"
 
 EnchantProfile::EnchantProfile() : AbstractProfile(),
 

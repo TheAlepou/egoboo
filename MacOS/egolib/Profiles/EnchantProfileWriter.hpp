@@ -26,7 +26,7 @@
 #error(do not include directly, include `egolib/Profiles/_Include.hpp` instead)
 #endif
 
-#include "egolib/Profiles/EnchantProfile.hpp"
+#include "EnchantProfile.hpp"
 
 /**
  * @brief

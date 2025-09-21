@@ -21,9 +21,11 @@
 
 #pragma once
 
-#include "egolib/Graphics/MD2Model.hpp"
-#include "egolib/game/lighting.h"
-#include "egolib/Extensions/ogl_extensions.h"
+#include "MD2Model.hpp"
+#include "lighting.h"
+#include "ogl_extensions.h"
+
+#ifdef __cplusplus
 
 // Forward declaration.
 class Camera;
@@ -338,3 +340,5 @@ public:
     /// Bind the texture of the tile to the texture unit.
     static void bind(const ego_tile_info_t& tile);
 };
+
+#endif

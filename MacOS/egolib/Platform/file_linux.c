@@ -25,8 +25,8 @@
 #include <pwd.h>
 #include <sys/types.h>
 #include <limits.h>
-#include "egolib/file_common.h"
-#include "egolib/strutil.h"
+#include "file_common.h"
+#include "strutil.h"
 
 //--------------------------------------------------------------------------------------------
 //--------------------------------------------------------------------------------------------

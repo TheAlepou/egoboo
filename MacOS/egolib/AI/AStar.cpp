@@ -21,11 +21,11 @@
 /// @brief
 /// @details
 
-#include "egolib/AI/AStar.hpp"
+#include "AStar.hpp"
 
-#include "egolib/game/renderer_3d.h" // for point debugging
-#include "egolib/Script/script.h"  // for waypoint list control
-#include "egolib/game/mesh.h"
+#include "renderer_3d.h" // for point debugging
+#include "script.h"  // for waypoint list control
+#include "mesh.h"
 
 AStar::AStar() : 
     final_node(nullptr), 

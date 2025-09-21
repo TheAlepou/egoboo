@@ -21,10 +21,10 @@
 /// @brief A scanner for the passage file for a given module ( /modules/*.mod/basicdat/passages.txt )
 /// @author Johan Jansen
 
-#include "egolib/game/Module/Passage.hpp"
-#include "egolib/game/game.h"
-#include "egolib/game/mesh.h"
-#include "egolib/Entities/_Include.hpp"
+#include "Passage.hpp"
+#include "game.h"
+#include "mesh.h"
+#include "_Include.hpp"
 
 const ObjectRef Passage::SHOP_NOOWNER = ObjectRef::Invalid;
 

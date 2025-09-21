@@ -1,7 +1,8 @@
 #pragma once
 
-#include "idlib/game_engine.hpp"
-
+#include "game_engine.hpp"
+#include "idlib.hpp"
+#ifdef __cplusplus
 namespace Ego::Events {
 
 using MouseButtonClickedEvent = idlib::events::mouse_button_clicked_event; ///< @todo Remove this.
@@ -19,3 +20,4 @@ using MousePointerMovedEvent = idlib::events::mouse_pointer_moved_event; ///< @t
 using MouseWheelTurnedEvent = idlib::events::mouse_wheel_turned_event; ///< @todo Remove this.
 
 } // namespace Ego::Events
+#endif // __cplusplus

@@ -24,7 +24,7 @@
 
 #pragma once
 
-#include "egolib/AI/WaypointList.h"
+#include "WaypointList.h"
 
 // Forward declarations.
 class ego_mesh_t;

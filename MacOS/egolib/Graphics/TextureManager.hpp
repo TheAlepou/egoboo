@@ -22,8 +22,8 @@
 
 #pragma once
 
-#include "egolib/typedef.h"
-#include "egolib/Renderer/Renderer.hpp"
+#include "typedef.h"
+#include "Renderer.hpp"
 
 namespace Ego {
 

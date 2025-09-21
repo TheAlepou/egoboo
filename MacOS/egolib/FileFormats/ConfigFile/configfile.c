@@ -57,7 +57,7 @@
  *  Multiple section with the same name will be loaded and saved but only the first
  *  one will be looked for value. Should not load sections with same name.
  */
-#include "egolib/FileFormats/ConfigFile/configfile.h"
+#include "ConfigFile/configfile.h"
 
 #pragma push_macro("ERROR")
 #undef ERROR

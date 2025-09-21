@@ -1,7 +1,7 @@
-#include "egolib/Graphics/GraphicsSystemNew.hpp"
-#include "egolib/Graphics/Display.hpp"
-#include "egolib/Graphics/DisplayMode.hpp"
-#include "egolib/Graphics/SDL/GraphicsSystemNew.hpp"
+#include "GraphicsSystemNew.hpp"
+#include "Display.hpp"
+#include "DisplayMode.hpp"
+#include "SDL/GraphicsSystemNew.hpp"
 #include <algorithm>
 
 namespace Ego {

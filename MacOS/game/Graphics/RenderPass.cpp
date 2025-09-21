@@ -21,7 +21,7 @@
 /// @brief Abstract implementation render passes
 /// @author Michael Heilmann
 
-#include "egolib/game/Graphics/RenderPass.hpp"
+#include "Graphics/RenderPass.hpp"
 
 namespace Ego {
 namespace Graphics {

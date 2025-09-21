@@ -1,9 +1,9 @@
-#include "egolib/Graphics/SDL/GraphicsWindow.hpp"
+#include "SDL/GraphicsWindow.hpp"
 
-#include "egolib/egoboo_setup.h"
-#include "egolib/Image/SDL_Image_Extensions.h"
-#include "egolib/Image/ImageManager.hpp"
-#include "egolib/Extensions/ogl_extensions.h"
+#include "egoboo_setup.h"
+#include "SDL_Image_Extensions.h"
+#include "ImageManager.hpp"
+#include "ogl_extensions.h"
 
 namespace Ego { namespace SDL {
 

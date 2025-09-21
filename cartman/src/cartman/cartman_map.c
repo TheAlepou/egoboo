@@ -17,7 +17,7 @@
 //*
 //********************************************************************************************
 
-#include "egolib/FileFormats/Globals.hpp"
+#include "Globals.hpp"
 #include "cartman/cartman_map.h"
 #include "cartman/cartman.h"
 #include "cartman/cartman_math.h"

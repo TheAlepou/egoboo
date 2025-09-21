@@ -21,8 +21,8 @@
 /// @file egolib/Image/SDL_Image_Extensions.c
 /// @brief Extensions to SDL image.
 
-#include "egolib/Image/SDL_Image_Extensions.h"
-#include "egolib/Image/ImageManager.hpp"
+#include "SDL_Image_Extensions.h"
+#include "ImageManager.hpp"
 
 namespace Ego { namespace SDL {
 

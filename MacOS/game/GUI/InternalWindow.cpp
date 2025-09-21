@@ -21,9 +21,9 @@
 /// @details InternalWindow
 /// @author Johan Jansen
 
-#include "egolib/game/GUI/InternalWindow.hpp"
-#include "egolib/game/GUI/Image.hpp"
-#include "egolib/game/GUI/Material.hpp"
+#include "InternalWindow.hpp"
+#include "Image.hpp"
+#include "Material.hpp"
 
 static constexpr int BORDER_PIXELS = 5;
 

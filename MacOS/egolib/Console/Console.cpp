@@ -21,14 +21,14 @@
 /// @brief A quake-style console that can be used for anything.
 /// @details
 
-#include "egolib/Console/Console.hpp"
+#include "Console.hpp"
 
-#include "egolib/strutil.h"
-#include "egolib/Graphics/FontManager.hpp"
-#include "egolib/Graphics/GraphicsSystem.hpp"
-#include "egolib/Graphics/GraphicsWindow.hpp"
-#include "egolib/Renderer/Renderer.hpp"
-#include "egolib/InputControl/InputSystem.hpp"
+#include "strutil.h"
+#include "FontManager.hpp"
+#include "GraphicsSystem.hpp"
+#include "GraphicsWindow.hpp"
+#include "Renderer.hpp"
+#include "InputSystem.hpp"
 
 namespace Ego { namespace Core {
 

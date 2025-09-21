@@ -1,7 +1,9 @@
 #pragma once
 
-#include "egolib/game/Core/GameEngine.hpp"
-#include "egolib/game/GUI/Component.hpp"
+#include "GameEngine.hpp"
+#include "Component.hpp"
+
+#ifdef __cplusplus
 
 namespace Ego {
 namespace GUI {
@@ -32,3 +34,4 @@ private:
 
 } // namespace GUI
 } // namespace Ego
+#endif

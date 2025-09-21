@@ -1,11 +1,11 @@
 #pragma once
 
-#include "idlib/idlib.hpp"
-#include "egolib/game/CharacterMatrix.h"
-#include "egolib/game/Graphics/Vertex.hpp"
+#include "idlib.hpp"
+#include "CharacterMatrix.h"
+#include "Graphics/Vertex.hpp"
 
-#include "egolib/Graphics/ModelDescriptor.hpp"
-#include "egolib/Graphics/MD2Model.hpp"
+#include "ModelDescriptor.hpp"
+#include "MD2Model.hpp"
 
 //Forward declarations
 namespace Ego { namespace Graphics { class ObjectGraphics; } }

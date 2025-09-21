@@ -22,7 +22,7 @@
 
 #pragma once
 
-#include "egolib/Log/Level.hpp"
+#include "Level.hpp"
 
 namespace Log {
 

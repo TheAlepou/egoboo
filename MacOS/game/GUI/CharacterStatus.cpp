@@ -20,12 +20,12 @@
 /// @file egolib/game/GUI/CharacterStatus.hpp
 /// @author Johan Jansen
 
-#include "egolib/game/GUI/CharacterStatus.hpp"
-#include "egolib/Entities/_Include.hpp"
-#include "egolib/game/Logic/Player.hpp"
-#include "egolib/game/GUI/ProgressBar.hpp"
-#include "egolib/game/GUI/Material.hpp"
-#include "egolib/game/game.h" //for update_wld
+#include "CharacterStatus.hpp"
+#include "_Include.hpp"
+#include "Logic/Player.hpp"
+#include "ProgressBar.hpp"
+#include "Material.hpp"
+#include "game.h" //for update_wld
 
 namespace Ego {
 namespace GUI {

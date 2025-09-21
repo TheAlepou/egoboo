@@ -27,6 +27,8 @@
 #include "Logic/FeedbackType.hpp"
 #include "game_engine.hpp"
 
+#ifdef __cplusplus
+
 //Forward declarations
 enum class CameraTurnMode : uint8_t;
 struct egoboo_config_t;
@@ -516,3 +518,4 @@ bool setup_init_module_vfs_paths(const std::string& mod_path);
 /// Remove from the VFS the module specific mount points/search paths.
 void setup_clear_module_vfs_paths();
 
+#endif

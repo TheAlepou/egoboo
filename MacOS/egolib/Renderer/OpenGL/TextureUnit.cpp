@@ -21,10 +21,10 @@
 /// @brief Implementation of a texture unit facade for OpenGL 2.1.
 /// @author Michael Heilmann
 
-#include "egolib/Renderer/OpenGL/TextureUnit.hpp"
-#include "egolib/Renderer/OpenGL/Texture.hpp"
-#include "egolib/Renderer/OpenGL/Utilities.hpp"
-#include "egolib/Renderer/OpenGL/RendererInfo.hpp"
+#include "TextureUnit.hpp"
+#include "Texture.hpp"
+#include "Utilities.hpp"
+#include "RendererInfo.hpp"
 
 namespace Ego {
 namespace OpenGL {

@@ -1,6 +1,6 @@
 #pragma once
 
-#include "egolib/typedef.h"
+#include "typedef.h"
 
 namespace Grid {
 

@@ -1,7 +1,7 @@
-#include "egolib/Graphics/SDL/GraphicsContext.hpp"
+#include "SDL/GraphicsContext.hpp"
 
-#include "egolib/Graphics/SDL/GraphicsWindow.hpp"
-#include "egolib/egoboo_setup.h"
+#include "SDL/GraphicsWindow.hpp"
+#include "egoboo_setup.h"
 #define GLEW_STATIC
 #include <GL/glew.h>
 

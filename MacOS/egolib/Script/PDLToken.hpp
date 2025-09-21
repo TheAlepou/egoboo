@@ -23,8 +23,8 @@
 
 #pragma once
 
-#include "egolib/Script/PDLTokenKind.hpp"
-#include "idlib/hll.hpp"
+#include "PDLTokenKind.hpp"
+// #include "hll.hpp"
 
 namespace Ego {
 namespace Script {

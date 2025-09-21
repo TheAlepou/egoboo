@@ -24,7 +24,7 @@
 
 #pragma once
 
-#include "egolib/game/GameStates/GameState.hpp"
+#include "GameStates/GameState.hpp"
 
 // Forward declarations.
 class ModuleProfile;

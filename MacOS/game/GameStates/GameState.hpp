@@ -23,7 +23,7 @@
 
 #pragma once
 
-#include "egolib/game/GUI/Container.hpp"
+#include "Container.hpp"
 
 class GameState : public Ego::GUI::Container {
 

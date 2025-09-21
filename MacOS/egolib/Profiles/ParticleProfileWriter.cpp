@@ -18,10 +18,10 @@
 //********************************************************************************************
 
 #define EGOLIB_PROFILES_PRIVATE 1
-#include "egolib/Profiles/ParticleProfileWriter.hpp"
+#include "ParticleProfileWriter.hpp"
 
-#include "egolib/FileFormats/template.h"
-#include "egolib/strutil.h"
-#include "egolib/fileutil.h"
-#include "egolib/vfs.h"
-#include "egolib/_math.h"
+#include "template.h"
+#include "strutil.h"
+#include "fileutil.h"
+#include "vfs.h"
+#include "_math.h"

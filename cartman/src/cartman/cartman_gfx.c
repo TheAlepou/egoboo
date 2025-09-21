@@ -17,7 +17,7 @@
 //*
 //********************************************************************************************
 
-#include "egolib/egolib.h"
+#include "egolib.h"
 
 #include "cartman/cartman_gfx.h"
 #include "cartman/cartman.h"
@@ -26,10 +26,10 @@
 #include "cartman/cartman_functions.h"
 #include "cartman/cartman_select.h"
 #include "cartman/cartman_math.h"
-#include "egolib/FileFormats/Globals.hpp"
-#include "egolib/Image/ImageManager.hpp"
-#include "egolib/Image/SDL_Image_Extensions.h"
-#include "egolib/Graphics/GraphicsSystem.hpp"
+#include "Globals.hpp"
+#include "ImageManager.hpp"
+#include "SDL_Image_Extensions.h"
+#include "GraphicsSystem.hpp"
 #include "cartman/Clocks.h"
 
 //--------------------------------------------------------------------------------------------

@@ -1,6 +1,6 @@
-#include "egolib/game/Graphics/DefaultMd2ModelRenderer.hpp"
-#include "egolib/Graphics/MD2Model.hpp"
-#include "egolib/Graphics/VertexFormat.hpp"
+#include "Graphics/DefaultMd2ModelRenderer.hpp"
+#include "MD2Model.hpp"
+#include "VertexFormat.hpp"
 
 namespace Ego {
 namespace Graphics {

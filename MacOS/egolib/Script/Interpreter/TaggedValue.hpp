@@ -23,8 +23,8 @@
 
 #pragma once
 
-#include "egolib/Script/Interpreter/Configuration.hpp"
-#include "egolib/Math/_Include.hpp"
+#include "Configuration.hpp"
+#include "_Include.hpp"
 
 // Forward declaration.
 class Object;

@@ -24,6 +24,8 @@
 
 #include "Damage.hpp"
 
+#ifdef __cplusplus
+
 namespace Ego
 {
 namespace Attribute
@@ -225,3 +227,4 @@ namespace std
         }
     };
 }
+#endif

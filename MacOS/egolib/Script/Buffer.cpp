@@ -21,7 +21,7 @@
 /// @brief Dynamically resizing buffer for bytes.
 /// @author Michael Heilmann
 
-#include "egolib/Script/Buffer.hpp"
+#include "Buffer.hpp"
 
 namespace Ego {
 namespace Script {

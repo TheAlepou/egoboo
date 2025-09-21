@@ -45,6 +45,8 @@ enum grip_offset_t : uint8_t
 * @brief
 *   Converts a slot position to a grip offset
 **/
+//I SWEAR, EVERYTHING IN THIS PORT NEEDS TO BE REMADE IN C++ FOR SOME REASON!!!!!
+#ifdef __cplusplus
 inline grip_offset_t slot_to_grip_offset( slot_t slot )
 {
     return static_cast<grip_offset_t>((slot+1) * GRIP_VERTS);
@@ -70,3 +72,4 @@ inline slot_t grip_offset_to_slot( grip_offset_t grip_off )
         return static_cast<slot_t>(islot);
     }
 }
+#endif

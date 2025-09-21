@@ -1,8 +1,8 @@
-#include "egolib/Graphics/SDL/GraphicsSystemNew.hpp"
+#include "SDL/GraphicsSystemNew.hpp"
 
-#include "egolib/Graphics/SDL/Display.hpp"
-#include "egolib/Graphics/SDL/GraphicsWindow.hpp"
-#include "egolib/Graphics/SDL/GraphicsContext.hpp"
+#include "SDL/Display.hpp"
+#include "SDL/GraphicsWindow.hpp"
+#include "SDL/GraphicsContext.hpp"
 
 namespace Ego {
 namespace SDL {

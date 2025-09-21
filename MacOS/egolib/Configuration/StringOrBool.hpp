@@ -3,6 +3,8 @@
 #include "Variable.hpp"
 #include "is_any_of.hpp"
 
+#ifdef __cplusplus
+
 namespace Ego {
 namespace Configuration {
 
@@ -48,3 +50,5 @@ public:
 
 } // namespace Configuration
 } // namespace Ego
+
+#endif // __cplusplus

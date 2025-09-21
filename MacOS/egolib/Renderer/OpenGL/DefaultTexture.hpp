@@ -1,6 +1,6 @@
 #pragma once
 
-#include "egolib/Image/SDL_Image_Extensions.h"
+#include "SDL_Image_Extensions.h"
 #define GLEW_STATIC
 #include <GL/glew.h>
 

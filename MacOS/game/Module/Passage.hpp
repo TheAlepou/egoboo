@@ -23,8 +23,8 @@
 
 #pragma once
 
-#include "egolib/game/egoboo.h"
-#include "egolib/Mesh/Info.hpp"
+#include "egoboo.h"
+#include "Info.hpp"
 
 //Forward declarations
 class Object;

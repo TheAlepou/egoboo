@@ -23,8 +23,8 @@
 
 #pragma once
 
-#include "egolib/Renderer/Texture.hpp"
-#include "egolib/Extensions/ogl_extensions.h"
+#include "Texture.hpp"
+#include "ogl_extensions.h"
 
 namespace Ego { namespace OpenGL {
 

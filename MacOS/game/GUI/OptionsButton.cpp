@@ -1,4 +1,4 @@
-#include "egolib/game/GUI/OptionsButton.hpp"
+#include "OptionsButton.hpp"
 
 namespace Ego {
 namespace GUI {

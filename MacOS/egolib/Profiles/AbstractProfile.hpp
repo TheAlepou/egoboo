@@ -24,10 +24,10 @@
 #error(do not include directly, include `egolib/Profiles/_Include.hpp` instead)
 #endif
 
-#include "egolib/typedef.h"
-#include "egolib/Logic/Damage.hpp"
-#include "egolib/Profiles/LocalParticleProfileRef.hpp"
-#include "idlib/non_copyable.hpp"
+#include "typedef.h"
+#include "Damage.hpp"
+#include "LocalParticleProfileRef.hpp"
+#include "non_copyable.hpp"
 
 /**
  * @brief

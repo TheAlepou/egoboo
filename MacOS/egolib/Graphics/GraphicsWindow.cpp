@@ -1,4 +1,4 @@
-#include "egolib/Graphics/GraphicsWindow.hpp"
+#include "GraphicsWindow.hpp"
 
 namespace Ego {
 

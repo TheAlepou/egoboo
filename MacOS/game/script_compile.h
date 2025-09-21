@@ -21,10 +21,10 @@
 
 #pragma once
 
-#include "egolib/Script/PDLToken.hpp"
-#include "egolib/game/egoboo.h"
-#include "egolib/Script/Buffer.hpp"
-#include "egolib/Script/script.h"
+#include "PDLToken.hpp"
+#include "egoboo.h"
+#include "Buffer.hpp"
+#include "script.h"
 
 //--------------------------------------------------------------------------------------------
 //--------------------------------------------------------------------------------------------

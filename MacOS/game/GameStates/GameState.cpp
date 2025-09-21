@@ -21,7 +21,7 @@
 /// @details Abstract interface class for a GameState
 /// @author Johan Jansen
 
-#include "egolib/game/GameStates/GameState.hpp"
+#include "GameStates/GameState.hpp"
 
 GameState::GameState() :
 	_terminateStateRequested(false)

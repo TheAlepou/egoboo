@@ -20,7 +20,7 @@
 /// @file egolib/game/Logic/QuestLog.cpp
 /// @author Zefz aka Johan Jansen
 
-#include "egolib/game/Logic/QuestLog.hpp"
+#include "Logic/QuestLog.hpp"
 
 namespace Ego
 {

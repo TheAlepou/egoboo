@@ -3,7 +3,7 @@
 #include <unordered_map>
 #include <typeinfo>
 #include <typeindex>
-#include "egolib/game/GUI/Container.hpp"
+#include "Container.hpp"
 
 namespace Ego {
 namespace GUI {

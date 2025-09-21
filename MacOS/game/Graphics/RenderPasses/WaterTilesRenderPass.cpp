@@ -1,9 +1,9 @@
-#include "egolib/game/Graphics/RenderPasses/WaterTilesRenderPass.hpp"
-#include "egolib/game/Module/Module.hpp"
-#include "egolib/game/graphic.h"
-#include "egolib/game/graphic_fan.h"
-#include "egolib/FileFormats/Globals.hpp"
-#include "egolib/Graphics/VertexFormat.hpp"
+#include "Graphics/RenderPasses/WaterTilesRenderPass.hpp"
+#include "Module.hpp"
+#include "graphic.h"
+#include "graphic_fan.h"
+#include "Globals.hpp"
+#include "VertexFormat.hpp"
 
 namespace Ego {
 namespace Graphics {

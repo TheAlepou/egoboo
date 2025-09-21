@@ -23,7 +23,7 @@
 
 #pragma once
 
-#include "egolib/FileFormats/map_file.h"
+#include "map_file.h"
 
 /// Load a map.
 bool map_read_v2(vfs_FILE& file, map_t& map);

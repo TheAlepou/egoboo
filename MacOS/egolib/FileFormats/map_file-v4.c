@@ -21,10 +21,10 @@
 /// @brief Functions for raw read and write access to the .mpd file type
 /// @details
 
-#include "egolib/FileFormats/map_file-v4.h"
+#include "map_file-v4.h"
 
-#include "egolib/Log/_Include.hpp"
-#include "egolib/strutil.h"
+#include "_Include.hpp"
+#include "strutil.h"
 
 bool map_read_v4(vfs_FILE& file, map_t& map)
 {

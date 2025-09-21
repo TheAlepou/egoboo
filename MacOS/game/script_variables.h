@@ -2,6 +2,8 @@
 
 #include "platform.h"
 
+#ifdef __cplusplus
+
 struct script_state_t;
 struct ai_state_t;
 class Object;
@@ -167,3 +169,5 @@ int32_t load_VARXYDISTANCE(script_state_t& scriptState, ai_state_t& aiState, Obj
 int32_t load_VARSELFZ(script_state_t& scriptState, ai_state_t& aiState, Object *pobject, Object *ptarget, Object *powner, Object *pleader);
 
 int32_t load_VARTARGETALTITUDE(script_state_t& scriptState, ai_state_t& aiState, Object *pobject, Object *ptarget, Object *powner, Object *pleader);
+
+#endif

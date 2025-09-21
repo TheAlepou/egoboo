@@ -21,14 +21,14 @@
 /// @brief Character model drawing code.
 /// @details
 
-#include "egolib/game/graphic_mad.h"
+#include "graphic_mad.h"
 
-#include "egolib/game/renderer_3d.h"
-#include "egolib/game/lighting.h"
-#include "egolib/game/graphic.h"
-#include "egolib/game/Graphics/CameraSystem.hpp"
-#include "egolib/Entities/_Include.hpp"
-#include "egolib/game/Graphics/DefaultMd2ModelRenderer.hpp"
+#include "renderer_3d.h"
+#include "lighting.h"
+#include "graphic.h"
+#include "Graphics/CameraSystem.hpp"
+#include "_Include.hpp"
+#include "Graphics/DefaultMd2ModelRenderer.hpp"
 
 struct Md2VertexBuffer {
     static void render(GLenum mode, size_t start, size_t length) {

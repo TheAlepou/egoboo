@@ -1,7 +1,7 @@
 #pragma once
 
-#include "egolib/FileFormats/ConfigFile/ConfigFileTokenKind.hpp"
-#include "idlib/hll.hpp"
+#include "ConfigFile/ConfigFileTokenKind.hpp"
+// #include "hll.hpp"
 
 class ConfigFileToken : public idlib::hll::token<ConfigFileTokenKind, ConfigFileTokenKind::Unknown>
 {

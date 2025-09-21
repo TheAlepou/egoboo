@@ -1,12 +1,12 @@
-#include "egolib/App.hpp"
+#include "App.hpp"
 
-#include "egolib/Graphics/GraphicsSystem.hpp"
-#include "egolib/Graphics/GraphicsWindow.hpp"
-#include "egolib/Graphics/TextureManager.hpp"
-#include "egolib/Image/ImageManager.hpp"
-#include "egolib/Graphics/FontManager.hpp"
-#include "egolib/Renderer/Renderer.hpp"
-#include "egolib/Extensions/ogl_extensions.h"
+#include "GraphicsSystem.hpp"
+#include "GraphicsWindow.hpp"
+#include "TextureManager.hpp"
+#include "ImageManager.hpp"
+#include "FontManager.hpp"
+#include "Renderer.hpp"
+#include "ogl_extensions.h"
 
 namespace Ego {
 

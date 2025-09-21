@@ -19,12 +19,12 @@
 
 #pragma once
 
-#include "egolib/typedef.h"
-#include "egolib/vfs.h"
-#include "egolib/_math.h"
-#include "egolib/Math/_Include.hpp"
-#include "egolib/FileFormats/map_tile_dictionary.h"
-#include "egolib/Mesh/Info.hpp"
+#include "typedef.h"
+#include "vfs.h"
+#include "_math.h"
+#include "_Include.hpp"
+#include "map_tile_dictionary.h"
+#include "Info.hpp"
 
 //--------------------------------------------------------------------------------------------
 //--------------------------------------------------------------------------------------------
@@ -115,7 +115,7 @@ constexpr uint32_t MAP_VERTICES_MAX = MAP_TILE_MAX*MAP_FAN_VERTICES_MAX;
 // tile constants
 #   define MAP_TILE_TYPE_MAX         256                     ///< Max number of tile images
 
-#include "egolib/FileFormats/map_fx.hpp"
+#include "map_fx.hpp"
 
 #   define VALID_MPD_TILE_RANGE(VAL)   ( ((size_t)(VAL)) < MAP_TILE_MAX )
 #   define VALID_MPD_VERTEX_RANGE(VAL) ( ((size_t)(VAL)) < MAP_VERTICES_MAX )

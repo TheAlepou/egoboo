@@ -17,8 +17,8 @@
 //*
 //********************************************************************************************
 
-#include "egolib/Core/System.hpp"
-#include "egolib/egoboo_setup.h"
+#include "System.hpp"
+#include "egoboo_setup.h"
 
 namespace Ego {
 namespace Core {

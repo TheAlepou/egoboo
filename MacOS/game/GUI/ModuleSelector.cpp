@@ -21,9 +21,9 @@
 /// @details GUI widget to select which module to play
 /// @author Johan Jansen
 
-#include "egolib/game/GUI/ModuleSelector.hpp"
-#include "egolib/game/GUI/Button.hpp"
-#include "egolib/game/GUI/Material.hpp"
+#include "ModuleSelector.hpp"
+#include "Button.hpp"
+#include "Material.hpp"
 
 namespace Ego {
 namespace GUI {

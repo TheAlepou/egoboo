@@ -1,5 +1,5 @@
-#include "egolib/Graphics/GraphicsContext.hpp"
-#include "egolib/Graphics/GraphicsWindow.hpp"
+#include "GraphicsContext.hpp"
+#include "GraphicsWindow.hpp"
 
 namespace Ego {
 

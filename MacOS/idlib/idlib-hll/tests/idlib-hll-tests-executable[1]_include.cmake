@@ -1,0 +1,5 @@
+if(EXISTS "/Users/luca/Library/Mobile Documents/com~apple~CloudDocs/Dev/egoboo/idlib_original/idlib-hll/tests/idlib-hll-tests-executable[1]_tests.cmake")
+  include("/Users/luca/Library/Mobile Documents/com~apple~CloudDocs/Dev/egoboo/idlib_original/idlib-hll/tests/idlib-hll-tests-executable[1]_tests.cmake")
+else()
+  add_test(idlib-hll-tests-executable_NOT_BUILT idlib-hll-tests-executable_NOT_BUILT)
+endif()

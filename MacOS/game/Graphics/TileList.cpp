@@ -21,10 +21,10 @@
 /// @brief A list of tiles as used by the graphics system
 /// @author Michael Heilmann
 
-#include "egolib/game/Graphics/TileList.hpp"
-#include "egolib/game/graphic.h"
-#include "egolib/game/Core/GameEngine.hpp" //only for _currentModule
-#include "egolib/game/Module/Module.hpp" //only for _currentModule
+#include "Graphics/TileList.hpp"
+#include "graphic.h"
+#include "GameEngine.hpp" //only for _currentModule
+#include "Module.hpp" //only for _currentModule
 
 namespace Ego {
 namespace Graphics {

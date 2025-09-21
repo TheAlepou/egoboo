@@ -21,8 +21,8 @@
 /// @details Used by the menu system to handle the loading of player characters
 /// @author Johan Jansen
 
-#include "egolib/game/GameStates/LoadPlayerElement.hpp"
-#include "egolib/Profiles/_Include.hpp"
+#include "GameStates/LoadPlayerElement.hpp"
+#include "_Include.hpp"
 
 LoadPlayerElement::LoadPlayerElement(std::shared_ptr<ObjectProfile> profile) :
     _name("*NONE*"),

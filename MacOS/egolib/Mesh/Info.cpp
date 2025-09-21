@@ -1,5 +1,5 @@
-#include "egolib/Mesh/Info.hpp"
-#include "egolib/FileFormats/map_fx.hpp"
+#include "Info.hpp"
+#include "map_fx.hpp"
 
 namespace Ego {
 

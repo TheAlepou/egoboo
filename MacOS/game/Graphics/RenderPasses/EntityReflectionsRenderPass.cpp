@@ -1,8 +1,8 @@
-#include "egolib/game/Graphics/RenderPasses/EntityReflectionsRenderPass.hpp"
-#include "egolib/game/Module/Module.hpp"
-#include "egolib/game/graphic.h"
-#include "egolib/Entities/_Include.hpp"
-#include "egolib/game/graphic_fan.h"
+#include "Graphics/RenderPasses/EntityReflectionsRenderPass.hpp"
+#include "Module.hpp"
+#include "graphic.h"
+#include "_Include.hpp"
+#include "graphic_fan.h"
 
 namespace Ego {
 namespace Graphics {

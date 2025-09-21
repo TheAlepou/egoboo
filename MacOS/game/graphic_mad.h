@@ -21,7 +21,7 @@
 
 #pragma once
 
-#include "egolib/game/egoboo.h"
+#include "egoboo.h"
 
 class Camera;
 class Object;

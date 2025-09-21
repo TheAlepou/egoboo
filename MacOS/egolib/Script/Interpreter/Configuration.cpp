@@ -21,7 +21,7 @@
 /// @brief  The configuration of the interpreter.
 /// @author Michael Heilmann
 
-#include "egolib/Script/Interpreter/Configuration.hpp"
+#include "Configuration.hpp"
 #include <type_traits>
 
 namespace Ego {

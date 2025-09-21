@@ -20,6 +20,7 @@
 /// @file egolib/vfs.c
 /// @brief Implementation of the Egoboo virtual file system
 /// @details
+#ifdef __cplusplus
 
 #include <physfs.h>
 
@@ -2432,3 +2433,4 @@ SDL_RWops *vfs_openRWopsAppend(const std::string& pathname)
     }
     return rwops;
 }
+#endif

@@ -1,7 +1,7 @@
 #pragma once
 
-#include "egolib/integrations/video.hpp"
-#include "egolib/Graphics/PixelFormat.hpp"
+#include "video.hpp"
+#include "PixelFormat.hpp"
 #define GLEW_STATIC
 #include <GL/glew.h>
 

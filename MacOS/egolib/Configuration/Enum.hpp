@@ -2,7 +2,7 @@
 
 #include "Variable.hpp"
 #include "EnumDescriptor.hpp"
-
+#ifdef __cplusplus
 namespace Ego {
 namespace Configuration {
 
@@ -59,3 +59,4 @@ public:
 
 } // namespace Configuration
 } // namespace Ego
+#endif // __cplusplus

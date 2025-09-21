@@ -21,7 +21,7 @@
 /// @brief Pixel formats and pixel format descriptors.
 /// @author Michael Heilmann
 
-#include "egolib/Graphics/PixelFormat.hpp"
+#include "PixelFormat.hpp"
 
 namespace Ego {
 

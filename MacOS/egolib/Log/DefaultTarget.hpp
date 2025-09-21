@@ -22,8 +22,8 @@
 
 #pragma once
 
-#include "egolib/Log/Target.hpp"
-#include "egolib/vfs.h"
+#include "Target.hpp"
+#include "vfs.h"
 
 namespace Log {
 

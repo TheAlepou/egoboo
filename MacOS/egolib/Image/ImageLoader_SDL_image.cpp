@@ -17,7 +17,7 @@
 //*
 //********************************************************************************************
 
-#include "egolib/Image/ImageLoader_SDL_image.hpp"
+#include "ImageLoader_SDL_image.hpp"
 
 namespace Ego { namespace Internal {
 

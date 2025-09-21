@@ -21,8 +21,8 @@
 /// @brief Token kinds of the PDL (Program Definition Language) of EgoScript.
 /// @author Michael Heilmann
 
-#include "egolib/Script/PDLTokenKind.hpp"
-#include "idlib/idlib.hpp"
+#include "PDLTokenKind.hpp"
+#include "idlib.hpp"
 
 namespace Ego {
 namespace Script {
@@ -32,7 +32,7 @@ std::string toString(PDLTokenKind kind)
     switch (kind)
     {
     #define Define(name, string) case PDLTokenKind::name: return string;
-    #include "egolib/Script/PDLTokenKind.in"
+    #include "PDLTokenKind.in"
     #undef Define
         default:
             throw idlib::unhandled_switch_case_error(__FILE__, __LINE__, "unknown token type");

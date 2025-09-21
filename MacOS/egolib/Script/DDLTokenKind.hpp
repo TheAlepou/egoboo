@@ -23,7 +23,9 @@
 
 #pragma once
 
-#include "egolib/platform.h"
+#ifdef __cplusplus
+
+#include "platform.h"
 #include <string>
 
 namespace Ego {
@@ -33,7 +35,7 @@ namespace Script {
 enum class DDLTokenKind
 {
 #define Define(name, string) name,
-#include "egolib/Script/DDLTokenKind.in"
+#include "DDLTokenKind.in"
 #undef Define
 }; // enum DDLTokenKind
 
@@ -50,3 +52,5 @@ std::ostream& operator<<(std::ostream& os, const DDLTokenKind& kind);
 
 } // namespace Script
 } // namespace Ego
+
+#endif

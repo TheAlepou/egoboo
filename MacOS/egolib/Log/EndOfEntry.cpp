@@ -1,4 +1,4 @@
-#include "egolib/Log/EndOfEntry.hpp"
+#include "EndOfEntry.hpp"
 
 namespace Log {
 

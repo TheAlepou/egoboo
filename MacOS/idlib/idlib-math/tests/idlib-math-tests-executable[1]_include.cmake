@@ -1,0 +1,5 @@
+if(EXISTS "/Users/luca/Library/Mobile Documents/com~apple~CloudDocs/Dev/egoboo/idlib_original/idlib-math/tests/idlib-math-tests-executable[1]_tests.cmake")
+  include("/Users/luca/Library/Mobile Documents/com~apple~CloudDocs/Dev/egoboo/idlib_original/idlib-math/tests/idlib-math-tests-executable[1]_tests.cmake")
+else()
+  add_test(idlib-math-tests-executable_NOT_BUILT idlib-math-tests-executable_NOT_BUILT)
+endif()

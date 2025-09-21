@@ -1,4 +1,4 @@
-#include "egolib/Script/OpcodeInfo.hpp"
+#include "OpcodeInfo.hpp"
 
 OpcodeInfo::OpcodeInfo(uint32_t opcode, const std::string& name)
     : m_opcode(opcode), m_name(name)

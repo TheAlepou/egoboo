@@ -21,7 +21,7 @@
 /// @brief Material definitions for GUI rendering.
 /// @author Michael Heilmann
 
-#include "egolib/game/GUI/Material.hpp"
+#include "Material.hpp"
 
 namespace Ego {
 namespace GUI {

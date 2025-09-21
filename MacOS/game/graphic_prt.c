@@ -21,15 +21,15 @@
 /// @brief Particle system drawing and management code.
 /// @details
 
-#include "egolib/game/graphic_prt.h"
+#include "graphic_prt.h"
 
-#include "egolib/game/renderer_3d.h"
-#include "egolib/game/game.h"
-#include "egolib/game/lighting.h"
-#include "egolib/game/Graphics/CameraSystem.hpp"
-#include "egolib/Entities/_Include.hpp"
-#include "egolib/game/CharacterMatrix.h"
-#include "egolib/Graphics/VertexFormat.hpp"
+#include "renderer_3d.h"
+#include "game.h"
+#include "lighting.h"
+#include "Graphics/CameraSystem.hpp"
+#include "_Include.hpp"
+#include "CharacterMatrix.h"
+#include "VertexFormat.hpp"
 
 float ParticleGraphicsRenderer::CALCULATE_PRT_U0(const Ego::Texture& texture, int CNT) {
     float w = texture.getSourceWidth();

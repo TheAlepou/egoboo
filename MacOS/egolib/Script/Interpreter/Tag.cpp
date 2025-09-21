@@ -21,8 +21,8 @@
 /// @brief  A tag.
 /// @author Michael Heilmann
 
-#include "egolib/Script/Interpreter/Tag.hpp"
-#include "idlib/idlib.hpp"
+#include "Tag.hpp"
+#include "idlib.hpp"
 
 namespace Ego {
 namespace Script {

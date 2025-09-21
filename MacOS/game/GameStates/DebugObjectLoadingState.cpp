@@ -22,25 +22,25 @@
 ///          from the global repository or individual modules.
 /// @author Johan Jansen, penguinflyer5234
 
-#include "egolib/game/GameStates/DebugObjectLoadingState.hpp"
-#include "egolib/game/GameStates/PlayingState.hpp"
-#include "egolib/game/GameStates/LoadPlayerElement.hpp"
-#include "egolib/game/Core/GameEngine.hpp"
-#include "egolib/egoboo_setup.h"
-#include "egolib/game/graphic.h"
-#include "egolib/game/GUI/Button.hpp"
-#include "egolib/game/GUI/Label.hpp"
-#include "egolib/game/GUI/Image.hpp"
-#include "egolib/game/GUI/ScrollableList.hpp"
-#include "egolib/Math/Random.hpp"
-#include "egolib/Audio/AudioSystem.hpp"
+#include "GameStates/DebugObjectLoadingState.hpp"
+#include "GameStates/PlayingState.hpp"
+#include "GameStates/LoadPlayerElement.hpp"
+#include "GameEngine.hpp"
+#include "egoboo_setup.h"
+#include "graphic.h"
+#include "Button.hpp"
+#include "Label.hpp"
+#include "Image.hpp"
+#include "ScrollableList.hpp"
+#include "Random.hpp"
+#include "AudioSystem.hpp"
 
 //For loading stuff
-#include "egolib/game/Graphics/CameraSystem.hpp"
-#include "egolib/game/game.h"
-#include "egolib/game/Graphics/Billboard.hpp"
-#include "egolib/game/link.h"
-#include "egolib/fileutil.h"
+#include "Graphics/CameraSystem.hpp"
+#include "game.h"
+#include "Graphics/Billboard.hpp"
+#include "link.h"
+#include "fileutil.h"
 
 class DebugObjectLoadingState::GrowableLabel : public Ego::GUI::Component
 {

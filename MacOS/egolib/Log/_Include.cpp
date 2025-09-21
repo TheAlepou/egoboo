@@ -20,10 +20,10 @@
 /// @file egolib/Log/_Include.cpp
 /// @details Basic logging system
 
-#include "egolib/Log/_Include.hpp"
+#include "_Include.hpp"
 
-#include "egolib/Log/DefaultTarget.hpp"
-#include "egolib/Log/ConsoleColor.hpp"
+#include "DefaultTarget.hpp"
+#include "ConsoleColor.hpp"
 
 namespace Log {
 

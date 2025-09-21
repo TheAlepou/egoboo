@@ -22,8 +22,8 @@
 
 #pragma once
 
-#include "egolib/typedef.h"
-#include "egolib/FileFormats/map_fx.hpp"
+#include "typedef.h"
+#include "map_fx.hpp"
 
 // Forward declarations.
 struct ReadContext;

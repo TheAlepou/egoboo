@@ -21,8 +21,8 @@
 /// @brief Token kinds of the DDL (Data Definition Language) of EgoScript.
 /// @author Michael Heilmann
 
-#include "egolib/Script/DDLTokenKind.hpp"
-#include "idlib/idlib.hpp"
+#include "DDLTokenKind.hpp"
+#include "idlib.hpp"
 
 namespace Ego {
 namespace Script {
@@ -32,7 +32,7 @@ std::string toString(DDLTokenKind kind)
     switch (kind)
     {
     #define Define(name, string) case DDLTokenKind::name: return string;
-    #include "egolib/Script/DDLTokenKind.in"
+    #include "DDLTokenKind.in"
     #undef Define
         default:
             throw idlib::unhandled_switch_case_error(__FILE__, __LINE__, "unknown token type");

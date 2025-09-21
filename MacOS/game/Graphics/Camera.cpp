@@ -17,18 +17,18 @@
 //*
 //********************************************************************************************
 
-#include "egolib/game/Graphics/Camera.hpp"
-#include "egolib/game/graphic.h"
-#include "egolib/game/Logic/Player.hpp"
-#include "egolib/InputControl/InputDevice.hpp"
-#include "egolib/game/Graphics/TileList.hpp"
-#include "egolib/game/Graphics/EntityList.hpp"
-#include "egolib/Graphics/Viewport.hpp"
+#include "Graphics/Camera.hpp"
+#include "graphic.h"
+#include "Logic/Player.hpp"
+#include "InputDevice.hpp"
+#include "Graphics/TileList.hpp"
+#include "Graphics/EntityList.hpp"
+#include "Viewport.hpp"
 
-#include "egolib/game/game.h" // TODO: remove only needed for mesh
+#include "game.h" // TODO: remove only needed for mesh
 
-#include "egolib/game/mesh.h"
-#include "egolib/Entities/_Include.hpp"
+#include "mesh.h"
+#include "_Include.hpp"
 
 const Ego::Degrees Camera::DEFAULT_FOV = Ego::Degrees(60.0f);
 

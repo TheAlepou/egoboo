@@ -21,15 +21,15 @@
 /// @details After beating a module, this screen is display with some end-game text
 /// @author Johan Jansen
 
-#include "egolib/game/GameStates/VictoryScreen.hpp"
-#include "egolib/game/GameStates/PlayingState.hpp"
-#include "egolib/game/GameStates/SelectPlayersState.hpp"
-#include "egolib/game/Core/GameEngine.hpp"
-#include "egolib/game/GUI/Button.hpp"
-#include "egolib/game/GUI/Label.hpp"
-#include "egolib/game/Module/Module.hpp"
-#include "egolib/game/game.h"
-#include "egolib/Graphics/GraphicsSystem.hpp"
+#include "GameStates/VictoryScreen.hpp"
+#include "GameStates/PlayingState.hpp"
+#include "GameStates/SelectPlayersState.hpp"
+#include "GameEngine.hpp"
+#include "Button.hpp"
+#include "Label.hpp"
+#include "Module.hpp"
+#include "game.h"
+#include "GraphicsSystem.hpp"
 
 VictoryScreen::VictoryScreen(PlayingState *playingState, const bool forceExit) :
 	_playingState(playingState)

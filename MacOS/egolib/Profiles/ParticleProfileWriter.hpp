@@ -26,4 +26,4 @@
 #error(do not include directly, include `egolib/Profiles/_Include.hpp` instead)
 #endif
 
-#include "egolib/Profiles/ParticleProfile.hpp"
+#include "ParticleProfile.hpp"

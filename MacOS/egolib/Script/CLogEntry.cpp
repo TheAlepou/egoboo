@@ -1,4 +1,4 @@
-#include "egolib/Script/CLogEntry.hpp"
+#include "CLogEntry.hpp"
 
 namespace Ego {
 namespace Script {

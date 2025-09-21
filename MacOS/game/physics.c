@@ -19,11 +19,11 @@
 
 /// @file egolib/game/physics.c
 
-#include "egolib/game/physics.h"
-#include "egolib/game/game.h"
-#include "egolib/game/mesh.h"
-#include "egolib/Entities/_Include.hpp"
-#include "egolib/Float.hpp"
+#include "physics.h"
+#include "game.h"
+#include "mesh.h"
+#include "_Include.hpp"
+#include "Float.hpp"
 
 //--------------------------------------------------------------------------------------------
 //--------------------------------------------------------------------------------------------

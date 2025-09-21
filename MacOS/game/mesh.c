@@ -21,14 +21,14 @@
 /// @brief Functions for creating, reading, and writing Egoboo's .mpd mesh file
 /// @details
 
-#include "egolib/game/mesh.h"
-#include "egolib/game/lighting.h"
-#include "egolib/game/physics.h"
-#include "egolib/game/Physics/PhysicalConstants.hpp"
-#include "egolib/game/graphic.h"
-#include "egolib/FileFormats/Globals.hpp"
-#include "egolib/game/game.h"
-#include "egolib/game/Module/Module.hpp"
+#include "mesh.h"
+#include "lighting.h"
+#include "physics.h"
+#include "Physics/PhysicalConstants.hpp"
+#include "graphic.h"
+#include "Globals.hpp"
+#include "game.h"
+#include "Module.hpp"
 
 //--------------------------------------------------------------------------------------------
 //--------------------------------------------------------------------------------------------

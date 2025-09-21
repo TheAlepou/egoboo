@@ -1,7 +1,7 @@
-#include "egolib/game/Graphics/RenderPasses/NonReflectiveTilesRenderPass.hpp"
-#include "egolib/game/Graphics/RenderPasses.hpp"
-#include "egolib/FileFormats/Globals.hpp"
-#include "egolib/game/graphic.h"
+#include "Graphics/RenderPasses/NonReflectiveTilesRenderPass.hpp"
+#include "Graphics/RenderPasses.hpp"
+#include "Globals.hpp"
+#include "graphic.h"
 
 namespace Ego {
 namespace Graphics {

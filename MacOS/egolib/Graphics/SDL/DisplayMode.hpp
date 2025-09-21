@@ -1,6 +1,6 @@
 #pragma once
 
-#include "egolib/Graphics/DisplayMode.hpp"
+#include "DisplayMode.hpp"
 
 namespace Ego {
 namespace SDL {

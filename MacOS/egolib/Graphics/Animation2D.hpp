@@ -6,6 +6,8 @@
  * @author
  *  Michael Heilmann
  */
+#ifdef __cplusplus
+
 struct AnimationLoop
 {
     /// The index of the first frame.
@@ -49,3 +51,4 @@ struct AnimationLoop
         }
     }
 };
+#endif

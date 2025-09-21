@@ -1,6 +1,7 @@
 #pragma once
 
-#include "egolib/game/egoboo.h"
+#include "egoboo.h"
+#ifdef __cplusplus
 
 // Forward declarations.
 class Camera;
@@ -60,3 +61,4 @@ protected:
 
 } // namespace Graphics
 } // namespace Ego
+#endif

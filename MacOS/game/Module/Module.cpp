@@ -21,22 +21,22 @@
 /// @details Code handling a game module
 /// @author Johan Jansen
 
-#include "egolib/game/Module/Module.hpp"
+#include "Module.hpp"
 
-#include "egolib/Math/Random.hpp"
-#include "egolib/Logic/Team.hpp"
-#include "egolib/Graphics/ModelDescriptor.hpp"
-#include "egolib/Logic/TreasureTables.hpp"
+#include "Random.hpp"
+#include "Team.hpp"
+#include "ModelDescriptor.hpp"
+#include "TreasureTables.hpp"
 
-#include "egolib/game/Module/Passage.hpp"
-#include "egolib/game/game.h"
-#include "egolib/game/graphic.h"
-#include "egolib/game/Logic/Player.hpp"
-#include "egolib/Entities/_Include.hpp"
-#include "egolib/game/CharacterMatrix.h"
+#include "Passage.hpp"
+#include "game.h"
+#include "graphic.h"
+#include "Logic/Player.hpp"
+#include "_Include.hpp"
+#include "CharacterMatrix.h"
 
-#include "egolib/game/Physics/CollisionSystem.hpp"
-#include "egolib/game/Graphics/CameraSystem.hpp"
+#include "Physics/CollisionSystem.hpp"
+#include "Graphics/CameraSystem.hpp"
 
 /// @todo Remove this global.
 std::unique_ptr<GameModule> _currentModule = nullptr;

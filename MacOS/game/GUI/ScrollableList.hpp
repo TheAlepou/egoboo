@@ -24,7 +24,7 @@
 
 #pragma once
 
-#include "egolib/game/GUI/Container.hpp"
+#include "Container.hpp"
 
 // Forward declaration.
 namespace Ego {

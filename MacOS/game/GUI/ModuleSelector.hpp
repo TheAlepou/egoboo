@@ -22,8 +22,8 @@
 /// @author Johan Jansen
 #pragma once
 
-#include "egolib/game/GUI/Button.hpp"
-#include "egolib/game/GUI/Container.hpp"
+#include "Button.hpp"
+#include "Container.hpp"
 
 // Forward declarations.
 class ModuleProfile;

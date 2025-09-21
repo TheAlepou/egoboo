@@ -1,6 +1,6 @@
 #include "PerkHandler.hpp"
-#include "egolib/Graphics/TextureManager.hpp"
-#include "egolib/fileutil.h"
+#include "TextureManager.hpp"
+#include "fileutil.h"
 
 namespace Ego
 {

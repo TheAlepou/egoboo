@@ -1,6 +1,6 @@
 #pragma once
 
-#include "egolib/game/Graphics/Md2ModelRenderer.hpp"
+#include "Graphics/Md2ModelRenderer.hpp"
 
 namespace Ego {
 namespace Graphics {

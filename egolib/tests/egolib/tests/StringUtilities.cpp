@@ -18,7 +18,7 @@
 //********************************************************************************************
 
 #include "gtest/gtest.h"
-#include "egolib/egolib.h"
+#include "egolib.h"
 
 TEST(string_utilities, text_formatting)
 {

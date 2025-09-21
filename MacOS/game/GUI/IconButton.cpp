@@ -21,9 +21,9 @@
 /// @details A button with an small icon on the right side
 /// @author Johan Jansen
 
-#include "egolib/game/GUI/IconButton.hpp"
-#include "egolib/game/GUI/Material.hpp"
-#include "egolib/Renderer/DeferredTexture.hpp"
+#include "IconButton.hpp"
+#include "Material.hpp"
+#include "DeferredTexture.hpp"
 
 namespace Ego {
 namespace GUI {

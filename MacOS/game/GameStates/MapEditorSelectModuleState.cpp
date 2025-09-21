@@ -1,10 +1,10 @@
-#include "egolib/game/GameStates/MapEditorSelectModuleState.hpp"
-#include "egolib/game/GameStates/MapEditorState.hpp"
-#include "egolib/game/GUI/ScrollableList.hpp"
-#include "egolib/game/GUI/Button.hpp"
-#include "egolib/game/GUI/IconButton.hpp"
-#include "egolib/game/GUI/Label.hpp"
-#include "egolib/game/GUI/Material.hpp"
+#include "GameStates/MapEditorSelectModuleState.hpp"
+#include "GameStates/MapEditorState.hpp"
+#include "ScrollableList.hpp"
+#include "Button.hpp"
+#include "IconButton.hpp"
+#include "Label.hpp"
+#include "Material.hpp"
 
 namespace Ego
 {

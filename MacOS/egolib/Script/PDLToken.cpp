@@ -21,7 +21,7 @@
 /// @brief Token of the PDL (Program Definition Language) of EgoScript.
 /// @author Michael Heilmann
 
-#include "egolib/Script/PDLToken.hpp"
+#include "PDLToken.hpp"
 
 namespace Ego {
 namespace Script {

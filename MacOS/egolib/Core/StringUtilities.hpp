@@ -23,7 +23,9 @@
 
 #pragma once
 
-#include "idlib/utility.hpp"
+#include "utility.hpp"
+
+#ifdef __cplusplus
 
 namespace Ego {
 
@@ -176,3 +178,5 @@ std::vector<std::basic_string<CharType>> split(const std::basic_string<CharType>
 }
 
 } // namespace Ego
+
+#endif

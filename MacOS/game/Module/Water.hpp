@@ -1,6 +1,6 @@
 #pragma once
 
-#include "egolib/egolib.h"
+#include "egolib.h"
 
 // water constants
 #define MAXWATERLAYER 2                                    ///< Maximum water layers

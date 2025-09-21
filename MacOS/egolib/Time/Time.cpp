@@ -21,8 +21,8 @@
 /// @brief Time points, time durations, and time units.
 /// @author Michael Heilmann
 
-#include "egolib/Time/Time.hpp"
-#include "egolib/Core/System.hpp"
+#include "Time.hpp"
+#include "System.hpp"
 
 
 namespace Time {

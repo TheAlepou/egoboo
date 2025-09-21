@@ -1,7 +1,7 @@
 #pragma once
 
-#include "egolib/Log/_Include.hpp"
-#include "idlib/hll.hpp"
+#include "_Include.hpp"
+// #include "hll.hpp"
 
 namespace Ego {
 namespace Script {

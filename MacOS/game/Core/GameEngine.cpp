@@ -18,19 +18,19 @@
 //********************************************************************************************
 /// @author Johan Jansen
 
-#include "egolib/game/Core/GameEngine.hpp"
-#include "egolib/egolib.h"
-#include "egolib/game/Graphics/CameraSystem.hpp"
-#include "egolib/game/GameStates/MainMenuState.hpp"
-#include "egolib/game/GameStates/PlayingState.hpp"
-#include "egolib/Profiles/_Include.hpp"
-#include "egolib/FileFormats/Globals.hpp"
-#include "egolib/InputControl/ControlSettingsFile.hpp"
-#include "egolib/game/GUI/UIManager.hpp"
-#include "egolib/game/graphic.h"
-#include "egolib/game/game.h"
-#include "egolib/Entities/_Include.hpp"
-#include "egolib/game/Physics/CollisionSystem.hpp"
+#include "GameEngine.hpp"
+#include "egoboo.h"
+#include "CameraSystem.hpp"
+#include "MainMenuState.hpp"
+#include "PlayingState.hpp"
+#include "_Include.hpp"
+#include "Globals.hpp"
+#include "ControlSettingsFile.hpp"
+#include "UIManager.hpp"
+#include "graphic.h"
+#include "game.h"
+#include "_Include.hpp"
+#include "CollisionSystem.hpp"
 
 //Global singelton
 std::unique_ptr<GameEngine> _gameEngine;

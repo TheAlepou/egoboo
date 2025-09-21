@@ -1,6 +1,6 @@
 #pragma once
 
-#include "egolib/Renderer/RendererInfo.hpp"
+#include "RendererInfo.hpp"
 
 namespace Ego {
 namespace OpenGL {

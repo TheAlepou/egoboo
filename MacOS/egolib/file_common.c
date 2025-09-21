@@ -22,10 +22,10 @@
 /// @details File operations that are shared between various operating systems.
 /// OS-specific code goes in *-file.c (such as win-file.c)
 
-#include "egolib/file_common.h"
+#include "file_common.h"
 
-#include "egolib/strutil.h"
-#include "egolib/vfs.h"
+#include "strutil.h"
+#include "vfs.h"
 
 static bool _fs_initialized = false;
 

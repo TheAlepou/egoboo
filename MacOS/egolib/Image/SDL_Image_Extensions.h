@@ -23,11 +23,11 @@
 
 #pragma once
 
-#include "egolib/Graphics/PixelFormat.hpp"
-#include "egolib/Math/_Include.hpp"
-#include "egolib/Image/convert.hpp"
-#include "idlib/game_engine.hpp"
-#include "egolib/integrations/color.hpp"
+#include "PixelFormat.hpp"
+#include "_Include.hpp"
+#include "convert.hpp"
+#include "game_engine.hpp"
+#include "color.hpp"
 
 namespace Ego { namespace SDL {
 

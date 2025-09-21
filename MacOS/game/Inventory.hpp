@@ -21,7 +21,7 @@
 /// @brief Inventory managment for characters
 #pragma once
 
-#include "egolib/game/egoboo.h"
+#include "egoboo.h"
 
 class Inventory
 {

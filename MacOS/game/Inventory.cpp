@@ -1,7 +1,7 @@
-#include "egolib/game/Inventory.hpp"
-#include "egolib/Entities/_Include.hpp"
+#include "Inventory.hpp"
+#include "_Include.hpp"
 
-#include "egolib/game/game.h"
+#include "game.h"
 
 //Class constants
 const size_t Inventory::MAXNUMINPACK;

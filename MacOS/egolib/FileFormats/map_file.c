@@ -21,24 +21,24 @@
 /// @brief Functions for raw read and write access to the .mpd file type
 /// @details
 
-#include "egolib/FileFormats/map_file.h"
-#include "egolib/FileFormats/map_file-v1.h"
-#include "egolib/FileFormats/map_file-v2.h"
-#include "egolib/FileFormats/map_file-v3.h"
-#include "egolib/FileFormats/map_file-v4.h"
-#include "egolib/vfs.h"
+#include "map_file.h"
+#include "map_file-v1.h"
+#include "map_file-v2.h"
+#include "map_file-v3.h"
+#include "map_file-v4.h"
+#include "vfs.h"
 
-#include "egolib/FileFormats/map_tile_dictionary.h"
+#include "map_tile_dictionary.h"
 
-#include "egolib/map_functions.h"
+#include "map_functions.h"
 
-#include "egolib/Log/_Include.hpp"
+#include "_Include.hpp"
 
-#include "egolib/endian.h"
-#include "egolib/fileutil.h"
-#include "egolib/strutil.h"
+#include "endian.h"
+#include "fileutil.h"
+#include "strutil.h"
 
-#include "egolib/_math.h"
+#include "_math.h"
 
 //--------------------------------------------------------------------------------------------
 //--------------------------------------------------------------------------------------------

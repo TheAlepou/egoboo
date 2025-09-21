@@ -20,8 +20,8 @@
 
 #pragma once
 
-#include "egolib/platform.h"
-#include "egolib/FileFormats/map_fx.hpp"
+#include "platform.h"
+#include "map_fx.hpp"
 
 /**
  * @brief

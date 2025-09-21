@@ -21,14 +21,14 @@
 /// @brief World mesh drawing.
 /// @details
 
-#include "egolib/game/graphic_fan.h"
+#include "graphic_fan.h"
 
-#include "egolib/game/graphic.h"
-#include "egolib/game/game.h"
-#include "egolib/game/renderer_3d.h"
-#include "egolib/game/mesh.h"
-#include "egolib/game/Module/Module.hpp"
-#include "egolib/FileFormats/Globals.hpp"
+#include "graphic.h"
+#include "game.h"
+#include "renderer_3d.h"
+#include "mesh.h"
+#include "Module.hpp"
+#include "Globals.hpp"
 
 void animate_all_tiles( ego_mesh_t& mesh )
 {

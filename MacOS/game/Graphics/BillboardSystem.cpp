@@ -20,15 +20,15 @@
 /// @file egolib/game/Graphics/BillboardSystem.cpp
 /// @brief Billboard system
 
-#include "egolib/game/Graphics/BillboardSystem.hpp"
-#include "egolib/game/Graphics/Billboard.hpp"
-#include "egolib/game/renderer_3d.h"
-#include "egolib/game/Graphics/Camera.hpp"
-#include "egolib/Entities/_Include.hpp"
-#include "egolib/game/Core/GameEngine.hpp"
-#include "egolib/game/GUI/UIManager.hpp"
-#include "egolib/game/CharacterMatrix.h"
-#include "egolib/Graphics/VertexFormat.hpp"
+#include "Graphics/BillboardSystem.hpp"
+#include "Graphics/Billboard.hpp"
+#include "renderer_3d.h"
+#include "Graphics/Camera.hpp"
+#include "_Include.hpp"
+#include "GameEngine.hpp"
+#include "UIManager.hpp"
+#include "CharacterMatrix.h"
+#include "VertexFormat.hpp"
 
 namespace Ego {
 namespace Graphics {

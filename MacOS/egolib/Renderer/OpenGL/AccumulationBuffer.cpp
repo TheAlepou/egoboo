@@ -21,8 +21,8 @@
 /// @brief Implementation of an Accumulation buffer facade for OpenGL 2.1.
 /// @author Michael Heilmann
 
-#include "egolib/Renderer/OpenGL/AccumulationBuffer.hpp"
-#include "egolib/Renderer/OpenGL/Utilities.hpp"
+#include "AccumulationBuffer.hpp"
+#include "Utilities.hpp"
 
 namespace Ego {
 namespace OpenGL {

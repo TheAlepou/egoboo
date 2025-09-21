@@ -1,4 +1,4 @@
-#include "egolib/VFS/VfsPath.hpp"
+#include "VFS/VfsPath.hpp"
 
 namespace Ego {
 

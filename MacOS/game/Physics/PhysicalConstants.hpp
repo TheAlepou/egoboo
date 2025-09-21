@@ -21,6 +21,7 @@
 /// @brief invariants & defaults of the game's physics system
 
 #pragma once
+#ifdef __cplusplus
 
 namespace Ego
 {
@@ -177,3 +178,4 @@ extern Environment g_environment;
 
 } //namespace Physics
 } //namespace Ego
+#endif

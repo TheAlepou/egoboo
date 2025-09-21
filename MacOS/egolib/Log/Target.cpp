@@ -20,9 +20,9 @@
 /// @file  egolib/Log/Target.cpp
 /// @brief Log target
 
-#include "egolib/Log/Target.hpp"
+#include "Target.hpp"
 
-#include "egolib/egoboo_setup.h"
+#include "egoboo_setup.h"
 
 namespace Log {
 

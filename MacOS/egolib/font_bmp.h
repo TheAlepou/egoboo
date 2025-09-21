@@ -22,7 +22,10 @@
 
 #pragma once
 
-#include "egolib/typedef.h"
+#include "typedef.h"
+
+#ifdef __cplusplus
+
 
 namespace Ego {
 class Texture;
@@ -45,3 +48,5 @@ extern uint8_t  asciitofont[256];           ///< Conversion table
 void font_bmp_init();
 void font_bmp_load_vfs(const std::string& szBitmap, const char* szSpacing);
 int  font_bmp_length_of_word(const std::string& szText);
+
+#endif

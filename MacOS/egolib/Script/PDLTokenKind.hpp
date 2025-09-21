@@ -23,7 +23,7 @@
 
 #pragma once
 
-#include "egolib/platform.h"
+#include "platform.h"
 #include <string>
 
 namespace Ego {
@@ -33,7 +33,7 @@ namespace Script {
 enum class PDLTokenKind
 {
 #define Define(name, string) name,
-#include "egolib/Script/PDLTokenKind.in"
+#include "PDLTokenKind.in"
 #undef Define
 }; // enum class PDLTokenKind
 

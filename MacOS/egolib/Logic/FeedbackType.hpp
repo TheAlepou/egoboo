@@ -1,5 +1,5 @@
 #pragma once
-
+#ifdef __cplusplus
 namespace Ego {
 
 // Different types of feedback.
@@ -14,3 +14,4 @@ enum class FeedbackType
 };
 
 } // namespace Ego
+#endif

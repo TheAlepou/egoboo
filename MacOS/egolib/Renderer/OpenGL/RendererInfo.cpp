@@ -1,8 +1,8 @@
-#include "egolib/Renderer/OpenGL/RendererInfo.hpp"
+#include "RendererInfo.hpp"
 
-#include "egolib/Extensions/ogl_extensions.h"
-#include "egolib/egoboo_setup.h"
-#include "egolib/Renderer/OpenGL/Utilities.hpp"
+#include "ogl_extensions.h"
+#include "egoboo_setup.h"
+#include "Utilities.hpp"
 
 namespace Ego {
 namespace OpenGL {

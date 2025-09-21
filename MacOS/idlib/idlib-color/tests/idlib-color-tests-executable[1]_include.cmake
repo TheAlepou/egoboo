@@ -1,0 +1,5 @@
+if(EXISTS "/Users/luca/Library/Mobile Documents/com~apple~CloudDocs/Dev/egoboo/idlib_original/idlib-color/tests/idlib-color-tests-executable[1]_tests.cmake")
+  include("/Users/luca/Library/Mobile Documents/com~apple~CloudDocs/Dev/egoboo/idlib_original/idlib-color/tests/idlib-color-tests-executable[1]_tests.cmake")
+else()
+  add_test(idlib-color-tests-executable_NOT_BUILT idlib-color-tests-executable_NOT_BUILT)
+endif()

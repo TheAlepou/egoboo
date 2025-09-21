@@ -25,9 +25,9 @@
 #error(do not include directly, include `egolib/Profiles/_Include.hpp` instead)
 #endif
 
-#include "egolib/typedef.h"
-#include "egolib/IDSZ.hpp"
-#include "egolib/Renderer/DeferredTexture.hpp"
+#include "typedef.h"
+#include "IDSZ.hpp"
+#include "DeferredTexture.hpp"
 
 enum ModuleFilter : uint8_t
 {

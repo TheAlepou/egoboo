@@ -21,8 +21,8 @@
 
 #pragma once
 
-#include "egolib/game/egoboo.h"
-
+#include "egoboo.h"
+#ifdef __cplusplus
 //--------------------------------------------------------------------------------------------
 
 // Forward declaration
@@ -58,3 +58,4 @@ private:
     static void calc_billboard_verts(const Ego::Texture& texture, idlib::vertex_buffer& vb, Ego::Graphics::ParticleGraphics& pinst, float size, bool do_reflect);
 };
 
+#endif

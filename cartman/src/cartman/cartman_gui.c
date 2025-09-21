@@ -21,8 +21,8 @@
 #include "cartman/cartman_input.h"
 #include "cartman/cartman_math.h"
 #include "cartman/cartman_gfx.h"
-#include "egolib/Image/ImageManager.hpp"
-#include "egolib/Image/SDL_Image_Extensions.h"
+#include "ImageManager.hpp"
+#include "SDL_Image_Extensions.h"
 
 //--------------------------------------------------------------------------------------------
 

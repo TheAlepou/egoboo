@@ -1,4 +1,4 @@
-#include "egolib/game/GUI/InputListener.hpp"
+#include "InputListener.hpp"
 
 namespace Ego {
 namespace GUI {

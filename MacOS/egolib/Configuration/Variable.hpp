@@ -3,6 +3,7 @@
 #include "signal.hpp"
 #include "non_copyable.hpp"
 
+#ifdef __cplusplus
 namespace Ego {
 namespace Configuration {
 
@@ -100,3 +101,5 @@ class Variable;
 
 } // namespace Configuration
 } // namespace Ego
+
+#endif  // __cplusplus

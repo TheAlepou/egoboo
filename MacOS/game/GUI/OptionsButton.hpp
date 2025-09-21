@@ -1,8 +1,8 @@
 #pragma once
 
-#include "egolib/game/Core/GameEngine.hpp"
-#include "egolib/game/GUI/Label.hpp"
-#include "egolib/game/GUI/Button.hpp"
+#include "GameEngine.hpp"
+#include "Label.hpp"
+#include "Button.hpp"
 
 namespace Ego {
 namespace GUI {

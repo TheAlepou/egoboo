@@ -23,8 +23,10 @@
 
 #pragma once
 
-#include "egolib/Math/_Include.hpp"
-#include "egolib/Math/Standard.hpp"
+#include "_Include.hpp"
+#include "Standard.hpp"
+
+#ifdef __cplusplus
 
 namespace Ego
 {
@@ -187,3 +189,4 @@ private:
 };
 
 } //namespace Ego
+#endif

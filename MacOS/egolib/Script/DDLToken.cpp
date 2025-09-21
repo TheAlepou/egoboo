@@ -21,7 +21,7 @@
 /// @brief Token of the DDL (Data Definition Language) of EgoScript.
 /// @author Michael Heilmann
 
-#include "egolib/Script/DDLToken.hpp"
+#include "DDLToken.hpp"
 
 
 namespace Ego {

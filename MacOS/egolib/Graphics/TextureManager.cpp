@@ -20,11 +20,11 @@
 /// @file  egolib/Graphics/TextureManager.cpp
 /// @brief the texture manager.
 
-#include "egolib/_math.h"
-#include "egolib/fileutil.h"
-#include "egolib/Graphics/TextureManager.hpp"
-#include "egolib/Image/ImageManager.hpp"
-#include "egolib/Image/ImageLoader.hpp"
+#include "_math.h"
+#include "fileutil.h"
+#include "TextureManager.hpp"
+#include "ImageManager.hpp"
+#include "ImageLoader.hpp"
 
 /**
  * @brief

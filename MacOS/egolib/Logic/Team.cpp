@@ -24,8 +24,8 @@
  */
 
 #include "Team.hpp"
-#include "egolib/Entities/_Include.hpp"
-#include "egolib/game/Module/Module.hpp"
+#include "_Include.hpp"
+#include "Module.hpp"
 
 Team::Team(const TEAM_REF teamID) :
     _teamID(teamID),

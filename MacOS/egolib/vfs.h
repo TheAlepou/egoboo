@@ -36,6 +36,7 @@
 #include "egolib_config.h"
 #include "FsPath.hpp"
 #include "VfsPath.hpp"
+#ifdef __cplusplus
 #include <vector>
 #include <functional>
 #include "filesystem.hpp"
@@ -448,3 +449,5 @@ SDL_RWops *vfs_openRWopsWrite(const std::string& pathname);
  *  the SDL RW ops on success, a null pointer on failure
  */
 SDL_RWops *vfs_openRWopsAppend(const std::string& pathname);
+
+#endif // __cplusplus

@@ -18,10 +18,10 @@
 //********************************************************************************************
 
 #define EGOLIB_PROFILES_PRIVATE 1
-#include "egolib/Profiles/ParticleProfile.hpp"
-#include "egolib/Audio/AudioSystem.hpp"
-#include "egolib/Core/StringUtilities.hpp"
-#include "egolib/fileutil.h"
+#include "ParticleProfile.hpp"
+#include "AudioSystem.hpp"
+#include "StringUtilities.hpp"
+#include "fileutil.h"
 
 particle_direction_t prt_direction[256] =
 {

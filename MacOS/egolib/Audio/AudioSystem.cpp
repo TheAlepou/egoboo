@@ -18,12 +18,12 @@
 //********************************************************************************************
 /// @author Johan Jansen
 
-#include "egolib/Audio/AudioSystem.hpp"
+#include "AudioSystem.hpp"
 
-#include "egolib/game/Graphics/CameraSystem.hpp"
-#include "egolib/game/game.h"
-#include "egolib/game/Module/Module.hpp"
-#include "egolib/Entities/_Include.hpp"
+#include "Graphics/CameraSystem.hpp"
+#include "game.h"
+#include "Module.hpp"
+#include "_Include.hpp"
 
 AudioSystem *AudioSystemCreateFunctor::operator()() const
 { return new AudioSystem(); }

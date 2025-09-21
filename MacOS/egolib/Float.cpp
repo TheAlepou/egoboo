@@ -16,7 +16,7 @@
 //*    along with Egoboo.  If not, see <http://www.gnu.org/licenses/>.
 //*
 //********************************************************************************************
-#include "egolib/Float.hpp"
+#include "Float.hpp"
 
 uint32_t single_to_bits(float x)
 {

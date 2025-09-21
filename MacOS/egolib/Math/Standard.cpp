@@ -1,7 +1,7 @@
-#include "egolib/Math/Standard.hpp"
-#include "egolib/Log/_Include.hpp"
-#include "egolib/_math.h"
-#include "egolib/Float.hpp"
+#include "Standard.hpp"
+#include "_Include.hpp"
+#include "_math.h"
+#include "Float.hpp"
 
 Ego::Matrix4f4f mat_ScaleXYZ_RotateXYZ_TranslateXYZ_SpaceFixed(const Ego::Vector3f& scale, const Facing& turn_z, const Facing& turn_x, const Facing& turn_y, const Ego::Vector3f& translate)
 {

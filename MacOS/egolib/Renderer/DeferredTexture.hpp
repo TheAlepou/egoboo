@@ -1,6 +1,8 @@
 #pragma once
 
-#include "egolib/Renderer/Texture.hpp"
+#include "Texture.hpp"
+
+#ifdef __cplusplus
 
 namespace Ego {
 /**
@@ -41,3 +43,4 @@ private:
 };
 
 } // namespace Ego
+#endif

@@ -1,8 +1,8 @@
-#include "egolib/game/Graphics/TextureAtlasManager.hpp"
-#include "egolib/game/Core/GameEngine.hpp"
-#include "egolib/game/Module/Module.hpp"
-#include "egolib/Image/SDL_Image_Extensions.h"
-#include "egolib/game/graphic.h" //only for MESH_IMG_COUNT constant
+#include "Graphics/TextureAtlasManager.hpp"
+#include "GameEngine.hpp"
+#include "Module.hpp"
+#include "SDL_Image_Extensions.h"
+#include "graphic.h" //only for MESH_IMG_COUNT constant
 
 namespace Ego { namespace Graphics {
 

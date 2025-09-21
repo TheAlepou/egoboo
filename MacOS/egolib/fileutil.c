@@ -21,18 +21,18 @@
 /// @brief Implementation of Egoboo file utilities
 /// @details
 
-#include "egolib/fileutil.h"
+#include "fileutil.h"
 
-#include "egolib/Script/DDLTokenDecoder.hpp"
-#include "egolib/Log/_Include.hpp"
-#include "egolib/strutil.h"
-#include "egolib/platform.h"
-#include "egolib/egoboo_setup.h"
-#include "egolib/Image/ImageManager.hpp"
-#include "egolib/Image/ImageLoader.hpp"
-#include "egolib/_math.h"
+#include "DDLTokenDecoder.hpp"
+#include "_Include.hpp"
+#include "strutil.h"
+#include "platform.h"
+#include "egoboo_setup.h"
+#include "ImageManager.hpp"
+#include "ImageLoader.hpp"
+#include "_math.h"
 // includes for egoboo constants
-#include "egolib/Graphics/ModelDescriptor.hpp"                    // for ACTION_* constants
+#include "ModelDescriptor.hpp"                    // for ACTION_* constants
 
 #pragma push_macro("ERROR")
 #undef ERROR

@@ -23,7 +23,7 @@
 
 #pragma once
 
-#include "egolib/integrations/video.hpp"
+#include "video.hpp"
 
 namespace Ego {
 

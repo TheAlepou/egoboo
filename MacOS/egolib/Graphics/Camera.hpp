@@ -22,7 +22,7 @@
 
 #pragma once
 
-#include "egolib/integrations/math.hpp"
+#include "math.hpp"
 
 namespace Ego::Graphics {
 

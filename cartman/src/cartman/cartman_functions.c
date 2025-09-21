@@ -24,7 +24,7 @@
 #include "cartman/cartman_select.h"
 #include "cartman/cartman_math.h"
 #include "cartman/View.hpp"
-#include "egolib/FileFormats/Globals.hpp"
+#include "Globals.hpp"
 
 //--------------------------------------------------------------------------------------------
 

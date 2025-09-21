@@ -20,8 +20,8 @@
 /// @file egolib/game/GUI/MessageLog.cpp
 /// @author Johan Jansen
 
-#include "egolib/game/GUI/MessageLog.hpp"
-#include "egolib/font_bmp.h"
+#include "MessageLog.hpp"
+#include "font_bmp.h"
 
 namespace Ego {
 namespace GUI {

@@ -23,7 +23,7 @@
 
 #pragma once
 
-#include "idlib/platform.hpp"
+#include "platform.hpp"
 #include <string>
 #include <map>
 

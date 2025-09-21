@@ -23,8 +23,8 @@
 
 #pragma once
 
-#include "egolib/game/Graphics/RenderPass.hpp"
-#include "egolib/game/Graphics/Vertex.hpp"
+#include "Graphics/RenderPass.hpp"
+#include "Graphics/Vertex.hpp"
 
 namespace Ego {
 namespace Graphics {

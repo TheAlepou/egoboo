@@ -1,6 +1,6 @@
 #pragma once
 
-#include "egolib/Script/Constant.hpp"
+#include "Constant.hpp"
 
 namespace Ego {
 namespace Script {

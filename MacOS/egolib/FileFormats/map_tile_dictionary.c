@@ -21,13 +21,13 @@
 /// @brief Read the tile definitions from a file
 /// @details
 
-#include "egolib/FileFormats/map_tile_dictionary.h"
-#include "egolib/FileFormats/MapTileDefinitionsDictionary.hpp"
+#include "map_tile_dictionary.h"
+#include "MapTileDefinitionsDictionary.hpp"
 
-#include "egolib/fileutil.h"
-#include "egolib/Log/_Include.hpp"
+#include "fileutil.h"
+#include "_Include.hpp"
 
-#include "egolib/_math.h"
+#include "_math.h"
 
 //--------------------------------------------------------------------------------------------
 

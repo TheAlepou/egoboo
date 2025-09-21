@@ -1,4 +1,4 @@
-#include "egolib/Mesh/TileFX.hpp"
+#include "TileFX.hpp"
 
 namespace Ego
 {

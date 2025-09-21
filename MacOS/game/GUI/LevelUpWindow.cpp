@@ -1,9 +1,9 @@
 #include "LevelUpWindow.hpp"
-#include "egolib/game/GUI/Label.hpp"
-#include "egolib/game/GUI/Image.hpp"
-#include "egolib/game/GUI/Material.hpp"
-#include "egolib/Entities/_Include.hpp"
-#include "egolib/game/Logic/Player.hpp"
+#include "Label.hpp"
+#include "Image.hpp"
+#include "Material.hpp"
+#include "_Include.hpp"
+#include "Logic/Player.hpp"
 
 namespace Ego {
 namespace GUI {

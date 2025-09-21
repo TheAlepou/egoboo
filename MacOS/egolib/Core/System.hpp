@@ -26,9 +26,11 @@
 
 #pragma once
 
-#include "egolib/platform.h"
-#include "idlib/singleton.hpp"
-#include "idlib/non_copyable.hpp"
+#include "platform.h"
+#include "singleton.hpp"
+#include "non_copyable.hpp"
+
+#ifdef __cplusplus
 
 namespace Ego {
 namespace Core {
@@ -118,3 +120,4 @@ public:
 
 } // namespace Core
 } // namespace Ego
+#endif

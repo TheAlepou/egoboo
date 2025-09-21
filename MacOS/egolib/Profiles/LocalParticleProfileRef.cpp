@@ -1,3 +1,3 @@
-#include "egolib/Profiles/LocalParticleProfileRef.hpp"
+#include "LocalParticleProfileRef.hpp"
 
 const LocalParticleProfileRef LocalParticleProfileRef::Invalid = LocalParticleProfileRef();

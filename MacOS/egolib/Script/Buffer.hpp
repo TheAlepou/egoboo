@@ -23,7 +23,7 @@
 
 #pragma once
 
-#include "idlib/idlib.hpp"
+#include "idlib.hpp"
 
 namespace Ego {
 namespace Script {

@@ -21,12 +21,12 @@
 /// @details Options Screen menu
 /// @author Johan Jansen
 
-#include "egolib/game/GameStates/DebugParticlesScreen.hpp"
-#include "egolib/game/Core/GameEngine.hpp"
-#include "egolib/Entities/_Include.hpp"
-#include "egolib/game/GUI/Button.hpp"
-#include "egolib/game/GUI/Label.hpp"
-#include "egolib/game/GUI/ScrollableList.hpp"
+#include "GameStates/DebugParticlesScreen.hpp"
+#include "GameEngine.hpp"
+#include "_Include.hpp"
+#include "Button.hpp"
+#include "Label.hpp"
+#include "ScrollableList.hpp"
 
 DebugParticlesScreen::DebugParticlesScreen()
 {

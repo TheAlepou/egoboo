@@ -1,4 +1,4 @@
-#include "egolib/game/GUI/Label.hpp"
+#include "Label.hpp"
 
 namespace Ego {
 namespace GUI {

@@ -1,7 +1,7 @@
 #pragma once
 
-#include "egolib/Graphics/GraphicsWindow.hpp"
-#include "egolib/integrations/math.hpp"
+#include "GraphicsWindow.hpp"
+#include "math.hpp"
 
 namespace Ego {
 namespace SDL {

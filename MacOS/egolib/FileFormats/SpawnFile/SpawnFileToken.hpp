@@ -1,7 +1,7 @@
 #pragma once
 
-#include "egolib/FileFormats/SpawnFile/SpawnFileTokenKind.hpp"
-#include "idlib/hll.hpp"
+#include "SpawnFile/SpawnFileTokenKind.hpp"
+// #include "hll.hpp"
 
 class SpawnFileToken : public idlib::hll::token<SpawnFileTokenKind, SpawnFileTokenKind::Unknown>
 {

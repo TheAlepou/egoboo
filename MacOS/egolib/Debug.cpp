@@ -20,4 +20,4 @@
 /// @file egolib/Debug.hpp
 /// @brief Miscellaneous Debug Utilities
 
-#include "egolib/Debug.hpp"
+#include "Debug.hpp"

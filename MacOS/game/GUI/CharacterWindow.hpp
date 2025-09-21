@@ -22,8 +22,8 @@
 /// @author Johan Jansen
 #pragma once
 
-#include "egolib/game/GUI/InternalWindow.hpp"
-#include "egolib/game/GUI/TabPanel.hpp"
+#include "InternalWindow.hpp"
+#include "TabPanel.hpp"
 
 // Forward declarations.
 class Object;

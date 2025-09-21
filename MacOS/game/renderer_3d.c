@@ -21,10 +21,10 @@
 /// @brief Implementation of the 3d renderer functions
 /// @details
 
-#include "egolib/game/renderer_3d.h"
+#include "renderer_3d.h"
 
-#include "egolib/game/Graphics/CameraSystem.hpp"
-#include "egolib/game/egoboo.h"
+#include "Graphics/CameraSystem.hpp"
+#include "egoboo.h"
 
 void LineSegmentList::init()
 {

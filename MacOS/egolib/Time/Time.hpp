@@ -23,8 +23,8 @@
 
 #pragma once
 
-#include "egolib/typedef.h"
-#include "egolib/Time/Unit.hpp"
+#include "typedef.h"
+#include "Unit.hpp"
 
 /// SDL_GetTicks() always returns milli-seconds
 /// @todo Remove this.

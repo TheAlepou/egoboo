@@ -23,8 +23,10 @@
 
 #pragma once
 
-#include "egolib/Script/DDLTokenKind.hpp"
-#include "idlib/hll.hpp"
+#include "DDLTokenKind.hpp"
+// #include "hll.hpp"
+
+#ifdef __cplusplus
 
 namespace Ego {
 namespace Script {
@@ -71,3 +73,4 @@ std::ostream& operator<<(std::ostream& os, const DDLToken& token);
 
 } // namespace Script
 } // namespace Ego
+#endif

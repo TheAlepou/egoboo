@@ -1,4 +1,4 @@
-#include "egolib/FileFormats/ConfigFile/ConfigFileToken.hpp"
+#include "ConfigFile/ConfigFileToken.hpp"
 
 ConfigFileToken::ConfigFileToken
     (

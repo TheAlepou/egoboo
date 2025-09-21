@@ -22,9 +22,9 @@
 #error(do not include directly, include `egolib/Profiles/_Include.hpp` instead)
 #endif
 
-#include "egolib/typedef.h"
-#include "egolib/vfs.h"
-#include "egolib/Log/_Include.hpp"
+#include "typedef.h"
+#include "vfs.h"
+#include "_Include.hpp"
 
 /// @brief The base class of all profile system (in particular but not restricted to
 /// enchant, object and particle profile systems).

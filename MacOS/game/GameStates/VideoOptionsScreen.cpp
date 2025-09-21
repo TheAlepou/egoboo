@@ -21,11 +21,11 @@
 /// @details Video settings
 /// @author Johan Jansen
 
-#include "egolib/game/GameStates/VideoOptionsScreen.hpp"
-#include "egolib/game/GUI/Button.hpp"
-#include "egolib/game/GUI/Image.hpp"
-#include "egolib/game/GUI/Label.hpp"
-#include "egolib/game/GUI/ScrollableList.hpp"
+#include "GameStates/VideoOptionsScreen.hpp"
+#include "Button.hpp"
+#include "Image.hpp"
+#include "Label.hpp"
+#include "ScrollableList.hpp"
 
 VideoOptionsScreen::VideoOptionsScreen() :
     _resolutionList(std::make_shared<Ego::GUI::ScrollableList>())

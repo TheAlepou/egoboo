@@ -1,9 +1,9 @@
-#include "egolib/Graphics/GraphicsSystem.hpp"
+#include "GraphicsSystem.hpp"
 
-#include "egolib/Graphics/GraphicsContext.hpp"
-#include "egolib/Graphics/GraphicsWindow.hpp"
-#include "egolib/Graphics/SDL/Utilities.hpp"
-#include "egolib/egoboo_setup.h"
+#include "GraphicsContext.hpp"
+#include "GraphicsWindow.hpp"
+#include "SDL/Utilities.hpp"
+#include "egoboo_setup.h"
 
 namespace Ego {
 

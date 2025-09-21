@@ -21,18 +21,18 @@
 /// @details Main state where the players are currently playing a module
 /// @author Johan Jansen
 
-#include "egolib/game/GameStates/MapEditorState.hpp"
-#include "egolib/game/GameStates/InGameMenuState.hpp"
-#include "egolib/game/Core/GameEngine.hpp"
-#include "egolib/game/GUI/MiniMap.hpp"
-#include "egolib/game/GUI/Button.hpp"
-#include "egolib/game/game.h"
-#include "egolib/game/Graphics/TextureAtlasManager.hpp"
-#include "egolib/game/Graphics/TileList.hpp"
-#include "egolib/game/Graphics/CameraSystem.hpp"
+#include "GameStates/MapEditorState.hpp"
+#include "GameStates/InGameMenuState.hpp"
+#include "GameEngine.hpp"
+#include "MiniMap.hpp"
+#include "Button.hpp"
+#include "game.h"
+#include "Graphics/TextureAtlasManager.hpp"
+#include "Graphics/TileList.hpp"
+#include "Graphics/CameraSystem.hpp"
 
-#include "egolib/game/Module/Module.hpp"
-#include "egolib/Entities/_Include.hpp"
+#include "Module.hpp"
+#include "_Include.hpp"
 
 namespace Ego
 {

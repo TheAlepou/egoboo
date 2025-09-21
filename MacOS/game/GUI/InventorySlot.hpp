@@ -1,7 +1,7 @@
 #pragma once
 
-#include "egolib/game/GUI/Component.hpp"
-#include "egolib/game/Inventory.hpp"
+#include "Component.hpp"
+#include "Inventory.hpp"
 
 // Forward declarations.
 namespace Ego { class Player; }

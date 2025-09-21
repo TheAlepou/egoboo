@@ -22,8 +22,8 @@
 #include "cartman/Vertex.hpp"
 #include "cartman/cartman_typedef.h"
 #include "cartman/Tile.hpp"
-#include "egolib/FileFormats/map_tile_dictionary.h"
-#include "egolib/Mesh/Info.hpp"
+#include "map_tile_dictionary.h"
+#include "Info.hpp"
 
 //--------------------------------------------------------------------------------------------
 

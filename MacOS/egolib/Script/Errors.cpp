@@ -16,4 +16,4 @@
 //*    along with Egoboo.  If not, see <http://www.gnu.org/licenses/>.
 //*
 //********************************************************************************************
-#include "egolib/Script/Errors.hpp"
+#include "Errors.hpp"

@@ -22,8 +22,8 @@
 
 #pragma once
 
-#include "egolib/game/GameStates/GameState.hpp"
-#include "egolib/Graphics/Font.hpp"
+#include "GameStates/GameState.hpp"
+#include "Font.hpp"
 
 // Forward declarations.
 class ModuleProfile;

@@ -21,11 +21,11 @@
 /// @details Debugging state where one can debug font layout and rendering
 /// @author Johan Jansen, penguinflyer5234
 
-#include "egolib/game/GameStates/DebugFontRenderingState.hpp"
-#include "egolib/game/Core/GameEngine.hpp"
-#include "egolib/game/GUI/Button.hpp"
-#include "egolib/game/GUI/Label.hpp"
-#include "egolib/game/GUI/ScrollableList.hpp"
+#include "GameStates/DebugFontRenderingState.hpp"
+#include "GameEngine.hpp"
+#include "Button.hpp"
+#include "Label.hpp"
+#include "ScrollableList.hpp"
 
 class DebugFontRenderingState::DebugLabel : public Ego::GUI::Component
 {

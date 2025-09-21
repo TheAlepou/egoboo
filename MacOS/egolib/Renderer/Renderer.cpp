@@ -21,8 +21,8 @@
 /// @brief Common interface of all renderers
 /// @author Michael Heilmann
 
-#include "egolib/Renderer/Renderer.hpp"
-#include "egolib/Renderer/OpenGL/Renderer.hpp"
+#include "Renderer.hpp"
+#include "Renderer.hpp"
 
 namespace Ego
 {

@@ -1,4 +1,4 @@
-#include "egolib/IDSZ.hpp"
+#include "IDSZ.hpp"
 #include <array>
 #include <stdexcept>
 

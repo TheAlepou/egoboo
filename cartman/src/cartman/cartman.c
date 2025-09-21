@@ -17,7 +17,7 @@
 //*
 //********************************************************************************************
 
-#include "egolib/egolib.h"
+#include "egolib.h"
 
 #include "cartman/cartman.h"
 
@@ -27,7 +27,7 @@
 #include "cartman/cartman_gui.h"
 #include "cartman/cartman_gfx.h"
 #include "cartman/cartman_select.h"
-#include "egolib/FileFormats/Globals.hpp"
+#include "Globals.hpp"
 #include "cartman/cartman_math.h"
 
 //--------------------------------------------------------------------------------------------

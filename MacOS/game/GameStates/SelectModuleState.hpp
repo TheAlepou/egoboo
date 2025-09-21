@@ -24,8 +24,8 @@
 
 #pragma once
 
-#include "egolib/game/GameStates/GameState.hpp"
-#include "egolib/Profiles/_Include.hpp"
+#include "GameStates/GameState.hpp"
+#include "_Include.hpp"
 
 // Forward declarations.
 namespace Ego {

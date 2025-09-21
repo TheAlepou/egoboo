@@ -1,0 +1,20 @@
+# Minimum required CMake version.
+cmake_minimum_required (VERSION 3.8)
+# Project name and settings.
+project(idlib-hll-test CXX)
+message("building Idlib: HLL (High Level Language) Tests")
+set_project_default_properties()
+
+# Include directory locations.
+include_directories(${PROJECT_SOURCE_DIR}/../library/src)
+include_directories(${PROJECT_SOURCE_DIR})
+
+# Build a list of all tests.
+file(GLOB_RECURSE test_files ${PROJECT_SOURCE_DIR}/idlib/tests/*.cpp)
+
+add_executable(idlib-hll-tests-executable ${test_files})
+target_link_libraries(idlib-hll-tests-executable idlib-hll-library)
+target_link_libraries(idlib-hll-tests-executable GTest::gtest_main)
+
+include(GoogleTest)
+gtest_discover_tests(idlib-hll-tests-executable)

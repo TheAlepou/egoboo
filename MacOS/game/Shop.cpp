@@ -19,11 +19,11 @@
 
 /// @file egolib/game/Shop.cpp
 /// @brief Shop interaction
-#include "egolib/game/Shop.hpp"
-#include "egolib/game/Module/Module.hpp"
-#include "egolib/game/Module/Passage.hpp"
-#include "egolib/Entities/_Include.hpp"
-#include "egolib/game/game.h"
+#include "Shop.hpp"
+#include "Module.hpp"
+#include "Passage.hpp"
+#include "_Include.hpp"
+#include "game.h"
 
 bool Shop::drop(const std::shared_ptr<Object>& dropper, const std::shared_ptr<Object>& item)
 {

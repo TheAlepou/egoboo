@@ -21,8 +21,8 @@
 /// @brief Implementation of an Stencil buffer facade for OpenGL 2.1.
 /// @author Michael Heilmann
 
-#include "egolib/Renderer/OpenGL/StencilBuffer.hpp"
-#include "egolib/Renderer/OpenGL/Utilities.hpp"
+#include "StencilBuffer.hpp"
+#include "Utilities.hpp"
 
 namespace Ego {
 namespace OpenGL {

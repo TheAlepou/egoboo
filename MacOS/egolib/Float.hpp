@@ -18,7 +18,7 @@
 //********************************************************************************************
 #pragma once
 
-#include "idlib/numeric.hpp"
+#include "numeric.hpp"
 #include <type_traits>
 
 /// @brief Get the raw bits of a @a float value.

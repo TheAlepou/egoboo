@@ -24,7 +24,9 @@
 
 #pragma once
 
-#include "egolib/Image/Image.hpp"
+#ifdef __cplusplus
+
+#include "Image.hpp"
 #include <string>
 #include <memory>
 
@@ -197,3 +199,4 @@ public:
 }; // struct Texture
 
 } // namespace Ego
+#endif

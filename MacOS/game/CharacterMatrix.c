@@ -19,10 +19,10 @@
 
 /// @file egolib/game/CharacterMatrix.c
 
-#include "egolib/game/CharacterMatrix.h"
-#include "egolib/game/graphic_mad.h"
-#include "egolib/game/renderer_3d.h"
-#include "egolib/Entities/_Include.hpp"
+#include "CharacterMatrix.h"
+#include "graphic_mad.h"
+#include "renderer_3d.h"
+#include "_Include.hpp"
 
 static int get_grip_verts( uint16_t grip_verts[], const ObjectRef imount, int vrt_offset );
 

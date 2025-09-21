@@ -16,16 +16,16 @@
 //*    along with Egoboo.  If not, see <http://www.gnu.org/licenses/>.
 //*
 //********************************************************************************************
-#include "egolib/game/Graphics/CameraSystem.hpp"
+#include "Graphics/CameraSystem.hpp"
 
-#include "egolib/Graphics/Viewport.hpp"
-#include "egolib/game/mesh.h"
-#include "egolib/game/graphic.h"
-#include "egolib/game/game.h"
-#include "egolib/game/Logic/Player.hpp"
-#include "egolib/game/Core/GameEngine.hpp"
+#include "Viewport.hpp"
+#include "mesh.h"
+#include "graphic.h"
+#include "game.h"
+#include "Logic/Player.hpp"
+#include "GameEngine.hpp"
 
-#include "egolib/Entities/_Include.hpp"
+#include "_Include.hpp"
 
 CameraSystem::CameraSystem() :
 	_cameraList(),

@@ -21,7 +21,7 @@
 /// @brief Clock & timer implementation
 /// @details This implementation was adapted from Noel Lopis' article in Game Programming Gems 4.
 
-#include "egolib/Clock.hpp"
+#include "Clock.hpp"
 
 namespace Ego {
 namespace Time {

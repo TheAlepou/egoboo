@@ -25,7 +25,7 @@
 #error(do not include directly, include `egolib/profiles/_Include.hpp` instead)
 #endif
 
-#include "egolib/platform.h"
+#include "platform.h"
 #include <string>
 #include <vector>
 

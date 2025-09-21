@@ -22,7 +22,7 @@
 
 #pragma once
 
-#include "egolib/typedef.h"
+#include "typedef.h"
 
 /// The maximum number of waypoints in a waypoint list.
 #define MAXWAY 8

@@ -25,4 +25,4 @@
 
 #undef CARTMAN_DEBUG
 
-#include "egolib/egolib.h"
+#include "egolib.h"

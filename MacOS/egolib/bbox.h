@@ -22,8 +22,9 @@
 
 #pragma once
 
-#include "egolib/Math/_Include.hpp"
-#include "egolib/integrations/math.hpp"
+#include "_Include.hpp"
+#include "math.hpp"
+#ifdef __cplusplus
 
 //--------------------------------------------------------------------------------------------
 
@@ -500,3 +501,4 @@ struct translate_functor<oct_bb_t, Ego::Vector3f>
 }; // struct translate_functor
 
 } // namespace idlib
+#endif

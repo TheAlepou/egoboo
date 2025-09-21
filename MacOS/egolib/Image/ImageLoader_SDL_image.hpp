@@ -19,7 +19,7 @@
 
 #pragma once
 
-#include "egolib/Image/ImageLoader.hpp"
+#include "ImageLoader.hpp"
 
 namespace Ego { namespace Internal {
 

@@ -23,9 +23,9 @@
 
 #pragma once
 
-#include "egolib/game/Graphics/Camera.hpp"
-#include "egolib/game/Graphics/TileList.hpp"
-#include "egolib/game/Graphics/EntityList.hpp"
+#include "Graphics/Camera.hpp"
+#include "Graphics/TileList.hpp"
+#include "Graphics/EntityList.hpp"
 
 namespace Ego {
 namespace Graphics {

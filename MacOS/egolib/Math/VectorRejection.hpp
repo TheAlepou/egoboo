@@ -23,7 +23,9 @@
 
 #pragma once
 
-#include "egolib/Math/VectorRejection.hpp"
+#include "VectorRejection.hpp"
+
+#ifdef __cplusplus
 
 namespace Ego {
 namespace Math {
@@ -48,3 +50,5 @@ inline _VectorType Rejection(const _VectorType& v, const _VectorType& w) {
 
 } // namespace Math
 } // namespace Ego
+
+#endif

@@ -39,12 +39,12 @@
         #define WIN32_LEAN_AND_MEAN
     #endif
 #endif
-#include <SDL.h>
+#include "SDL.h"
 #undef main
-#include <SDL_image.h>
-#include <SDL_mixer.h>
-#include <SDL_ttf.h>
-#include <SDL_events.h>
+#include "SDL_image.h"
+#include "SDL_mixer.h"
+#include "SDL_ttf.h"
+#include "SDL_events.h"
 
 
 #if defined(__cplusplus)

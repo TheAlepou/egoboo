@@ -1,1 +1,1 @@
-#include "egolib/Logic/MissileTreatment.hpp"
+#include "MissileTreatment.hpp"

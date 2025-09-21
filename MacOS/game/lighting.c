@@ -21,9 +21,9 @@
 /// @brief Code for controlling the character and mesh lighting
 /// @details
 
-#include "egolib/game/lighting.h"
+#include "lighting.h"
 
-#include "egolib/egolib.h"
+#include "egolib.h"
 
 //--------------------------------------------------------------------------------------------
 

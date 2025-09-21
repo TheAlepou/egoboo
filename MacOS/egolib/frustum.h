@@ -22,9 +22,9 @@
 
 #pragma once
 
-#include "egolib/geometry.h"
-#include "egolib/bbox.h"
-#include "egolib/Math/_Include.hpp"
+#include "geometry.h"
+#include "bbox.h"
+#include "_Include.hpp"
 
 namespace Ego {
 namespace Graphics {

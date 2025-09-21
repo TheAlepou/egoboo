@@ -19,7 +19,7 @@
 
 #pragma once
 
-#include "egolib/Logic/TreasureTables.hpp"
+#include "TreasureTables.hpp"
 
 // module initialization / deinitialization - not accessible by scripts
 void game_load_profile_ai();

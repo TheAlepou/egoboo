@@ -24,8 +24,8 @@
 
 #pragma once
 
-#include "egolib/typedef.h"
-#include "egolib/Graphics/Font.hpp"
+#include "typedef.h"
+#include "Font.hpp"
 
 namespace Ego {
 

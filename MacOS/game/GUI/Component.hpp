@@ -1,10 +1,10 @@
 #pragma once
 
-#include "egolib/game/GUI/DrawingContext.hpp"
-#include "egolib/game/Core/GameEngine.hpp"
-#include "egolib/game/GUI/UIManager.hpp"
-#include "egolib/game/GUI/InputListener.hpp"
-#include "egolib/game/graphic.h"
+#include "DrawingContext.hpp"
+#include "GameEngine.hpp"
+#include "UIManager.hpp"
+#include "InputListener.hpp"
+#include "graphic.h"
 
 namespace Ego {
 namespace GUI {

@@ -23,7 +23,7 @@
 
 #pragma once
 
-#include "egolib/Script/Interpreter/Configuration.hpp"
+#include "Configuration.hpp"
 #include <string>
 
 

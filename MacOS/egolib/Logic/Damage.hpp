@@ -59,6 +59,8 @@ enum DamageType : uint8_t
  *  origin in most - but eventually not all - cases. For instance damage when touching
  *  a brazier or lava is certainly fire and not of magical origin.
  */
+#ifdef __cplusplus
+
 inline bool DamageType_isPhysical(DamageType damageType)
 {
     return DAMAGE_CRUSH == damageType
@@ -109,3 +111,5 @@ inline const Ego::Colour3f& DamageType_getColour(DamageType damageType)
             throw std::runtime_error("unreachable code reached");
     };
 }
+
+#endif

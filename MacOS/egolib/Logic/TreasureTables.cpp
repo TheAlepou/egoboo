@@ -21,7 +21,7 @@
 /// @brief Implementation of code for handling random treasure generation
 /// @details
 
-#include "egolib/Logic/TreasureTables.hpp"
+#include "TreasureTables.hpp"
 
 namespace Ego
 {

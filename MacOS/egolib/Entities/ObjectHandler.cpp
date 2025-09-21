@@ -18,9 +18,9 @@
 //********************************************************************************************
 
 #define GAME_ENTITIES_PRIVATE 1
-#include "egolib/Entities/ObjectHandler.hpp"
-#include "egolib/Profiles/_Include.hpp"
-#include "egolib/Entities/Object.hpp"
+#include "ObjectHandler.hpp"
+#include "_Include.hpp"
+#include "Object.hpp"
 
 ObjectRef GET_INDEX_PCHR(const Object *pobj) {
     return (nullptr == pobj) ? ObjectRef::Invalid : pobj->getObjRef();

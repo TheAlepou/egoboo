@@ -21,7 +21,7 @@
 /// @brief Local (aka Calendar) Time functionality
 /// @author Michael Heilmann
 
-#include "egolib/Time/LocalTime.hpp"
+#include "LocalTime.hpp"
 
 namespace Ego {
 namespace Time {

@@ -1,1 +1,1 @@
-#include "egolib/Script/TextFile.hpp"
+#include "TextFile.hpp"

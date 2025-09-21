@@ -20,8 +20,8 @@
 /// @author Johan Jansen
 #pragma once
 
-#include "egolib/game/egoboo.h"
-#include "egolib/game/Graphics/Camera.hpp"
+#include "egoboo.h"
+#include "Graphics/Camera.hpp"
 
 // Forward declaration.
 class ego_mesh_t;

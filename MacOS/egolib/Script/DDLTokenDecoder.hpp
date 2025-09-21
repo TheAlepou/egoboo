@@ -23,7 +23,7 @@
 
 #pragma once
 
-#include "egolib/Script/DDLToken.hpp"
+#include "DDLToken.hpp"
 
 namespace Ego {
 namespace Script {

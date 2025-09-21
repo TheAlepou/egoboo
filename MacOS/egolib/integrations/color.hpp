@@ -2,6 +2,8 @@
 
 #include "color.hpp"
 
+#ifdef __cplusplus
+
 namespace Ego {
     
 /// A colour in RGB colour space with single-precision floating-point components each within the range from 0 (inclusive) to 1 (inclusive).
@@ -21,3 +23,4 @@ using Colour3b = idlib::color<idlib::RGBb>;
 using Colour4b = idlib::color<idlib::RGBAb>;
     
 } // namespace Ego
+#endif

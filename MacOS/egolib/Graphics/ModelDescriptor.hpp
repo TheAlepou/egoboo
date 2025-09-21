@@ -21,7 +21,7 @@
 /// @author Johan Jansen aka Zefz
 #pragma once
 
-#include "egolib/typedef.h"
+#include "typedef.h"
 
 //Forward declarations
 class MD2Model;

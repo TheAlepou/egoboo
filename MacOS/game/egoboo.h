@@ -26,12 +26,15 @@
 
 #pragma once
 
-#include "egolib.h"
+#include "egoboo.h"
 
 /**
 * @todo
 *	Remove this.
 */
+
+
+#ifdef __cplusplus
 typedef egolib_rv gfx_rv;
 #define gfx_error rv_error
 #define gfx_fail rv_fail
@@ -95,3 +98,4 @@ extern local_stats_t local_stats;
  *  is @a true, the values from the egoboo_config_data_t are uploaded into <tt>"setup.txt"</tt>.
  */
 bool config_synch(egoboo_config_t& cfg, bool fromfile, bool tofile);
+#endif // __cplusplus

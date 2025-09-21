@@ -1,4 +1,4 @@
-#include "egolib/Graphics/Viewport.hpp"
+#include "Viewport.hpp"
 
 namespace Ego {
 namespace Graphics {

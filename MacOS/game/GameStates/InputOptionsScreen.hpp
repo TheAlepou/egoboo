@@ -23,8 +23,8 @@
 
 #pragma once
 
-#include "egolib/game/GameStates/GameState.hpp"
-#include "egolib/InputControl/InputDevice.hpp"
+#include "GameStates/GameState.hpp"
+#include "InputDevice.hpp"
 
 //Forward declarations
 namespace Ego { namespace GUI { class Button; } }

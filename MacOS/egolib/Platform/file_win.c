@@ -29,10 +29,10 @@
 #include <shellapi.h>
 #include <shlwapi.h>
 
-#include "egolib/file_common.h"
-#include "egolib/Log/_Include.hpp"
-#include "egolib/strutil.h"
-#include "egolib/platform.h"
+#include "file_common.h"
+#include "_Include.hpp"
+#include "strutil.h"
+#include "platform.h"
 
 //--------------------------------------------------------------------------------------------
 //--------------------------------------------------------------------------------------------

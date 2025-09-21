@@ -1,5 +1,5 @@
 #pragma once
-
+#ifdef __cplusplus
 namespace Ego {
 
 /// @brief The game difficulties.
@@ -16,3 +16,4 @@ enum class GameDifficulty
 };
 
 } // namespace Ego
+#endif

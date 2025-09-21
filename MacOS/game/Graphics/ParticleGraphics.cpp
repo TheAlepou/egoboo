@@ -1,8 +1,8 @@
-#include "egolib/game/Graphics/ParticleGraphics.hpp"
-#include "egolib/game/Graphics/Camera.hpp"
-#include "egolib/game/lighting.h"
-#include "egolib/game/graphic.h"
-#include "egolib/Entities/_Include.hpp"
+#include "Graphics/ParticleGraphics.hpp"
+#include "Graphics/Camera.hpp"
+#include "lighting.h"
+#include "graphic.h"
+#include "_Include.hpp"
 
 namespace Ego {
 namespace Graphics {

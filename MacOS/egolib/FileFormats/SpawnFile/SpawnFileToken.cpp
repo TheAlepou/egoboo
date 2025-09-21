@@ -1,4 +1,4 @@
-#include "egolib/FileFormats/SpawnFile/SpawnFileToken.hpp"
+#include "SpawnFile/SpawnFileToken.hpp"
 
 SpawnFileToken::SpawnFileToken
     (

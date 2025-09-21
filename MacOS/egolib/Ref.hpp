@@ -1,7 +1,7 @@
 #pragma once
 
-#include "egolib/platform.h"
-#include "idlib/idlib.hpp"
+#include "platform.h"
+#include "idlib.hpp"
 
 enum class RefKind
 {

@@ -1,7 +1,7 @@
 #pragma once
 
-#include "egolib/game/Core/GameEngine.hpp"
-#include "egolib/game/GUI/Component.hpp"
+#include "GameEngine.hpp"
+#include "Component.hpp"
 
 namespace Ego {
 namespace GUI {

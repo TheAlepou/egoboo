@@ -21,20 +21,20 @@
 /// @brief Implements the game's scripting language.
 /// @details
 
-#include "egolib/Script/script.h"
+#include "script.h"
 
-#include "egolib/AI/AStar.hpp"
-#include "egolib/Script/IRuntimeStatistics.hpp"
+#include "AStar.hpp"
+#include "IRuntimeStatistics.hpp"
 
-#include "egolib/game/script_compile.h"
-#include "egolib/game/script_implementation.h"
-#include "egolib/game/script_functions.h"
-#include "egolib/game/script_variables.h"
-#include "egolib/game/game.h"
-#include "egolib/Entities/_Include.hpp"
-#include "egolib/game/Core/GameEngine.hpp"
-#include "egolib/game/Graphics/CameraSystem.hpp"
-#include "egolib/game/Module/Module.hpp"
+#include "script_compile.h"
+#include "script_implementation.h"
+#include "script_functions.h"
+#include "script_variables.h"
+#include "game.h"
+#include "_Include.hpp"
+#include "GameEngine.hpp"
+#include "Graphics/CameraSystem.hpp"
+#include "Module.hpp"
 
 
 namespace Ego {
@@ -64,7 +64,7 @@ public:
 std::array<std::string, Ego::Script::ScriptVariables::SCRIPT_VARIABLES_COUNT> _scriptVariableNames = {
 #define Define(cName, eName) #cName,
 #define DefineAlias(cName, eName)
-#include "egolib/Script/Variables.in"
+#include "Variables.in"
 #undef DefineAlias
 #undef Define
 };
@@ -72,7 +72,7 @@ std::array<std::string, Ego::Script::ScriptVariables::SCRIPT_VARIABLES_COUNT> _s
 std::array<std::string, ScriptFunctions::SCRIPT_FUNCTIONS_COUNT> _scriptFunctionNames = {
 #define Define(name) #name,
 #define DefineAlias(alias, name)
-#include "egolib/Script/Functions.in"
+#include "Functions.in"
 #undef DefineAlias
 #undef Define
 };
@@ -82,7 +82,7 @@ Runtime::Runtime() :
     {
         #define Define(name) { name, &scr_##name },
         #define DefineAlias(alias, name) { alias, &scr_##name },     
-        #include "egolib/Script/Functions.in"
+        #include "Functions.in"
         #undef DefineAlias
         #undef Define
     },
@@ -90,7 +90,7 @@ Runtime::Runtime() :
     {
     #define Define(cname, name) { cname, { cname, #cname }},
     #define DefineAlias(calias, cname)
-    #include "egolib/Script/Operators.in"
+    #include "Operators.in"
     #undef DefineAlias
     #undef Define
     },

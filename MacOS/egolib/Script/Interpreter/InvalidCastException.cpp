@@ -21,9 +21,9 @@
 /// @brief  An invalid cast exception.
 /// @author Michael Heilmann
 
-#include "egolib/Script/Interpreter/InvalidCastException.hpp"
+#include "InvalidCastException.hpp"
 
-#include "egolib/Script/Interpreter/Tag.hpp"
+#include "Tag.hpp"
 
 namespace Ego {
 namespace Script {

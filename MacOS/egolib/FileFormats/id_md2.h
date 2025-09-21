@@ -2,8 +2,8 @@
 
 /// @file egolib/FileFormats/id_md2.h
 /// @details Md2 model file loading structures & constants.
-
-#include "egolib/Extensions/ogl_extensions.h"
+#ifdef __cplusplus
+#include "ogl_extensions.h"
 #include <string>
 
 //--------------------------------------------------------------------------------------------
@@ -146,3 +146,4 @@
 
 //--------------------------------------------------------------------------------------------
 //--------------------------------------------------------------------------------------------
+#endif

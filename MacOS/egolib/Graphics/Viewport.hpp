@@ -1,8 +1,8 @@
 #pragma once
 
-#include "egolib/Math/_Include.hpp"
-#include "egolib/integrations/color.hpp"
-#include "egolib/integrations/signal.hpp"
+#include "_Include.hpp"
+#include "color.hpp"
+#include "signal.hpp"
 
 namespace Ego {
 namespace Graphics {

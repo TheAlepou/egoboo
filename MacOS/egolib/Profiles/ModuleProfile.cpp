@@ -21,16 +21,16 @@
 /// @author Johan Jansen
 
 #define EGOLIB_PROFILES_PRIVATE 1
-#include "egolib/Profiles/ModuleProfile.hpp"
+#include "ModuleProfile.hpp"
 
-#include "egolib/Core/StringUtilities.hpp"
+#include "StringUtilities.hpp"
 
-#include "egolib/Log/_Include.hpp"
+#include "_Include.hpp"
 
-#include "egolib/vfs.h"
-#include "egolib/strutil.h"
-#include "egolib/fileutil.h"
-#include "egolib/platform.h"
+#include "vfs.h"
+#include "strutil.h"
+#include "fileutil.h"
+#include "platform.h"
 
 const uint8_t ModuleProfile::RESPAWN_ANYTIME;
 static const size_t SUMMARYLINES = 8;

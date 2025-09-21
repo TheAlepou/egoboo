@@ -3,8 +3,8 @@
 #include "Enum.hpp"
 #include "Number.hpp"
 #include "StringOrBool.hpp"
-#include "FileFormats/ConfigFile/configfile.h"
-
+#include "configfile.h"
+#ifdef __cplusplus
 namespace Ego {
 namespace Configuration {
 /// @brief Base of any configuration.
@@ -93,3 +93,4 @@ protected:
 
 } // namespace Configuration
 } // namespace Ego
+#endif // __cplusplus

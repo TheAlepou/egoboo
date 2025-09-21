@@ -21,9 +21,9 @@
 /// @brief Implementation of a scanner for Egoboo's spawn.txt file
 /// @details
 
-#include "egolib/FileFormats/SpawnFile/spawn_file.h"
-#include "egolib/FileFormats/SpawnFile/SpawnFileReaderImpl.hpp"
-#include "egolib/Logic/Team.hpp"
+#include "SpawnFile/spawn_file.h"
+#include "SpawnFile/SpawnFileReaderImpl.hpp"
+#include "Team.hpp"
 
 
 spawn_file_info_t::spawn_file_info_t() :

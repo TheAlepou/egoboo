@@ -1,5 +1,5 @@
-#include "egolib/game/Module/Water.hpp"
-#include "egolib/game/graphic.h"
+#include "Water.hpp"
+#include "graphic.h"
 
 water_instance_layer_t::water_instance_layer_t() :
     _frame(0),

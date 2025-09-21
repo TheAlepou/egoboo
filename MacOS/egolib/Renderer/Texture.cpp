@@ -22,11 +22,11 @@
 /// @brief Common interface of all texture object encapsulations.
 /// @author Michael Heilmann
 
-#include "egolib/Renderer/Texture.hpp"
-#include "egolib/Renderer/Renderer.hpp"
-#include "egolib/Math/_Include.hpp"
-#include "egolib/Image/ImageManager.hpp"
-#include "egolib/Image/Image.hpp"
+#include "Texture.hpp"
+#include "Renderer.hpp"
+#include "_Include.hpp"
+#include "ImageManager.hpp"
+#include "Image.hpp"
 
 namespace Ego {
 

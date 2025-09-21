@@ -33,8 +33,8 @@
 
 #pragma once
 
-#include "egolib/platform.h"
-#include "egolib/integrations/filesystem.hpp"
+#include "platform.h"
+#include "filesystem.hpp"
 
 /**
  * @brief
@@ -48,6 +48,9 @@
  *  fs_getBinarDirectory(), fs_getDataDirectory(), fs_getUserDirectory()
  *  and fs_getConfigDirectory().
  */
+
+#ifdef __cplusplus
+
 int fs_init(const char *argv0);
 
 /**@{*/
@@ -120,3 +123,5 @@ bool fs_copyFile(const std::string& source, const std::string& target);
 void fs_removeDirectoryAndContents(const char *pathname);
 
 bool fs_ensureUserFile(const char * relative_filename, bool required);
+
+#endif

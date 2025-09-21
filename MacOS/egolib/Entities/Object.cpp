@@ -22,25 +22,25 @@
 /// @author Johan Jansen
 
 #define GAME_ENTITIES_PRIVATE 1
-#include "egolib/Entities/Object.hpp"
-#include "egolib/Profiles/_Include.hpp"
-#include "egolib/Entities/Object.hpp"
-#include "egolib/Entities/ObjectHandler.hpp"
-#include "egolib/Entities/ParticleHandler.hpp"
-#include "egolib/Entities/Enchant.hpp"
-#include "egolib/game/Logic/Player.hpp"
-#include "egolib/game/game.h"
-#include "egolib/Graphics/ModelDescriptor.hpp"
-#include "egolib/game/script_implementation.h" //for stealth
-#include "egolib/game/CharacterMatrix.h"
-#include "egolib/game/Graphics/CameraSystem.hpp"
-#include "egolib/game/Graphics/TileList.hpp"
-#include "egolib/game/Graphics/Billboard.hpp"
+#include "Object.hpp"
+#include "_Include.hpp"
+#include "Object.hpp"
+#include "ObjectHandler.hpp"
+#include "ParticleHandler.hpp"
+#include "Enchant.hpp"
+#include "Logic/Player.hpp"
+#include "game.h"
+#include "ModelDescriptor.hpp"
+#include "script_implementation.h" //for stealth
+#include "CharacterMatrix.h"
+#include "Graphics/CameraSystem.hpp"
+#include "Graphics/TileList.hpp"
+#include "Graphics/Billboard.hpp"
 
 //For the minimap
-#include "egolib/game/Core/GameEngine.hpp"
-#include "egolib/game/GameStates/PlayingState.hpp"
-#include "egolib/game/GUI/MiniMap.hpp"
+#include "GameEngine.hpp"
+#include "GameStates/PlayingState.hpp"
+#include "MiniMap.hpp"
 
 //Declare class static constants
 const std::shared_ptr<Object> Object::INVALID_OBJECT = nullptr;

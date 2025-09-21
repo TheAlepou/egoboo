@@ -1,6 +1,6 @@
-#include "egolib/Renderer/DeferredTexture.hpp"
-#include "egolib/Graphics/TextureManager.hpp"
-#include "egolib/fileutil.h"
+#include "DeferredTexture.hpp"
+#include "TextureManager.hpp"
+#include "fileutil.h"
 
 namespace Ego {
 

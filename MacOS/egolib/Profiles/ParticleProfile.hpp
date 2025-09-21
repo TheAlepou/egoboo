@@ -22,8 +22,8 @@
 #error(do not include directly, include `egolib/Profiles/_Include.hpp` instead)
 #endif
 
-#include "egolib/Profiles/AbstractProfile.hpp"
-#include "egolib/_math.h"
+#include "AbstractProfile.hpp"
+#include "_math.h"
 
 /// Pre-defined global particle types
 /// @note I can't place all the money particles in the same place because it is expected

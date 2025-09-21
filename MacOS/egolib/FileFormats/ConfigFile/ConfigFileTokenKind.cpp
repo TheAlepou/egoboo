@@ -1,1 +1,1 @@
-#include "egolib/FileFormats/ConfigFile/ConfigFileTokenKind.hpp"
+#include "ConfigFile/ConfigFileTokenKind.hpp"

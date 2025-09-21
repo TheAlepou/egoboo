@@ -20,10 +20,10 @@
 /// @file  egolib/Log/DefaultTarget.cpp
 /// @brief Log default target
 
-#include "egolib/Log/DefaultTarget.hpp"
-#include "egolib/vfs.h"
-#include "egolib/strutil.h"
-#include "egolib/Log/ConsoleColor.hpp"
+#include "DefaultTarget.hpp"
+#include "vfs.h"
+#include "strutil.h"
+#include "ConsoleColor.hpp"
 
 namespace Log {
 

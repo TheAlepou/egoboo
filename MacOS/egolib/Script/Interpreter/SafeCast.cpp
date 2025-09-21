@@ -22,9 +22,9 @@
 /// @brief  An safe and extendable cast function.
 /// @author Michael Heilmann
 
-#include "egolib/Script/Interpreter/SafeCast.hpp"
+#include "SafeCast.hpp"
 
-#include "egolib/Script/Interpreter/TaggedValue.hpp"
+#include "TaggedValue.hpp"
 
 namespace Ego {
 namespace Script {

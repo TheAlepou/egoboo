@@ -21,8 +21,8 @@
 /// @brief Canonical identifiers for vertex format descriptors.
 /// @author Michael Heilmann
 
-#include "egolib/Graphics/VertexFormat.hpp"
-#include "egolib/Graphics/descriptor_factory.hpp"
+#include "VertexFormat.hpp"
+#include "descriptor_factory.hpp"
 
 namespace Ego {
 

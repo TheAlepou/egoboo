@@ -1,8 +1,8 @@
 #pragma once
 
-#include "egolib/Debug.hpp"
-#include "egolib/Log/_Include.hpp"
-#include "egolib/integrations/math.hpp"
+#include "Debug.hpp"
+#include "_Include.hpp"
+#include "math.hpp"
 
 /**
  * @brief
@@ -13,6 +13,8 @@
 enum {
     kX = 0, kY, kZ, kW
 };
+
+#ifdef __cplusplus
 
 namespace Ego {
 /**
@@ -415,7 +417,7 @@ Ego::Vector3f mat_getCamForward(const Ego::Matrix4f4f& m);
 
 Ego::Vector3f mat_getTranslate(const Ego::Matrix4f4f& mat);
 
-#include "egolib/TrigonometricTable.hpp"
+#include "TrigonometricTable.hpp"
 
 Ego::Matrix4f4f mat_ScaleXYZ_RotateXYZ_TranslateXYZ_SpaceFixed(const Ego::Vector3f& scale, const Facing& turn_z, const Facing& turn_x, const Facing& turn_y, const Ego::Vector3f& translate);
 /// @details Transpose the SpaceFixed representation and invert the angles to get the BodyFixed representation
@@ -435,4 +437,4 @@ void dump_matrix(const Ego::Matrix4f4f& a);
 float fvec3_decompose(const Ego::Vector3f& src, const Ego::Vector3f& vnrm, Ego::Vector3f& vpara, Ego::Vector3f& vperp);
 
 
-
+#endif

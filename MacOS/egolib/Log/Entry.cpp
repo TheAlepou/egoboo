@@ -20,8 +20,8 @@
 /// @file egolib/Log/Entry.cpp
 /// @brief A log entry
 
-#include "egolib/Log/Entry.hpp"
-#include "idlib/idlib.hpp"
+#include "Entry.hpp"
+#include "idlib.hpp"
 #include <map>
 #include <memory>
 #include <sstream>

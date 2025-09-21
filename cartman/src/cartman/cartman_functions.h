@@ -23,7 +23,7 @@
 #pragma once
 
 #include "cartman/cartman_typedef.h"
-#include "egolib/Mesh/Info.hpp"
+#include "Info.hpp"
 
 //--------------------------------------------------------------------------------------------
 

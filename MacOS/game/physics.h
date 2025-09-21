@@ -21,12 +21,13 @@
 
 #pragma once
 
-#include "egolib/game/egoboo.h"
-#include "egolib/bbox.h"
-#include "egolib/game/Physics/PhysicalConstants.hpp"
+#include "egoboo.h"
+#include "bbox.h"
+#include "Physics/PhysicalConstants.hpp"
 
 
 //--------------------------------------------------------------------------------------------
+#ifdef __cplusplus
 
 class Object;
 namespace Ego { class Particle; }
@@ -195,3 +196,6 @@ bool phys_estimate_collision_normal(const oct_bb_t& obb_a, const oct_bb_t& pobb_
 bool phys_estimate_pressure_normal(const oct_bb_t& obb_a, const oct_bb_t& pobb_b, const float exponent, oct_vec_v2_t& odepth, Ego::Vector3f& nrm, float& depth);
 
 bool phys_intersect_oct_bb(const oct_bb_t& src1, const Ego::Vector3f& pos1, const Ego::Vector3f& vel1, const oct_bb_t& src2, const Ego::Vector3f& pos2, const Ego::Vector3f& vel2, int test_platform, oct_bb_t& dst, float *tmin, float *tmax);
+
+
+#endif

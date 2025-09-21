@@ -23,11 +23,11 @@
 #endif
 
 #define EGOLIB_PROFILES_PRIVATE 1
-#include "egolib/Profiles/AbstractProfile.hpp"
+#include "AbstractProfile.hpp"
 #undef EGBOLIB_PROFILES_PRIVATE
 
-#include "egolib/IDSZ.hpp"
-#include "egolib/Logic/MissileTreatment.hpp"
+#include "IDSZ.hpp"
+#include "MissileTreatment.hpp"
 
 /**
 * @brief

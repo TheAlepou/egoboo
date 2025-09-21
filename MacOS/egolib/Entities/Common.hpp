@@ -18,8 +18,9 @@
 //********************************************************************************************
 #pragma once
 
-#include "egolib/game/mesh.h"
-#include "egolib/game/physics.h"
+#include "mesh.h"
+#include "physics.h"
+#ifdef __cplusplus
 
 /**
  * @brief
@@ -159,3 +160,4 @@ public:
     /// @param velocity the velocity
     void setVelocity(const Ego::Vector3f& velocity);
 };
+#endif

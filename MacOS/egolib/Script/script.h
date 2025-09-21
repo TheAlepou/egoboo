@@ -21,15 +21,15 @@
 
 #pragma once
 
-#include "egolib/typedef.h"
-#include "egolib/Logic/Damage.hpp"
-#include "egolib/IDSZ.hpp"
-#include "egolib/Clock.hpp"
-#include "egolib/AI/WaypointList.h"
-#include "egolib/_math.h"
-#include "egolib/Script/ConstantPool.hpp"
-#include "egolib/Script/Interpreter/TaggedValue.hpp"
-#include "egolib/Script/OpcodeInfo.hpp"
+#include "typedef.h"
+#include "Damage.hpp"
+#include "IDSZ.hpp"
+#include "Clock.hpp"
+#include "WaypointList.h"
+#include "_math.h"
+#include "ConstantPool.hpp"
+#include "TaggedValue.hpp"
+#include "OpcodeInfo.hpp"
 
 //--------------------------------------------------------------------------------------------
 //--------------------------------------------------------------------------------------------
@@ -430,7 +430,7 @@ public:
 // struct ai_state_t
 //--------------------------------------------------------------------------------------------
 
-#include "egolib/AI/State.hpp"
+#include "State.hpp"
 
 /// The state of an A.I. controlling a single object.
 struct ai_state_t : public AI::State<ObjectRef>
@@ -563,7 +563,7 @@ namespace NativeInterface {
 enum ScriptFunctions {
 #define Define(name) name,
 #define DefineAlias(alias, name) alias = name,
-#include "egolib/Script/Functions.in"
+#include "Functions.in"
 #undef DefineAlias
 #undef Define
     SCRIPT_FUNCTIONS_COUNT
@@ -575,7 +575,7 @@ extern std::array<std::string, ScriptFunctions::SCRIPT_FUNCTIONS_COUNT> _scriptF
 enum ScriptVariables {
 #define Define(cName, eName) cName,
 #define DefineAlias(cName, eName)
-#include "egolib/Script/Variables.in"
+#include "Variables.in"
 #undef DefineAlias
 #undef Define
     SCRIPT_VARIABLES_COUNT
@@ -587,7 +587,7 @@ extern std::array<std::string, Ego::Script::ScriptVariables::SCRIPT_VARIABLES_CO
 enum ScriptOperators {
 #define Define(cname, name) cname,
 #define DefineAlias(calias, cname) calias = cname,
-#include "egolib/Script/Operators.in"
+#include "Operators.in"
 #undef DefineAlias
 #undef Define
     SCRIPT_OPERATORS_COUNT

@@ -21,7 +21,7 @@
 /// @details GUI widget of a moveable slider ranging between minimum and maximum value
 /// @author Johan Jansen
 
-#include "egolib/game/GUI/Component.hpp"
+#include "Component.hpp"
 
 #pragma once
 

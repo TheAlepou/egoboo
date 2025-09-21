@@ -21,13 +21,13 @@
 /// @brief bitmapped font stuff
 /// @details
 
-#include "egolib/font_bmp.h"
-#include "egolib/Log/_Include.hpp"
-#include "egolib/Graphics/TextureManager.hpp"
+#include "font_bmp.h"
+#include "_Include.hpp"
+#include "TextureManager.hpp"
 
-#include "egolib/vfs.h"
-#include "egolib/strutil.h"
-#include "egolib/fileutil.h"
+#include "vfs.h"
+#include "strutil.h"
+#include "fileutil.h"
 
 int       fontoffset;                 // Line up fonts from top of screen
 SDL_Rect  fontrect[NUMFONT];          // The font rectangles

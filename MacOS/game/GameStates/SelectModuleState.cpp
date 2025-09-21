@@ -21,14 +21,17 @@
 /// @details The Main Menu of the game, the first screen presented to the players
 /// @author Johan Jansen
 
-#include "egolib/game/Core/GameEngine.hpp"
-#include "egolib/game/GameStates/SelectModuleState.hpp"
-#include "egolib/game/GameStates/LoadingState.hpp"
-#include "egolib/game/game.h"
-#include "egolib/game/GUI/Button.hpp"
-#include "egolib/game/GUI/Image.hpp"
-#include "egolib/game/GUI/Label.hpp"
-#include "egolib/game/GUI/ModuleSelector.hpp"
+#ifdef __cplusplus
+
+
+#include "GameEngine.hpp"
+#include "GameStates/SelectModuleState.hpp"
+#include "GameStates/LoadingState.hpp"
+#include "game.h"
+#include "Button.hpp"
+#include "Image.hpp"
+#include "Label.hpp"
+#include "ModuleSelector.hpp"
 
 SelectModuleState::SelectModuleState() : SelectModuleState( std::list<std::string>() )
 {
@@ -207,3 +210,5 @@ void SelectModuleState::beginState()
     // menu settings
     Ego::GraphicsSystem::get().window->grab_enabled(false);
 }
+
+#endif // __cplusplus

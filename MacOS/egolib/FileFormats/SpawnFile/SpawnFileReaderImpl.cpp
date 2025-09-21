@@ -1,8 +1,8 @@
-#include "egolib/FileFormats/SpawnFile/SpawnFileReaderImpl.hpp"
-#include "egolib/fileutil.h"
-#include "egolib/FileFormats/SpawnFile/spawn_file.h"
-#include "egolib/strutil.h"
-#include "egolib/Logic/Team.hpp"
+#include "SpawnFile/SpawnFileReaderImpl.hpp"
+#include "fileutil.h"
+#include "SpawnFile/spawn_file.h"
+#include "strutil.h"
+#include "Team.hpp"
 
 #pragma push_macro("ERROR")
 #undef ERROR

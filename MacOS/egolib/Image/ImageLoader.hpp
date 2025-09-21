@@ -23,7 +23,7 @@
 
 #pragma once
 
-#include "egolib/vfs.h"
+#include "vfs.h"
 
 namespace Ego {
 

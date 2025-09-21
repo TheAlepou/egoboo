@@ -17,7 +17,7 @@
 //*
 //********************************************************************************************
 
-#include "egolib/Log/ConsoleColor.hpp"
+#include "ConsoleColor.hpp"
 
 #ifdef __WINDOWS__
 #include <windows.h>

@@ -22,7 +22,7 @@
 
 #pragma once
 
-#include "egolib/typedef.h"
+#include "typedef.h"
 
 //--------------------------------------------------------------------------------------------
 // MACROS
@@ -34,6 +34,10 @@
 
 #   define VALID_CSTR(PSTR)   ((NULL!=PSTR) && (CSTR_END != PSTR[0]))
 #   define INVALID_CSTR(PSTR) ((NULL==PSTR) || (CSTR_END == PSTR[0]))
+
+
+#ifdef __cplusplus
+
 
 //--------------------------------------------------------------------------------------------
 // GLOBAL FUNCTION PROTOTYPES
@@ -73,3 +77,6 @@
 	/// Append a network slash to a filename
 	/// if there is no slash or backslash.
     std::string str_append_slash_net(const std::string& filename);
+
+
+#endif

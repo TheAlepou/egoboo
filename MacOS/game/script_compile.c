@@ -1052,17 +1052,17 @@ bool load_ai_codes_vfs()
 	{
     #define Define(name) { Ego::Script::PDLTokenKind::Function, Ego::Script::ScriptFunctions::name, #name }, 
     #define DefineAlias(alias, name) { Ego::Script::PDLTokenKind::Function, Ego::Script::ScriptFunctions::alias, #alias },
-    #include "egolib/Script/Functions.in"
+    #include "Functions.in"
     #undef DefineAlias
     #undef Define
 
     #define Define(value, name) { Ego::Script::PDLTokenKind::Constant, value, name },
-    #include "egolib/Script/Constants.in"
+    #include "Constants.in"
     #undef Define
 
     #define Define(cName, eName) { Ego::Script::PDLTokenKind::Variable, Ego::Script::ScriptVariables::cName, eName },
     #define DefineAlias(cName, eName) { Ego::Script::PDLTokenKind::Variable, Ego::Script::ScriptVariables::cName, eName },
-    #include "egolib/Script/Variables.in"
+    #include "Variables.in"
     #undef DefineAlias
     #undef Define
 	};

@@ -1,6 +1,6 @@
 #include "script_variables.h"
 
-#include "Entities/_Include.hpp"
+#include "_Include.hpp"
 #include "Script/script.h"
 #include "game.h"
 #include "Graphics/CameraSystem.hpp"

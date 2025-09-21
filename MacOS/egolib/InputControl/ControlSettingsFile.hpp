@@ -21,7 +21,7 @@
 
 #pragma once
 
-#include "egolib/platform.h"
+#include "platform.h"
 #include <string>
 
 bool input_settings_load_vfs(const std::string& filename);

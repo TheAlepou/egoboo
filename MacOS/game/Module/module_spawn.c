@@ -17,13 +17,13 @@
 //*
 //********************************************************************************************
 
-#include "egolib/egolib.h"
-#include "egolib/game/game.h"
-#include "egolib/game/script_compile.h"
-#include "egolib/game/Module/Module.hpp"
-#include "egolib/Entities/_Include.hpp"
-#include "egolib/InputControl/InputDevice.hpp"
-#include "egolib/game/CharacterMatrix.h"
+#include "egolib.h"
+#include "game.h"
+#include "script_compile.h"
+#include "Module.hpp"
+#include "_Include.hpp"
+#include "InputDevice.hpp"
+#include "CharacterMatrix.h"
 
 bool activate_spawn_file_load_object( spawn_file_info_t& psp_info )
 {

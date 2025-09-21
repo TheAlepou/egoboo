@@ -1,4 +1,4 @@
-#include "egolib/game/Module/Fog.hpp"
+#include "Fog.hpp"
 
 void fog_instance_t::upload(const wawalite_fog_t& source)
 {

@@ -1,8 +1,8 @@
 #pragma once
 
-#include "egolib/platform.h"
-#include "egolib/Graphics/GraphicsSystemNew.hpp"
-#include "egolib/Extensions/ogl_extensions.h"
+#include "platform.h"
+#include "GraphicsSystemNew.hpp"
+#include "ogl_extensions.h"
 
 namespace Ego {
 

@@ -22,11 +22,11 @@
 
 #pragma once
 
-#include "egolib/vfs.h"
-#include "egolib/Script/Traits.hpp"
-#include "egolib/Script/Scanner.hpp"
-#include "idlib/hll.hpp"
-
+#include "vfs.h"
+#include "Traits.hpp"
+#include "Scanner.hpp"
+// #include "hll.hpp"
+#ifdef __cplusplus
 //--------------------------------------------------------------------------------------------
 
 /// @brief A single comment line.
@@ -496,3 +496,4 @@ protected:
     bool skipWhiteSpaces();
 
 };
+#endif // __cplusplus

@@ -22,22 +22,22 @@
 /// @todo Wrong doc comment.
 /// @author Johan Jansen
 
-#include "egolib/game/GameStates/LoadingState.hpp"
-#include "egolib/game/GameStates/PlayingState.hpp"
-#include "egolib/game/Core/GameEngine.hpp"
-#include "egolib/game/graphic.h"
-#include "egolib/game/GUI/Button.hpp"
-#include "egolib/game/GUI/Label.hpp"
-#include "egolib/game/GUI/Image.hpp"
-#include "egolib/game/GUI/ProgressBar.hpp"
+#include "GameStates/LoadingState.hpp"
+#include "GameStates/PlayingState.hpp"
+#include "GameEngine.hpp"
+#include "graphic.h"
+#include "Button.hpp"
+#include "Label.hpp"
+#include "Image.hpp"
+#include "ProgressBar.hpp"
 
 //For loading stuff
-#include "egolib/game/Graphics/BillboardSystem.hpp"
-#include "egolib/game/Graphics/CameraSystem.hpp"
-#include "egolib/game/game.h"
-#include "egolib/game/link.h"
-#include "egolib/game/Module/Module.hpp"
-#include "egolib/game/Graphics/TextureAtlasManager.hpp"
+#include "Graphics/BillboardSystem.hpp"
+#include "Graphics/CameraSystem.hpp"
+#include "game.h"
+#include "link.h"
+#include "Module.hpp"
+#include "Graphics/TextureAtlasManager.hpp"
 
 LoadingState::LoadingState(std::shared_ptr<ModuleProfile> module, const std::list<std::string> &playersToLoad) :
     _loadingThread(),

@@ -19,11 +19,11 @@
 
 /// @brief Routines for reading and writing <tt>"controls.txt"</tt>.
 
-#include "egolib/InputControl/ControlSettingsFile.hpp"
-#include "egolib/InputControl/InputDevice.hpp"
-#include "egolib/Log/_Include.hpp"
+#include "ControlSettingsFile.hpp"
+#include "InputDevice.hpp"
+#include "_Include.hpp"
 
-#include "egolib/fileutil.h"
+#include "fileutil.h"
 
 static std::string controlInputToString(const Ego::Input::InputDevice::InputButton &button);
 

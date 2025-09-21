@@ -1,4 +1,5 @@
 #pragma once
+#ifdef __cplusplus
 
 namespace Grid {
 template <typename Type>
@@ -19,3 +20,4 @@ public:
     }
 };
 } // namespace Grid
+#endif

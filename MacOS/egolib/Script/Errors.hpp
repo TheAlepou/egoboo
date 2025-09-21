@@ -18,8 +18,10 @@
 //********************************************************************************************
 #pragma once
 
-#include "egolib/platform.h"
-#include "idlib/hll.hpp"
+#include "platform.h"
+// #include "hll.hpp"
+
+#ifdef __cplusplus
 
 namespace Ego {
 namespace Script {
@@ -45,3 +47,5 @@ public:
 
 } // namespace Script
 } // namespace Ego
+
+#endif

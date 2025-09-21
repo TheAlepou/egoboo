@@ -1,6 +1,6 @@
-#include "egolib/game/Graphics/RenderPasses/HeightmapRenderPass.hpp"
-#include "egolib/game/graphic.h"
-#include "egolib/game/Graphics/RenderPasses.hpp"
+#include "Graphics/RenderPasses/HeightmapRenderPass.hpp"
+#include "graphic.h"
+#include "Graphics/RenderPasses.hpp"
 
 namespace Ego {
 namespace Graphics {

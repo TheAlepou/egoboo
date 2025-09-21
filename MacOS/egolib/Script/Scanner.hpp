@@ -1,13 +1,13 @@
 #pragma once
 
-#include "egolib/Script/Traits.hpp"
-#include "idlib/parsing_expression.hpp"
-#include "egolib/Script/TextInputFile.hpp"
-#include "idlib/hll.hpp"
+#include "Traits.hpp"
+#include "parsing_expression.hpp"
+#include "TextInputFile.hpp"
+// #include "hll.hpp"
 
 #pragma push_macro("ERROR")
 #undef ERROR
-
+#ifdef __cplusplus
 namespace Ego { namespace Script {
 
 /// @brief A scanner.
@@ -327,3 +327,5 @@ public:
 } } // namespace Ego::Script
 
 #pragma pop_macro("ERROR")
+
+#endif

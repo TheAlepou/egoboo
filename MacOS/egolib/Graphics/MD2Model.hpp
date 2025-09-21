@@ -21,8 +21,10 @@
 /// @brief Logic for loading and parsing MD2 object model files
 #pragma once
 
-#include "egolib/FileFormats/id_md2.h"
-#include "egolib/bbox.h"
+#include "id_md2.h"
+#include "bbox.h"
+
+#ifdef __cplusplus
 
 typedef id_md2_skin_t MD2_SkinName;
 typedef id_md2_triangle_t MD2_Triangle;
@@ -136,3 +138,5 @@ private:
     std::forward_list<MD2_GLCommand> _commands;
     //size_t							 _numCommands;
 };
+
+#endif

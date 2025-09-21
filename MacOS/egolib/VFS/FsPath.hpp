@@ -1,6 +1,7 @@
 #pragma once
 
-#include "idlib/platform.hpp"
+#include "platform.hpp"
+#ifdef __cplusplus
 #include <string>
 
 namespace Ego {
@@ -59,3 +60,4 @@ public:
 
 
 } // namespace Ego
+#endif // __cplusplus

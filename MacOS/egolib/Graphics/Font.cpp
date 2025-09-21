@@ -22,17 +22,17 @@
 /// @details TrueType font drawing functionality.  Uses the SDL_ttf module
 ///          to do its business. This depends on SDL_ttf and OpenGL.
 
-#include "egolib/Graphics/Font.hpp"
+#include "Font.hpp"
 
-#include "egolib/Core/StringUtilities.hpp"
-#include "egolib/Graphics/FontManager.hpp"
-#include "egolib/Graphics/VertexFormat.hpp"
-#include "egolib/Core/System.hpp"
-#include "egolib/Renderer/Renderer.hpp"
-#include "egolib/Image/ImageManager.hpp"
-#include "egolib/Image/SDL_Image_Extensions.h"
-#include "egolib/Log/_Include.hpp"
-#include "egolib/vfs.h"
+#include "StringUtilities.hpp"
+#include "FontManager.hpp"
+#include "VertexFormat.hpp"
+#include "System.hpp"
+#include "Renderer.hpp"
+#include "ImageManager.hpp"
+#include "SDL_Image_Extensions.h"
+#include "_Include.hpp"
+#include "vfs.h"
 
 //--------------------------------------------------------------------------------------------
 //--------------------------------------------------------------------------------------------

@@ -1,6 +1,6 @@
 #pragma once
 
-#include "egolib/Grid/Rect.hpp"
+#include "Rect.hpp"
 
 using IndexRect = Grid::IndexRectangle<int, Grid::CoordinateSystem::Grid>;
 using Index2D = typename IndexRect::Index2Type;

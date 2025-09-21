@@ -1,6 +1,6 @@
 #pragma once
 
-#include "egolib/Graphics/PixelFormat.hpp"
+#include "PixelFormat.hpp"
 
 namespace Ego {
 

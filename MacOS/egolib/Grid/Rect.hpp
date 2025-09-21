@@ -1,6 +1,6 @@
 #pragma once
 
-#include "egolib/Grid/Index.hpp"
+#include "Index.hpp"
 
 namespace Grid {
 

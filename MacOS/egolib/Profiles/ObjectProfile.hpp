@@ -25,13 +25,13 @@
 #error(do not include directly, include `egolib/Profiles/_Include.hpp` instead)
 #endif
 
-#include "egolib/Script/script.h"
-#include "egolib/Profiles/_Include.hpp"
-#include "egolib/Renderer/DeferredTexture.hpp"
-#include "egolib/Logic/Gender.hpp"
-#include "egolib/Logic/Attribute.hpp"
-#include "egolib/Logic/Perk.hpp"
-#include "egolib/Logic/ObjectSlot.hpp"
+#include "script.h"
+#include "_Include.hpp"
+#include "DeferredTexture.hpp"
+#include "Gender.hpp"
+#include "Attribute.hpp"
+#include "Perk.hpp"
+#include "ObjectSlot.hpp"
 
 //--------------------------------------------------------------------------------------------
 //--------------------------------------------------------------------------------------------

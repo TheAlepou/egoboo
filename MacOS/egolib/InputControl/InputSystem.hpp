@@ -1,7 +1,7 @@
 #pragma once
 
-#include "egolib/Math/_Include.hpp"
-#include "egolib/InputControl/ModifierKeys.hpp"
+#include "_Include.hpp"
+#include "ModifierKeys.hpp"
 
 namespace Ego {
 namespace Input {

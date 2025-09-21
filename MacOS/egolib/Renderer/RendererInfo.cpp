@@ -1,6 +1,6 @@
-#include "egolib/Renderer/RendererInfo.hpp"
+#include "RendererInfo.hpp"
 
-#include "egolib/egoboo_setup.h"
+#include "egoboo_setup.h"
 
 namespace Ego {
 

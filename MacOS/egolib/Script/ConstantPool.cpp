@@ -1,4 +1,4 @@
-#include "egolib/Script/ConstantPool.hpp"
+#include "ConstantPool.hpp"
 
 namespace Ego {
 namespace Script {

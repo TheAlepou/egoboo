@@ -25,7 +25,7 @@
 #include <unordered_map>
 #include <typeinfo>
 #include <typeindex>
-#include "egolib/game/GUI/InternalWindow.hpp"
+#include "InternalWindow.hpp"
 
 namespace Ego {
 namespace GUI {

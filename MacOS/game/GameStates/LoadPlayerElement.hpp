@@ -23,8 +23,8 @@
 
 #pragma once
 
-#include "egolib/game/egoboo.h"
-#include "egolib/game/Logic/QuestLog.hpp"
+#include "egoboo.h"
+#include "Logic/QuestLog.hpp"
 
 //Forward declarations
 class ObjectProfile;

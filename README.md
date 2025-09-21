@@ -41,8 +41,8 @@ Follow along. Admire the chaos. Suggest fixes. Or just watch me struggle gloriou
 - [ ] Fix idlib `transform_iterator` template errors
 - [ ] Resolve SDL2_net linking
 - [ ] Clean up CMake configs for x64 vs arm64
+- [ ] Make the code slightly launchable
 - [ ] Launch Egoboo on macOS 🎉
-
 ---
 
 ## 💡 Why Share a Broken Repo?

@@ -1,0 +1,3 @@
+add_test([=[non_qualified_name_strings_rejection.reject_non_qualified_name_strings]=]  [==[/Users/luca/Library/Mobile Documents/com~apple~CloudDocs/Dev/egoboo/idlib_original/products/x64/bin/idlib-hll-tests-executable]==] [==[--gtest_filter=non_qualified_name_strings_rejection.reject_non_qualified_name_strings]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[non_qualified_name_strings_rejection.reject_non_qualified_name_strings]=]  PROPERTIES WORKING_DIRECTORY [==[/Users/luca/Library/Mobile Documents/com~apple~CloudDocs/Dev/egoboo/idlib_original/idlib-hll/tests]==] SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+set(  idlib-hll-tests-executable_TESTS non_qualified_name_strings_rejection.reject_non_qualified_name_strings)

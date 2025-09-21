@@ -1,7 +1,9 @@
 #pragma once
 
-#include "egolib/platform.h"
-#include "idlib/idlib.hpp"
+#include "platform.h"
+#include "idlib.hpp"
+
+#ifdef __cplusplus
 
 struct LocalParticleProfileRef : public idlib::equal_to_expr<LocalParticleProfileRef>,
                                  public idlib::lower_than_expr<LocalParticleProfileRef>,
@@ -68,3 +70,5 @@ namespace std {
         }
     };
 } // namespace std
+
+#endif

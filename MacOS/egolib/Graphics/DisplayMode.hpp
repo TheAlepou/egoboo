@@ -1,6 +1,6 @@
 #pragma once
 
-#include "egolib/Log/_Include.hpp"
+#include "_Include.hpp"
 
 namespace Ego {
 

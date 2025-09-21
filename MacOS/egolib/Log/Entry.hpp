@@ -1,9 +1,9 @@
 #pragma once
 
-#include "egolib/Log/Target.hpp"
-#include "egolib/Log/Level.hpp"
-#include "egolib/Log/EndOfEntry.hpp"
-#include "egolib/Log/EndOfLine.hpp"
+#include "Target.hpp"
+#include "Level.hpp"
+#include "EndOfEntry.hpp"
+#include "EndOfLine.hpp"
 #include <string>
 
 namespace Log {

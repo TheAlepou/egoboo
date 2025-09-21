@@ -23,13 +23,13 @@
 /// @author Johan Jansen
 
 #define EGOLIB_PROFILES_PRIVATE 1
-#include "egolib/Profiles/ProfileSystem.hpp"
-#include "egolib/Profiles/ObjectProfile.hpp"
-#include "egolib/Profiles/ModuleProfile.hpp"
-#include "egolib/game/GameStates/LoadPlayerElement.hpp"
-#include "egolib/Entities/_Include.hpp"
-#include "egolib/game/game.h"
-#include "egolib/game/script_compile.h"
+#include "ProfileSystem.hpp"
+#include "ObjectProfile.hpp"
+#include "ModuleProfile.hpp"
+#include "GameStates/LoadPlayerElement.hpp"
+#include "_Include.hpp"
+#include "game.h"
+#include "script_compile.h"
 
 AbstractProfileSystem<EnchantProfile, EnchantProfileRef> EnchantProfileSystem("enchant", "/debug/enchant_profile_usage.txt");
 AbstractProfileSystem<ParticleProfile, ParticleProfileRef> ParticleProfileSystem("particle", "/debug/particle_profile_usage.txt");

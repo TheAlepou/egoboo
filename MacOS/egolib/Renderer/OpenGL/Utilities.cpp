@@ -1,8 +1,8 @@
-#include "egolib/Renderer/OpenGL/Utilities.hpp"
-#include "egolib/Renderer/OpenGL/RendererInfo.hpp"
-#include "egolib/Extensions/ogl_extensions.h"
-#include "egolib/Core/StringUtilities.hpp"
-#include "egolib/Math/_Include.hpp"
+#include "Utilities.hpp"
+#include "RendererInfo.hpp"
+#include "ogl_extensions.h"
+#include "StringUtilities.hpp"
+#include "_Include.hpp"
 
 namespace Ego {
 namespace OpenGL {

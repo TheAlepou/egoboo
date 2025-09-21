@@ -25,7 +25,9 @@
  */
 #pragma once
 
-#include "egolib/Logic/Perk.hpp"
+#include "Perk.hpp"
+
+#ifdef __cplusplus
 
 namespace Ego
 {
@@ -71,3 +73,5 @@ private:
 
 } //Perks
 } //Ego
+
+#endif

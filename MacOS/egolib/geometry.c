@@ -21,10 +21,10 @@
 /// @brief   functions for manipulating geometric primitives
 /// @details
 
-#include "egolib/geometry.h"
+#include "geometry.h"
 
-#include "egolib/_math.h"
-#include "egolib/frustum.h"
+#include "_math.h"
+#include "frustum.h"
 
 //--------------------------------------------------------------------------------------------
 // axis aligned box functions

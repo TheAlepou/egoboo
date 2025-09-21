@@ -21,14 +21,14 @@
 /// @brief An image manager.
 /// @author Michael Heilmann
 
-#include "egolib/Image/ImageManager.hpp"
-#include "egolib/egoboo_setup.h"
-#include "egolib/Log/_Include.hpp"
-#include "egolib/Image/ImageLoader_SDL.hpp"
-#include "egolib/Image/ImageLoader_SDL_image.hpp"
-#include "egolib/Image/SDL_Image_Extensions.h"
-#include "egolib/Graphics/PixelFormat.hpp"
-#include "egolib/Image/ImageLoader.hpp"
+#include "ImageManager.hpp"
+#include "egoboo_setup.h"
+#include "_Include.hpp"
+#include "ImageLoader_SDL.hpp"
+#include "ImageLoader_SDL_image.hpp"
+#include "SDL_Image_Extensions.h"
+#include "PixelFormat.hpp"
+#include "ImageLoader.hpp"
 
 namespace Ego {
 

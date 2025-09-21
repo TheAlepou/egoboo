@@ -1,1 +1,1 @@
-#include "egolib/Script/Scanner.hpp"
+#include "Scanner.hpp"

@@ -23,7 +23,9 @@
 
 #pragma once
 
-#include "egolib/typedef.h"
+#include "typedef.h"
+
+#ifdef __cplusplus
 
 namespace Ego {
 namespace Time {
@@ -219,3 +221,4 @@ public:
 
 } // Time
 } // Ego
+#endif

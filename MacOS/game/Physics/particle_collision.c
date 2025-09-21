@@ -16,17 +16,17 @@
 //*    along with Egoboo.  If not, see <http://www.gnu.org/licenses/>.
 //*
 //********************************************************************************************
-#include "egolib/game/Physics/particle_collision.h"
-#include "egolib/game/game.h"
-#include "egolib/game/graphic.h"
-#include "egolib/game/physics.h"
-#include "egolib/Entities/_Include.hpp"
-#include "egolib/game/Module/Module.hpp"
-#include "egolib/Logic/Action.hpp"
-#include "egolib/Profiles/_Include.hpp"
-#include "egolib/Graphics/ModelDescriptor.hpp"
-#include "egolib/game/Graphics/Billboard.hpp"
-#include "egolib/game/Graphics/BillboardSystem.hpp"
+#include "Physics/particle_collision.h"
+#include "game.h"
+#include "graphic.h"
+#include "physics.h"
+#include "_Include.hpp"
+#include "Module.hpp"
+#include "Action.hpp"
+#include "_Include.hpp"
+#include "ModelDescriptor.hpp"
+#include "Graphics/Billboard.hpp"
+#include "Graphics/BillboardSystem.hpp"
 
 //Private functions
 static int spawn_bump_particles(ObjectRef objectRef, const ParticleRef particle);

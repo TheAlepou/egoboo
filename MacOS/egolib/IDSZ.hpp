@@ -1,6 +1,8 @@
 #pragma once
 
-#include "egolib/platform.h"
+#ifdef __cplusplus
+
+#include "platform.h"
 #include <functional>
 #include <string>
 
@@ -66,3 +68,4 @@ namespace std {
   };
 
 }
+#endif

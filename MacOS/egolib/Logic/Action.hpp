@@ -18,8 +18,8 @@
 //********************************************************************************************
 #pragma once
 
-#include "egolib/Math/_Include.hpp"
-
+#include "_Include.hpp"
+#ifdef __cplusplus
 /**
  * @brief
  *  Get the colour associated with textual feedback about a block action.
@@ -33,3 +33,4 @@ const Ego::Colour3f getBlockActionColour()
     static const auto blockActionColour = Colour3f(Colour3b(0x00, 0xbf, 0xff));
     return blockActionColour;
 }
+#endif // __cplusplus

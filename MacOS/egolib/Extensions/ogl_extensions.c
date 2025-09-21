@@ -22,11 +22,11 @@
 /// @ingroup _ogl_extensions_
 /// @brief Implementation of extended functions and variables for OpenGL
 
-#include "egolib/Extensions/ogl_extensions.h"
-#include "egolib/Log/_Include.hpp"
-#include "egolib/Renderer/Renderer.hpp"
-#include "egolib/Graphics/PixelFormat.hpp"
-#include "egolib/Renderer/OpenGL/Utilities.hpp"
+#include "ogl_extensions.h"
+#include "_Include.hpp"
+#include "Renderer.hpp"
+#include "PixelFormat.hpp"
+#include "Utilities.hpp"
 
 //--------------------------------------------------------------------------------------------
 

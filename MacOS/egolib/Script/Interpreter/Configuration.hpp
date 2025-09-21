@@ -23,7 +23,7 @@
 
 #pragma once
 
-#include "egolib/platform.h"
+#include "platform.h"
 
 #define Ego_Script_Interpreter_WithProfileRefs (1)
 

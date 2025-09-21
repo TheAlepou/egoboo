@@ -25,7 +25,9 @@
 
 #pragma once
 
-#include "egolib/platform.h"
+#ifdef __cplusplus
+
+#include "platform.h"
 #include <string>
 #define GLEW_STATIC
 #include <GL/glew.h>
@@ -87,3 +89,6 @@ typedef GLfloat GLXvector2f[2];      ///< generic 2-vector
 
                                      /// this macro is set to the normal glEnd() USE_GL_DEBUG is not defined
 #define GL_DEBUG_END() glEnd();
+
+
+#endif

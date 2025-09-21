@@ -1,9 +1,9 @@
 #include "ModelDescriptor.hpp"
-#include "egolib/Graphics/MD2Model.hpp"
-#include "egolib/strutil.h"
-#include "egolib/Core/StringUtilities.hpp"
-#include "egolib/fileutil.h"
-#include "egolib/Logic/ObjectSlot.hpp"
+#include "MD2Model.hpp"
+#include "strutil.h"
+#include "StringUtilities.hpp"
+#include "fileutil.h"
+#include "ObjectSlot.hpp"
 
 namespace Ego
 {

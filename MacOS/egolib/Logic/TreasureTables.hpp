@@ -21,8 +21,8 @@
 
 #pragma once
 
-#include "egolib/typedef.h"
-#include "egolib/fileutil.h"
+#include "typedef.h"
+#include "fileutil.h"
 
 namespace Ego
 {

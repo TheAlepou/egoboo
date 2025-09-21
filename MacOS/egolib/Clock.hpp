@@ -23,9 +23,11 @@
 
 #pragma once
 
-#include "egolib/Time/LocalTime.hpp"
-#include "egolib/Time/Stopwatch.hpp"
-#include "egolib/Time/SlidingWindow.hpp"
+#include "LocalTime.hpp"
+#include "Stopwatch.hpp"
+#include "SlidingWindow.hpp"
+
+#ifdef __cplusplus
 
 namespace Ego {
 namespace Time {
@@ -329,3 +331,4 @@ public:
 
 } // namespace Time
 } // namespace Ego
+#endif

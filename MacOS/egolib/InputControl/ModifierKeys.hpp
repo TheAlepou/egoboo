@@ -20,7 +20,7 @@
 /// @file egolib/Input/ModifierKeys.hpp
 /// @brief Modifier keys.
 
-#include "egolib/platform.h"
+#include "platform.h"
 
 #pragma once
 

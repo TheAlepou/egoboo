@@ -1,8 +1,8 @@
 #include "InventorySlot.hpp"
-#include "egolib/Entities/_Include.hpp"
-#include "egolib/Graphics/ModelDescriptor.hpp"  //for model action enum
-#include "egolib/game/game.h" //only for update_wld global var
-#include "egolib/game/Logic/Player.hpp"
+#include "_Include.hpp"
+#include "ModelDescriptor.hpp"  //for model action enum
+#include "game.h" //only for update_wld global var
+#include "Logic/Player.hpp"
 
 namespace Ego {
 namespace GUI {

@@ -20,11 +20,11 @@
 
 #pragma once
 
-#include "egolib/Graphics/PixelFormat.hpp"
-#include "egolib/Math/_Include.hpp"
-#include "egolib/integrations/color.hpp"
-#include "egolib/Image/convert.hpp"
-#include "idlib/game_engine.hpp"
+#include "PixelFormat.hpp"
+#include "_Include.hpp"
+#include "color.hpp"
+#include "convert.hpp"
+#include "game_engine.hpp"
 
 #if !SDL_VERSION_ATLEAST(2, 0, 0)
 int SDL_GetColorKey(SDL_Surface *surface, uint32_t *key);

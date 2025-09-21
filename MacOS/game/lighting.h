@@ -21,8 +21,8 @@
 
 #pragma once
 
-#include "egolib/game/egoboo.h"
-
+#include "egoboo.h"
+#ifdef __cplusplus
 //--------------------------------------------------------------------------------------------
 //--------------------------------------------------------------------------------------------
 
@@ -175,3 +175,4 @@ bool sum_dyna_lighting( const dynalight_data_t * pdyna, LightingVector& lighting
 ///              exact problem because the infinite range means that it can potentally affect
 ///              the entire mesh, causing problems with computing a large number of lights
 float  dyna_lighting_intensity( const dynalight_data_t * pdyna, const Ego::Vector3f& diff );
+#endif

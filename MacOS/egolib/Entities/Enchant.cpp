@@ -21,9 +21,9 @@
 /// @brief Enchantment entities.
 
 #define GAME_ENTITIES_PRIVATE 1
-#include "egolib/Entities/Enchant.hpp"
-#include "egolib/Graphics/ModelDescriptor.hpp"
-#include "egolib/game/Core/GameEngine.hpp"
+#include "Enchant.hpp"
+#include "ModelDescriptor.hpp"
+#include "GameEngine.hpp"
 
 namespace Ego
 {

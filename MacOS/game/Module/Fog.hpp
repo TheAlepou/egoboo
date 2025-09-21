@@ -1,6 +1,6 @@
 #pragma once
 
-#include "egolib/egolib.h"
+#include "egolib.h"
 
 /// The in-game fog state
 /// @warn Fog is currently not used

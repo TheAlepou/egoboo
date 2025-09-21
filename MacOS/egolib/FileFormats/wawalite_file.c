@@ -28,6 +28,7 @@
 #include "fileutil.h"
 #include "strutil.h"
 
+#ifdef __cplusplus
 //--------------------------------------------------------------------------------------------
 
 static const int WAWALITE_FILE_VERSION = 2;
@@ -525,3 +526,4 @@ wawalite_data_t *wawalite_limit(wawalite_data_t *profile)
 
     return profile;
 }
+#endif

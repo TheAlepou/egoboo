@@ -23,7 +23,10 @@
 
 #pragma once
 
-#include "egolib/Math/_Include.hpp"
+#include "_Include.hpp"
+
+#ifdef __cplusplus
+
 
 struct map_t;
 
@@ -31,3 +34,6 @@ struct map_t;
     void map_generate_fan_type_data(map_t& map);
 bool twist_to_normal(uint8_t twist, Ego::Vector3f& v, float slide);
 uint8_t  cartman_calc_twist( int dx, int dy );
+
+
+#endif

@@ -20,8 +20,8 @@
 /// @file egolib/FileFormats/MapTileDefinitionsDictionary.cpp
 /// @brief In-memory representation of <c>MapTileDefinitionsDictionary</c> files
 
-#include "egolib/FileFormats/MapTileDefinitionsDictionary.hpp"
-#include "egolib/fileutil.h"
+#include "MapTileDefinitionsDictionary.hpp"
+#include "fileutil.h"
 
 namespace Ego {
 namespace FileFormats {

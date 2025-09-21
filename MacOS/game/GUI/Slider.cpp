@@ -21,8 +21,8 @@
 /// @details GUI widget of a moveable slider ranging between minimum and maximum value
 /// @author Johan Jansen
 
-#include "egolib/game/GUI/Slider.hpp"
-#include "egolib/game/GUI/Material.hpp"
+#include "Slider.hpp"
+#include "Material.hpp"
 
 namespace Ego {
 namespace GUI {

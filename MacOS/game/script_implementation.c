@@ -27,7 +27,7 @@
 
 #include "script_implementation.h"
 
-#include "egolib.h"
+#include "egoboo.h"
 
 #include "game.h"
 #include "_Include.hpp"

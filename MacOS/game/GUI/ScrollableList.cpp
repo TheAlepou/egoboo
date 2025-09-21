@@ -1,5 +1,5 @@
-#include "egolib/game/GUI/ScrollableList.hpp"
-#include "egolib/game/GUI/Button.hpp"
+#include "ScrollableList.hpp"
+#include "Button.hpp"
 
 namespace Ego {
 namespace GUI {

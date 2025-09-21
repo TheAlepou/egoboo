@@ -1,5 +1,6 @@
 #pragma once
 
+#ifdef __cplusplus
 #include <string>
 #include <regex>
 
@@ -16,3 +17,4 @@ struct path_parser
 }; // struct path_parser
 
 } } } // namespace idlib::file_system::internal
+#endif // __cplusplus

@@ -19,7 +19,7 @@
 
 #pragma once
 
-#include "egolib/typedef.h"
+#include "typedef.h"
 
 // Forward declarations.
 class ego_mesh_t;

@@ -1,9 +1,9 @@
 #pragma once
 
-#include "idlib/idlib.hpp"
-#include "egolib/platform.h"
-#include "egolib/egolib_config.h"
-#include "egolib/Math/_Include.hpp"
+#include "idlib.hpp"
+#include "platform.h"
+#include "egolib_config.h"
+#include "_Include.hpp"
 
 namespace Ego
 {

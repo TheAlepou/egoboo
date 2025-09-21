@@ -1,6 +1,6 @@
 #pragma once
 
-#include "egolib/game/GUI/Component.hpp"
+#include "Component.hpp"
 
 namespace Ego {
 namespace GUI {
